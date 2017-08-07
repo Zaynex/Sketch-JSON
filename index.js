@@ -1,14 +1,25 @@
-// require('babel-polyfill')
-var fs = require('fs')
 import sketch from 'sketchjs'
-const lol = process.cwd()
+import 'babel-core'
+const fs = require('fs')
+const hack = require('./hack.js')
+const LOCAL = process.cwd()
 const IOS = 'iOS_test.sketch'
 const Android = 'Android_test.sketch'
 
-sketch.dump(lol + '/iOS_test.sketch',function(json){
-    fs.writeFile('ios_test.json', json,'utf8',(err)=>{
-        if(err) throw err;
-        console.log('saved')
-        console.log()
-    })
+
+sketch.dump(LOCAL + '/iOS_test.sketch', (json) => {
+    hack.handle(json)
 })
+
+// sketch.dump(LOCAL + '/iOS_test.sketch',function(json){
+//     fs.writeFile('ios_test.json', json,'utf8',(err)=>{
+//         if(err) throw err;
+//         console.log('saved')
+//     })
+// })
+
+// fs.readFile(LOCAL + '/ios_test.json', (err, data) => {
+//     console.log('start read')
+//     // console.log(data.toString())
+//     hack.handle(data.toString())
+// })

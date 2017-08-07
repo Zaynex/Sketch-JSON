@@ -6,5 +6,5 @@ npm i -g babel-cli
 
 ## Start
 ```
-babel index.js
+babel-node index.js
 ```
