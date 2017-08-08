@@ -11,8 +11,12 @@ sketch.dump(LOCAL + '/iOS_test.sketch', (json) => {
     hack.handle(json)
 })
 
-// sketch.dump(LOCAL + '/iOS_test.sketch',function(json){
-//     fs.writeFile('ios_test.json', json,'utf8',(err)=>{
+sketch.dump(LOCAL + '/component_1.sketch', (json) => {
+    hack.handle(json)
+})
+
+// sketch.dump(LOCAL + '/component_1.sketch',function(json){
+//     fs.writeFile('component_1.json', json,'utf8',(err)=>{
 //         if(err) throw err;
 //         console.log('saved')
 //     })

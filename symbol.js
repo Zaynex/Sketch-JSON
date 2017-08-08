@@ -149,3 +149,5 @@ const con_3 = {
   shouldBreakMaskChain: 0,
   resizingConstraint: 63,
   includeBackgroundColorInExport: 0 }
+
+module.exports = con_3

@@ -26,7 +26,7 @@ exports.handle = (json) => {
     }
 
     let filterStyle = (style) => {
-        log(style)
+        // log(style)
         style.borders && style.borders.map((border) => {
             if(border.isEnabled === 1) {
                 Object.assign(tempObj, {borderColor:border.color.value})
@@ -77,15 +77,17 @@ exports.handle = (json) => {
                 if(shape['<class>'] === 'MSRectangLeShape') {
                     let radis
                     radis = shape.paths && shape.paths.map((p) => p.cornerRadius)
-                    log("Radius: " + radis)          
+                    // log("Radius: " + radis)          
                 }
             })
         }
     }
 
-    let filterTextDescription = (layer) => {
-        layers.attributedString && 
-        Object.assign(tempObj, {TextDescription: layers.attributedString.value.text})
+    let filterTextDescription = (layers) => {
+        const { attributedString } = layers
+        log(attributedString)
+        // layer.attributedString && layer.attributedString.value &&
+        // Object.assign(tempObj, {TextDescription: layer.attributedString.value.text})
     }
 
     let filterLayers = (layers) => {
@@ -96,10 +98,9 @@ exports.handle = (json) => {
         _.isArray(layers) && layers.map((layer, i) => {
             const { name, style, frame} = layer
             if(layer['<class>'] === 'MSLayerGroup') {
-                filterLayers(layer.layers)
+                // filterLayers(layer.layers)
                 return
             }
-            Object.assign(tempObj, {['layer' + i]: {zIndex: i*10+1, name: name}})
             // filterFrame(name, frame)
             // filterBackground(layer)
         })
@@ -136,27 +137,12 @@ exports.handle = (json) => {
             frame = map.get(name).frame
             names.push(name)
             filterFrame(name, frame, i)
-            filterStyle(style)
-            filterBackground(symbol, i)
-            filterTextDescription(layers)
-            filterLayers(layers, i)
+            // filterStyle(style)
+            // filterBackground(symbol, i)
+            // filterTextDescription(layers)
+            // filterLayers(layers, i)
             // iterateLayers(symbol.layers)
         })
+        log(newMap)
     })
-
-
-
-    // let newMap = [...map]    
-    // log(newMap[0])
-    // let lol = map.get('Basic Elements/Controls/Segmented Control/3-1')
-    // log(typeof lol)
-    // fs.writeFile('basic.json', lol.toString(), 'utf8', function(err){
-    //     console.log(err)
-    // })
-    // log(map.get('Basic Elements/Controls/Segmented Control/3-1'))
-    // log(newMap)
-    // log(names)
-    // newMap.map((symbol) => {
-    //     log('Symbol: ' + symbol.name)
-    // })
 }
