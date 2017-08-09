@@ -2,8 +2,8 @@ import _ from 'lodash'
 const fs = require('fs')
 /**
  * map Object
- * { symbol.name1 => {},
- *   symbol.name2 => {}
+ * { symbol.name1 => {x, y, height, width, zindex},
+ *   symbol.name2 => {x, y, height, width, zindex}
  * }
  */
 
@@ -11,9 +11,12 @@ exports.handle = (json) => {
     let log =console.log.bind(console)    
     let map = new Map()
     let names = []
-    // string => obj
-    let data = JSON.parse(json)
 
+    // string => obj
+    // let data = JSON.parse(json)
+
+
+    let data = json
     let pages = data.pages
     let newMap = new Map()
     let tempObj = {}
@@ -131,7 +134,7 @@ exports.handle = (json) => {
     pages.map((page) => {
         let symbols = page.layers
         let frame
-        _.isArray(symbols) && symbols.map((symbol, i) => {
+        symbols.map((symbol, i) => {
             const {name , layers, style } = symbol
             map.set(name, symbol)
             frame = map.get(name).frame

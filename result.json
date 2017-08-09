@@ -1,0 +1,79 @@
+{
+    "Page 1": {
+        "width": 300,
+        "height": 300,
+        "x": 0,
+        "y": 0,
+        "name": "Page 1",
+        "type": "MSPage",
+        "zindex": 1
+    },
+    "Table View/Elements/Slider": {
+        "width": 280,
+        "height": 28,
+        "x": 0,
+        "y": 0,
+        "name": "Table View/Elements/Slider",
+        "type": "MSLayerGroup",
+        "zindex": 5
+    },
+    "Symbols": {
+        "width": 300,
+        "height": 300,
+        "x": 0,
+        "y": 0,
+        "name": "Symbols",
+        "type": "MSPage",
+        "zindex": 3
+    },
+    "Track": {
+        "width": 280,
+        "height": 1,
+        "x": 0,
+        "y": 13.5,
+        "name": "Track",
+        "type": "div",
+        "zindex": 6
+    },
+    "Path": {
+        "width": 28.00000000000001,
+        "height": 28,
+        "x": 3.552713678800503e-15,
+        "y": 0,
+        "name": "Path",
+        "type": "div",
+        "zindex": 12
+    },
+    "Value": {
+        "width": 154,
+        "height": 28,
+        "x": 0,
+        "y": 0,
+        "name": "Value",
+        "type": "MSLayerGroup",
+        "zindex": 8
+    },
+    "Fill": {
+        "width": 140,
+        "height": 1,
+        "x": 0,
+        "y": 13.5,
+        "name": "Fill",
+        "type": "div",
+        "zindex": 9
+    },
+    "Knob": {
+        "width": 28.00000000000001,
+        "height": 28,
+        "x": 126,
+        "y": 0,
+        "borderColor": "rgba(0,0,0,0.10)",
+        "borderWidth": 0.5,
+        "shadowColor": "rgba(0,0,0,0.19)",
+        "shadowOffsetX": 0,
+        "shadowOffsetY": 4,
+        "name": "Knob",
+        "type": "div",
+        "zindex": 11
+    }
+}
