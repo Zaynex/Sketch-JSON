@@ -1,16 +1,16 @@
 {
-  "name": "sketch",
+  "name": "sketchcss",
   "version": "1.0.0",
-  "description": "",
+  "description": "a plugin that get sketch css",
+  "main": "index.js",
   "scripts": {
-    "start": "babablbel-node index.js"
+    "start": "bababel-node index.js"
   },
-  "author": "",
+  "author": "wenzheng@mockingbot.com; yongforme@gamil.com",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.4",
-    "sketchjs": "^0.1.4",
-    "sketchtool": "^1.4.0"
+    "sketchjs": "^0.1.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",

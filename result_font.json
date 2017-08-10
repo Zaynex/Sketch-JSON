@@ -1,0 +1,35 @@
+[
+    {
+        "width": 424.8828125,
+        "height": 84,
+        "left": 257,
+        "top": 187,
+        "tc": "rgba(155,205,0,1.0)",
+        "text": "I just want to say…….\nare you ok?\nthis is my area",
+        "fs": 20,
+        "fontFamily": "PingFang SC",
+        "lh": "auto",
+        "name": "text_view",
+        "z": 1
+    },
+    {
+        "width": 476,
+        "height": 146,
+        "left": 254,
+        "top": 320,
+        "bc": "#9A2020",
+        "bw": 1,
+        "bg": "#D8D8D8",
+        "name": "MSShapeGroup",
+        "z": 2
+    },
+    {
+        "width": 476,
+        "height": 146,
+        "left": 0,
+        "top": 0,
+        "bd": 20,
+        "name": "rounded_rect",
+        "z": 3
+    }
+]
