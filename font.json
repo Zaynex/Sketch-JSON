@@ -1,0 +1,372 @@
+{
+  "assets" : {
+    "<class>" : "MSAssetCollection",
+    "gradients" : [
+
+    ],
+    "colors" : [
+
+    ],
+    "imageCollection" : {
+      "<class>" : "MSImageCollection",
+      "images" : [
+
+      ]
+    },
+    "images" : [
+
+    ]
+  },
+  "currentPageIndex" : 0,
+  "foreignSymbols" : [
+
+  ],
+  "layerStyles" : {
+    "<class>" : "MSSharedStyleContainer",
+    "objects" : [
+
+    ]
+  },
+  "pages" : [
+    {
+      "isFlippedHorizontal" : 0,
+      "style" : {
+        "startDecorationType" : 0,
+        "borderOptions" : {
+          "lineJoinStyle" : 0,
+          "<class>" : "MSStyleBorderOptions",
+          "isEnabled" : 0,
+          "lineCapStyle" : 0,
+          "dashPattern" : [
+
+          ]
+        },
+        "endDecorationType" : 0,
+        "contextSettings" : {
+          "<class>" : "MSGraphicsContextSettings",
+          "opacity" : 1,
+          "blendMode" : 0
+        },
+        "blur" : {
+          "radius" : 10,
+          "<class>" : "MSStyleBlur",
+          "motionAngle" : 0,
+          "isEnabled" : 0,
+          "type" : 0,
+          "center" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        "reflection" : {
+          "<class>" : "MSStyleReflection",
+          "strength" : 0.5,
+          "isEnabled" : 0,
+          "distance" : 1
+        },
+        "<class>" : "MSStyle",
+        "miterLimit" : 10,
+        "colorControls" : {
+          "hue" : 0,
+          "<class>" : "MSStyleColorControls",
+          "brightness" : 0,
+          "contrast" : 1,
+          "isEnabled" : 0,
+          "saturation" : 1
+        },
+        "fills" : [
+
+        ],
+        "borders" : [
+
+        ],
+        "innerShadows" : [
+
+        ],
+        "shadows" : [
+
+        ]
+      },
+      "horizontalRulerData" : {
+        "<class>" : "MSRulerData",
+        "base" : 0,
+        "guides" : [
+
+        ]
+      },
+      "frame" : {
+        "y" : 0,
+        "<class>" : "MSRect",
+        "constrainProportions" : 0,
+        "height" : 300,
+        "width" : 300,
+        "x" : 0
+      },
+      "hasClickThrough" : 1,
+      "includeInCloudUpload" : 1,
+      "exportOptions" : {
+        "shouldTrim" : 0,
+        "<class>" : "MSExportOptions",
+        "includedLayerIds" : [
+
+        ],
+        "layerOptions" : 0,
+        "exportFormats" : [
+
+        ]
+      },
+      "objectID" : "F4200A3A-6817-48FA-B524-D8586D6D0BDF",
+      "rotation" : 0,
+      "layerListExpandedType" : 0,
+      "verticalRulerData" : {
+        "<class>" : "MSRulerData",
+        "base" : 0,
+        "guides" : [
+
+        ]
+      },
+      "isFlippedVertical" : 0,
+      "resizingType" : 0,
+      "<class>" : "MSPage",
+      "layers" : [
+        {
+          "isFlippedHorizontal" : 0,
+          "objectID" : "E4DF7324-0085-4E78-B211-FB2CE55C971F",
+          "rotation" : 0,
+          "frame" : {
+            "y" : 298,
+            "<class>" : "MSRect",
+            "constrainProportions" : 0,
+            "height" : 92,
+            "width" : 277,
+            "x" : 356
+          },
+          "glyphBounds" : {
+            "y" : 11,
+            "x" : 37,
+            "width" : 139,
+            "height" : 20
+          },
+          "layerListExpandedType" : 0,
+          "exportOptions" : {
+            "shouldTrim" : 0,
+            "<class>" : "MSExportOptions",
+            "includedLayerIds" : [
+
+            ],
+            "layerOptions" : 0,
+            "exportFormats" : [
+
+            ]
+          },
+          "style" : {
+            "startDecorationType" : 0,
+            "textStyle" : {
+              "NSColor" : {
+                "<class>" : "NSColor",
+                "color" : "rgba(0.767832,0.000000,0.085677,1.000000)"
+              },
+              "<class>" : "MSTextStyle",
+              "NSFont" : {
+                "name" : "宋体-简 常规体",
+                "attributes" : {
+                  "NSFontSizeAttribute" : 20,
+                  "NSFontNameAttribute" : "STSongti-SC-Regular"
+                },
+                "family" : "Songti SC"
+              },
+              "NSKern" : 100,
+              "MSTextStyleVerticalAlignment" : 0,
+              "NSParagraphStyle" : {
+                "<class>" : "NSMutableParagraphStyle",
+                "style" : {
+                  "headerLevel" : 0,
+                  "paragraphSpacing" : 0,
+                  "tabStops" : [
+                    28,
+                    56,
+                    84,
+                    112,
+                    140,
+                    168,
+                    196,
+                    224,
+                    252,
+                    280,
+                    308,
+                    336
+                  ],
+                  "headIndent" : 0,
+                  "lineBreakMode" : 0,
+                  "hyphenationFactor" : 0,
+                  "alignment" : 1,
+                  "paragraphSpacingBefore" : 0,
+                  "tailIndent" : 0,
+                  "firstLineHeadIndent" : 0,
+                  "minimumLineHeight" : 40,
+                  "lineSpacing" : 0,
+                  "maximumLineHeight" : 40,
+                  "lineHeightMultiple" : 0,
+                  "baseWritingDirection" : -1,
+                  "defaultTabInterval" : 0
+                }
+              }
+            },
+            "borderOptions" : {
+              "lineJoinStyle" : 0,
+              "<class>" : "MSStyleBorderOptions",
+              "isEnabled" : 0,
+              "lineCapStyle" : 0,
+              "dashPattern" : [
+
+              ]
+            },
+            "endDecorationType" : 0,
+            "contextSettings" : {
+              "<class>" : "MSGraphicsContextSettings",
+              "opacity" : 1,
+              "blendMode" : 0
+            },
+            "blur" : {
+              "radius" : 10,
+              "<class>" : "MSStyleBlur",
+              "motionAngle" : 0,
+              "isEnabled" : 0,
+              "type" : 0,
+              "center" : {
+                "x" : 0.5,
+                "y" : 0.5
+              }
+            },
+            "reflection" : {
+              "<class>" : "MSStyleReflection",
+              "strength" : 0.5,
+              "isEnabled" : 0,
+              "distance" : 1
+            },
+            "<class>" : "MSStyle",
+            "miterLimit" : 10,
+            "colorControls" : {
+              "hue" : 0,
+              "<class>" : "MSStyleColorControls",
+              "brightness" : 0,
+              "contrast" : 1,
+              "isEnabled" : 0,
+              "saturation" : 1
+            },
+            "fills" : [
+
+            ],
+            "borders" : [
+
+            ],
+            "innerShadows" : [
+
+            ],
+            "shadows" : [
+
+            ]
+          },
+          "heightIsClipped" : 1,
+          "lineSpacingBehaviour" : 2,
+          "dontSynchroniseWithSymbol" : 0,
+          "textBehaviour" : 1,
+          "isFlippedVertical" : 0,
+          "<class>" : "MSTextLayer",
+          "resizingType" : 0,
+          "isVisible" : 1,
+          "nameIsFixed" : 0,
+          "name" : "我去",
+          "isLocked" : 0,
+          "attributedString" : {
+            "<class>" : "NSConcreteAttributedString",
+            "value" : {
+              "<class>" : "NSConcreteAttributedString",
+              "text" : "我去",
+              "attributes" : [
+                {
+                  "NSKern" : 100,
+                  "length" : 2,
+                  "NSFont" : {
+                    "name" : "宋体-简 常规体",
+                    "attributes" : {
+                      "NSFontSizeAttribute" : 20,
+                      "NSFontNameAttribute" : "STSongti-SC-Regular"
+                    },
+                    "family" : "Songti SC"
+                  },
+                  "location" : 0,
+                  "NSColor" : {
+                    "<class>" : "NSColor",
+                    "color" : "rgba(0.767832,0.000000,0.085677,1.000000)"
+                  },
+                  "text" : "我去",
+                  "MSTextStyleVerticalAlignment" : 0,
+                  "NSParagraphStyle" : {
+                    "<class>" : "NSMutableParagraphStyle",
+                    "style" : {
+                      "headerLevel" : 0,
+                      "paragraphSpacing" : 0,
+                      "tabStops" : [
+                        28,
+                        56,
+                        84,
+                        112,
+                        140,
+                        168,
+                        196,
+                        224,
+                        252,
+                        280,
+                        308,
+                        336
+                      ],
+                      "headIndent" : 0,
+                      "lineBreakMode" : 0,
+                      "hyphenationFactor" : 0,
+                      "alignment" : 1,
+                      "paragraphSpacingBefore" : 0,
+                      "tailIndent" : 0,
+                      "firstLineHeadIndent" : 0,
+                      "minimumLineHeight" : 40,
+                      "lineSpacing" : 0,
+                      "maximumLineHeight" : 40,
+                      "lineHeightMultiple" : 0,
+                      "baseWritingDirection" : -1,
+                      "defaultTabInterval" : 0
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "shouldBreakMaskChain" : 0,
+          "resizingConstraint" : 63,
+          "automaticallyDrawOnUnderlyingPath" : 0
+        }
+      ],
+      "isVisible" : 1,
+      "nameIsFixed" : 0,
+      "name" : "Page 1",
+      "isLocked" : 0,
+      "shouldBreakMaskChain" : 0,
+      "resizingConstraint" : 63
+    }
+  ],
+  "enableSliceInteraction" : 1,
+  "<class>" : "MSDocumentData",
+  "layerTextStyles" : {
+    "<class>" : "MSSharedTextStyleContainer",
+    "objects" : [
+
+    ]
+  },
+  "enableLayerInteraction" : 1,
+  "layerSymbols" : {
+    "<class>" : "MSSymbolContainer",
+    "objects" : [
+
+    ]
+  },
+  "objectID" : "090C9209-2E94-40BD-99AC-1C79AAFE85A3"
+}
