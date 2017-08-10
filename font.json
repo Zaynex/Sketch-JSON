@@ -143,7 +143,7 @@
           },
           "glyphBounds" : {
             "y" : 11,
-            "x" : 37,
+            "x" : 0,
             "width" : 139,
             "height" : 20
           },
@@ -176,7 +176,7 @@
                 "family" : "Songti SC"
               },
               "NSKern" : 100,
-              "MSTextStyleVerticalAlignment" : 0,
+              "MSTextStyleVerticalAlignment" : 1,
               "NSParagraphStyle" : {
                 "<class>" : "NSMutableParagraphStyle",
                 "style" : {
@@ -199,7 +199,7 @@
                   "headIndent" : 0,
                   "lineBreakMode" : 0,
                   "hyphenationFactor" : 0,
-                  "alignment" : 1,
+                  "alignment" : 3,
                   "paragraphSpacingBefore" : 0,
                   "tailIndent" : 0,
                   "firstLineHeadIndent" : 0,
@@ -301,7 +301,7 @@
                     "color" : "rgba(0.767832,0.000000,0.085677,1.000000)"
                   },
                   "text" : "我去",
-                  "MSTextStyleVerticalAlignment" : 0,
+                  "MSTextStyleVerticalAlignment" : 1,
                   "NSParagraphStyle" : {
                     "<class>" : "NSMutableParagraphStyle",
                     "style" : {
@@ -324,7 +324,7 @@
                       "headIndent" : 0,
                       "lineBreakMode" : 0,
                       "hyphenationFactor" : 0,
-                      "alignment" : 1,
+                      "alignment" : 3,
                       "paragraphSpacingBefore" : 0,
                       "tailIndent" : 0,
                       "firstLineHeadIndent" : 0,
