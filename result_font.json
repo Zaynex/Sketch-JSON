@@ -1,35 +1,61 @@
 [
     {
-        "width": 424.8828125,
-        "height": 84,
-        "left": 257,
-        "top": 187,
+        "width": 239,
+        "height": 149,
+        "left": 263,
+        "top": 167,
+        "bc": "#979797",
+        "bw": 1,
+        "bg": "#D8D8D8",
+        "name": "MSShapeGroup",
+        "z": 1
+    },
+    {
+        "width": 239,
+        "height": 149,
+        "left": 0,
+        "top": 0,
+        "bd": 0,
+        "name": "rounded_rect",
+        "z": 2
+    },
+    {
+        "width": 101.7492758604346,
+        "height": 28,
+        "left": 330,
+        "top": 196,
         "tc": "rgba(155,205,0,1.0)",
-        "text": "I just want to say…….\nare you ok?\nthis is my area",
+        "text": "年轻人啊",
         "fs": 20,
         "fontFamily": "PingFang SC",
         "lh": "auto",
         "name": "text_view",
-        "z": 1
-    },
-    {
-        "width": 476,
-        "height": 146,
-        "left": 254,
-        "top": 320,
-        "bc": "#9A2020",
-        "bw": 1,
-        "bg": "#D8D8D8",
-        "name": "MSShapeGroup",
-        "z": 2
-    },
-    {
-        "width": 476,
-        "height": 146,
-        "left": 0,
-        "top": 0,
-        "bd": 20,
-        "name": "rounded_rect",
         "z": 3
+    },
+    {
+        "width": 130.3657388665552,
+        "height": 28,
+        "left": 267,
+        "top": 284,
+        "tc": "rgba(155,205,0,1.0)",
+        "text": "取消",
+        "fs": 20,
+        "fontFamily": "PingFang SC",
+        "lh": "auto",
+        "name": "text_view",
+        "z": 4
+    },
+    {
+        "width": 130.3657388665552,
+        "height": 28,
+        "left": 432,
+        "top": 284,
+        "tc": "rgba(155,205,0,1.0)",
+        "text": "确认",
+        "fs": 20,
+        "fontFamily": "PingFang SC",
+        "lh": "auto",
+        "name": "text_view",
+        "z": 5
     }
 ]

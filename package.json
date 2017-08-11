@@ -4,9 +4,9 @@
   "description": "a plugin that get sketch css",
   "main": "index.js",
   "scripts": {
-    "start": "bababel-node index.js"
+    "start": "babel-node index.js"
   },
-  "author": "wenzheng@mockingbot.com; yongforme@gamil.com",
+  "author": "mockingBot",
   "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.4",
