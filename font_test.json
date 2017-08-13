@@ -1,0 +1,3002 @@
+{
+  "assets" : {
+    "<class>" : "MSAssetCollection",
+    "gradients" : [
+
+    ],
+    "colors" : [
+
+    ],
+    "imageCollection" : {
+      "<class>" : "MSImageCollection",
+      "images" : [
+
+      ]
+    },
+    "images" : [
+
+    ]
+  },
+  "currentPageIndex" : 1,
+  "foreignSymbols" : [
+
+  ],
+  "layerStyles" : {
+    "<class>" : "MSSharedStyleContainer",
+    "objects" : [
+      {
+        "<class>" : "MSSharedStyle",
+        "value" : {
+          "startDecorationType" : 0,
+          "sharedObjectID" : "4AA10963-FA7D-408E-A9A7-403AB73D37F6",
+          "borderOptions" : {
+            "lineJoinStyle" : 0,
+            "<class>" : "MSStyleBorderOptions",
+            "isEnabled" : 0,
+            "lineCapStyle" : 0,
+            "dashPattern" : [
+
+            ]
+          },
+          "endDecorationType" : 0,
+          "contextSettings" : {
+            "<class>" : "MSGraphicsContextSettings",
+            "opacity" : 1,
+            "blendMode" : 0
+          },
+          "blur" : {
+            "radius" : 10,
+            "<class>" : "MSStyleBlur",
+            "motionAngle" : 0,
+            "isEnabled" : 0,
+            "type" : 0,
+            "center" : {
+              "x" : 0.5,
+              "y" : 0.5
+            }
+          },
+          "reflection" : {
+            "<class>" : "MSStyleReflection",
+            "strength" : 0.5,
+            "isEnabled" : 0,
+            "distance" : 1
+          },
+          "<class>" : "MSStyle",
+          "miterLimit" : 10,
+          "colorControls" : {
+            "hue" : 0,
+            "<class>" : "MSStyleColorControls",
+            "brightness" : 0,
+            "contrast" : 1,
+            "isEnabled" : 0,
+            "saturation" : 1
+          },
+          "fills" : [
+            {
+              "contextSettings" : {
+                "<class>" : "MSGraphicsContextSettings",
+                "opacity" : 1,
+                "blendMode" : 0
+              },
+              "color" : {
+                "<class>" : "MSColor",
+                "value" : "#0076FF"
+              },
+              "<class>" : "MSStyleFill",
+              "gradient" : {
+                "from" : {
+                  "x" : 0.5,
+                  "y" : 0
+                },
+                "shouldSmoothenOpacity" : 0,
+                "gradientType" : 0,
+                "<class>" : "MSGradient",
+                "stops" : [
+                  {
+                    "<class>" : "MSGradientStop",
+                    "color" : {
+                      "<class>" : "MSColor",
+                      "value" : "#FFFFFF"
+                    },
+                    "position" : 0
+                  },
+                  {
+                    "<class>" : "MSGradientStop",
+                    "color" : {
+                      "<class>" : "MSColor",
+                      "value" : "#000000"
+                    },
+                    "position" : 1
+                  }
+                ],
+                "to" : {
+                  "x" : 0.5,
+                  "y" : 1
+                },
+                "elipseLength" : 0
+              },
+              "fillType" : 0,
+              "noiseIntensity" : 0,
+              "patternFillType" : 1,
+              "patternTileScale" : 1,
+              "noiseIndex" : 0,
+              "isEnabled" : 1
+            }
+          ],
+          "borders" : [
+
+          ],
+          "innerShadows" : [
+            {
+              "spread" : 0,
+              "color" : {
+                "<class>" : "MSColor",
+                "value" : "#0076FF"
+              },
+              "offsetY" : 0,
+              "offsetX" : -1,
+              "<class>" : "MSStyleInnerShadow",
+              "blurRadius" : 0,
+              "contextSettings" : {
+                "<class>" : "MSGraphicsContextSettings",
+                "opacity" : 1,
+                "blendMode" : 0
+              },
+              "isEnabled" : 1
+            }
+          ],
+          "shadows" : [
+
+          ]
+        },
+        "objectID" : "4AA10963-FA7D-408E-A9A7-403AB73D37F6",
+        "name" : "SegmentOn"
+      },
+      {
+        "<class>" : "MSSharedStyle",
+        "value" : {
+          "startDecorationType" : 0,
+          "sharedObjectID" : "4DD785BE-6949-411C-BB8E-ABC249E1B7A9",
+          "borderOptions" : {
+            "lineJoinStyle" : 0,
+            "<class>" : "MSStyleBorderOptions",
+            "isEnabled" : 0,
+            "lineCapStyle" : 0,
+            "dashPattern" : [
+
+            ]
+          },
+          "endDecorationType" : 0,
+          "contextSettings" : {
+            "<class>" : "MSGraphicsContextSettings",
+            "opacity" : 1,
+            "blendMode" : 0
+          },
+          "blur" : {
+            "radius" : 10,
+            "<class>" : "MSStyleBlur",
+            "motionAngle" : 0,
+            "isEnabled" : 0,
+            "type" : 0,
+            "center" : {
+              "x" : 0.5,
+              "y" : 0.5
+            }
+          },
+          "reflection" : {
+            "<class>" : "MSStyleReflection",
+            "strength" : 0.5,
+            "isEnabled" : 0,
+            "distance" : 1
+          },
+          "<class>" : "MSStyle",
+          "miterLimit" : 10,
+          "colorControls" : {
+            "hue" : 0,
+            "<class>" : "MSStyleColorControls",
+            "brightness" : 0,
+            "contrast" : 1,
+            "isEnabled" : 0,
+            "saturation" : 1
+          },
+          "fills" : [
+
+          ],
+          "borders" : [
+            {
+              "position" : 1,
+              "color" : {
+                "<class>" : "MSColor",
+                "value" : "#0076FF"
+              },
+              "<class>" : "MSStyleBorder",
+              "gradient" : {
+                "from" : {
+                  "x" : 0.5,
+                  "y" : 0
+                },
+                "shouldSmoothenOpacity" : 0,
+                "gradientType" : 0,
+                "<class>" : "MSGradient",
+                "stops" : [
+                  {
+                    "<class>" : "MSGradientStop",
+                    "color" : {
+                      "<class>" : "MSColor",
+                      "value" : "#FFFFFF"
+                    },
+                    "position" : 0
+                  },
+                  {
+                    "<class>" : "MSGradientStop",
+                    "color" : {
+                      "<class>" : "MSColor",
+                      "value" : "#000000"
+                    },
+                    "position" : 1
+                  }
+                ],
+                "to" : {
+                  "x" : 0.5,
+                  "y" : 1
+                },
+                "elipseLength" : 0
+              },
+              "fillType" : 0,
+              "thickness" : 1,
+              "contextSettings" : {
+                "<class>" : "MSGraphicsContextSettings",
+                "opacity" : 1,
+                "blendMode" : 0
+              },
+              "isEnabled" : 1
+            }
+          ],
+          "innerShadows" : [
+
+          ],
+          "shadows" : [
+
+          ]
+        },
+        "objectID" : "4DD785BE-6949-411C-BB8E-ABC249E1B7A9",
+        "name" : "UITintColor (Border)"
+      },
+      {
+        "<class>" : "MSSharedStyle",
+        "value" : {
+          "startDecorationType" : 0,
+          "sharedObjectID" : "A3158ACD-60EA-48EE-9FDD-CC20A38E09DC",
+          "borderOptions" : {
+            "lineJoinStyle" : 0,
+            "<class>" : "MSStyleBorderOptions",
+            "isEnabled" : 0,
+            "lineCapStyle" : 0,
+            "dashPattern" : [
+
+            ]
+          },
+          "endDecorationType" : 0,
+          "contextSettings" : {
+            "<class>" : "MSGraphicsContextSettings",
+            "opacity" : 1,
+            "blendMode" : 0
+          },
+          "blur" : {
+            "radius" : 10,
+            "<class>" : "MSStyleBlur",
+            "motionAngle" : 0,
+            "isEnabled" : 0,
+            "type" : 0,
+            "center" : {
+              "x" : 0.5,
+              "y" : 0.5
+            }
+          },
+          "reflection" : {
+            "<class>" : "MSStyleReflection",
+            "strength" : 0.5,
+            "isEnabled" : 0,
+            "distance" : 1
+          },
+          "<class>" : "MSStyle",
+          "miterLimit" : 10,
+          "colorControls" : {
+            "hue" : 0,
+            "<class>" : "MSStyleColorControls",
+            "brightness" : 0,
+            "contrast" : 1,
+            "isEnabled" : 0,
+            "saturation" : 1
+          },
+          "fills" : [
+
+          ],
+          "borders" : [
+
+          ],
+          "innerShadows" : [
+            {
+              "spread" : 0,
+              "color" : {
+                "<class>" : "MSColor",
+                "value" : "#0076FF"
+              },
+              "offsetY" : 0,
+              "offsetX" : -1,
+              "<class>" : "MSStyleInnerShadow",
+              "blurRadius" : 0,
+              "contextSettings" : {
+                "<class>" : "MSGraphicsContextSettings",
+                "opacity" : 1,
+                "blendMode" : 0
+              },
+              "isEnabled" : 1
+            }
+          ],
+          "shadows" : [
+
+          ]
+        },
+        "objectID" : "A3158ACD-60EA-48EE-9FDD-CC20A38E09DC",
+        "name" : "SegmentOff"
+      }
+    ]
+  },
+  "pages" : [
+    {
+      "isFlippedHorizontal" : 0,
+      "style" : {
+        "startDecorationType" : 0,
+        "borderOptions" : {
+          "lineJoinStyle" : 0,
+          "<class>" : "MSStyleBorderOptions",
+          "isEnabled" : 0,
+          "lineCapStyle" : 0,
+          "dashPattern" : [
+
+          ]
+        },
+        "endDecorationType" : 0,
+        "contextSettings" : {
+          "<class>" : "MSGraphicsContextSettings",
+          "opacity" : 1,
+          "blendMode" : 0
+        },
+        "blur" : {
+          "radius" : 10,
+          "<class>" : "MSStyleBlur",
+          "motionAngle" : 0,
+          "isEnabled" : 0,
+          "type" : 0,
+          "center" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        "reflection" : {
+          "<class>" : "MSStyleReflection",
+          "strength" : 0.5,
+          "isEnabled" : 0,
+          "distance" : 1
+        },
+        "<class>" : "MSStyle",
+        "miterLimit" : 10,
+        "colorControls" : {
+          "hue" : 0,
+          "<class>" : "MSStyleColorControls",
+          "brightness" : 0,
+          "contrast" : 1,
+          "isEnabled" : 0,
+          "saturation" : 1
+        },
+        "fills" : [
+
+        ],
+        "borders" : [
+
+        ],
+        "innerShadows" : [
+
+        ],
+        "shadows" : [
+
+        ]
+      },
+      "horizontalRulerData" : {
+        "<class>" : "MSRulerData",
+        "base" : 0,
+        "guides" : [
+
+        ]
+      },
+      "frame" : {
+        "y" : 0,
+        "<class>" : "MSRect",
+        "constrainProportions" : 0,
+        "height" : 300,
+        "width" : 300,
+        "x" : 0
+      },
+      "hasClickThrough" : 1,
+      "includeInCloudUpload" : 1,
+      "exportOptions" : {
+        "shouldTrim" : 0,
+        "<class>" : "MSExportOptions",
+        "includedLayerIds" : [
+
+        ],
+        "layerOptions" : 0,
+        "exportFormats" : [
+
+        ]
+      },
+      "objectID" : "F4200A3A-6817-48FA-B524-D8586D6D0BDF",
+      "rotation" : 0,
+      "layerListExpandedType" : 0,
+      "verticalRulerData" : {
+        "<class>" : "MSRulerData",
+        "base" : 0,
+        "guides" : [
+
+        ]
+      },
+      "isFlippedVertical" : 0,
+      "resizingType" : 0,
+      "<class>" : "MSPage",
+      "layers" : [
+
+      ],
+      "isVisible" : 1,
+      "nameIsFixed" : 0,
+      "name" : "Page 1",
+      "isLocked" : 0,
+      "shouldBreakMaskChain" : 0,
+      "resizingConstraint" : 63
+    },
+    {
+      "isFlippedHorizontal" : 0,
+      "style" : {
+        "startDecorationType" : 0,
+        "borderOptions" : {
+          "lineJoinStyle" : 0,
+          "<class>" : "MSStyleBorderOptions",
+          "isEnabled" : 0,
+          "lineCapStyle" : 0,
+          "dashPattern" : [
+
+          ]
+        },
+        "endDecorationType" : 0,
+        "contextSettings" : {
+          "<class>" : "MSGraphicsContextSettings",
+          "opacity" : 1,
+          "blendMode" : 0
+        },
+        "blur" : {
+          "radius" : 10,
+          "<class>" : "MSStyleBlur",
+          "motionAngle" : 0,
+          "isEnabled" : 0,
+          "type" : 0,
+          "center" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        "reflection" : {
+          "<class>" : "MSStyleReflection",
+          "strength" : 0.5,
+          "isEnabled" : 0,
+          "distance" : 1
+        },
+        "<class>" : "MSStyle",
+        "miterLimit" : 10,
+        "colorControls" : {
+          "hue" : 0,
+          "<class>" : "MSStyleColorControls",
+          "brightness" : 0,
+          "contrast" : 1,
+          "isEnabled" : 0,
+          "saturation" : 1
+        },
+        "fills" : [
+
+        ],
+        "borders" : [
+
+        ],
+        "innerShadows" : [
+
+        ],
+        "shadows" : [
+
+        ]
+      },
+      "horizontalRulerData" : {
+        "<class>" : "MSRulerData",
+        "base" : 0,
+        "guides" : [
+
+        ]
+      },
+      "frame" : {
+        "y" : 0,
+        "<class>" : "MSRect",
+        "constrainProportions" : 0,
+        "height" : 300,
+        "width" : 300,
+        "x" : 0
+      },
+      "hasClickThrough" : 1,
+      "includeInCloudUpload" : 1,
+      "exportOptions" : {
+        "shouldTrim" : 0,
+        "<class>" : "MSExportOptions",
+        "includedLayerIds" : [
+
+        ],
+        "layerOptions" : 0,
+        "exportFormats" : [
+
+        ]
+      },
+      "objectID" : "EE5BDDBB-FFF1-47B0-9C35-73B72EC88218",
+      "rotation" : 0,
+      "layerListExpandedType" : 0,
+      "verticalRulerData" : {
+        "<class>" : "MSRulerData",
+        "base" : 0,
+        "guides" : [
+
+        ]
+      },
+      "isFlippedVertical" : 0,
+      "resizingType" : 0,
+      "<class>" : "MSPage",
+      "layers" : [
+        {
+          "isFlippedHorizontal" : 0,
+          "includeBackgroundColorInInstance" : 0,
+          "objectID" : "9A4101CB-B2AD-4442-9D74-A881F2759435",
+          "horizontalRulerData" : {
+            "<class>" : "MSRulerData",
+            "base" : 0,
+            "guides" : [
+
+            ]
+          },
+          "frame" : {
+            "y" : 0,
+            "<class>" : "MSRect",
+            "constrainProportions" : 0,
+            "height" : 29,
+            "width" : 200,
+            "x" : 575
+          },
+          "hasClickThrough" : 1,
+          "includeInCloudUpload" : 1,
+          "exportOptions" : {
+            "shouldTrim" : 0,
+            "<class>" : "MSExportOptions",
+            "includedLayerIds" : [
+
+            ],
+            "layerOptions" : 0,
+            "exportFormats" : [
+
+            ]
+          },
+          "hasBackgroundColor" : 1,
+          "layerListExpandedType" : 2,
+          "resizesContent" : 0,
+          "backgroundColor" : {
+            "<class>" : "MSColor",
+            "value" : "#FAFAFA"
+          },
+          "rotation" : 0,
+          "style" : {
+            "startDecorationType" : 0,
+            "borderOptions" : {
+              "lineJoinStyle" : 0,
+              "<class>" : "MSStyleBorderOptions",
+              "isEnabled" : 0,
+              "lineCapStyle" : 0,
+              "dashPattern" : [
+
+              ]
+            },
+            "endDecorationType" : 0,
+            "contextSettings" : {
+              "<class>" : "MSGraphicsContextSettings",
+              "opacity" : 1,
+              "blendMode" : 0
+            },
+            "blur" : {
+              "radius" : 10,
+              "<class>" : "MSStyleBlur",
+              "motionAngle" : 0,
+              "isEnabled" : 0,
+              "type" : 0,
+              "center" : {
+                "x" : 0.5,
+                "y" : 0.5
+              }
+            },
+            "reflection" : {
+              "<class>" : "MSStyleReflection",
+              "strength" : 0.5,
+              "isEnabled" : 0,
+              "distance" : 1
+            },
+            "<class>" : "MSStyle",
+            "miterLimit" : 10,
+            "colorControls" : {
+              "hue" : 0,
+              "<class>" : "MSStyleColorControls",
+              "brightness" : 0,
+              "contrast" : 1,
+              "isEnabled" : 0,
+              "saturation" : 1
+            },
+            "fills" : [
+              {
+                "contextSettings" : {
+                  "<class>" : "MSGraphicsContextSettings",
+                  "opacity" : 1,
+                  "blendMode" : 0
+                },
+                "color" : {
+                  "<class>" : "MSColor",
+                  "value" : "#FFFFFF"
+                },
+                "<class>" : "MSStyleFill",
+                "gradient" : {
+                  "from" : {
+                    "x" : 0.5,
+                    "y" : 0
+                  },
+                  "shouldSmoothenOpacity" : 0,
+                  "gradientType" : 0,
+                  "<class>" : "MSGradient",
+                  "stops" : [
+                    {
+                      "<class>" : "MSGradientStop",
+                      "color" : {
+                        "<class>" : "MSColor",
+                        "value" : "#FFFFFF"
+                      },
+                      "position" : 0
+                    },
+                    {
+                      "<class>" : "MSGradientStop",
+                      "color" : {
+                        "<class>" : "MSColor",
+                        "value" : "#000000"
+                      },
+                      "position" : 1
+                    }
+                  ],
+                  "to" : {
+                    "x" : 0.5,
+                    "y" : 1
+                  },
+                  "elipseLength" : 0
+                },
+                "fillType" : 0,
+                "noiseIntensity" : 0,
+                "patternFillType" : 1,
+                "patternTileScale" : 1,
+                "noiseIndex" : 0,
+                "isEnabled" : 1
+              }
+            ],
+            "borders" : [
+
+            ],
+            "innerShadows" : [
+
+            ],
+            "shadows" : [
+
+            ]
+          },
+          "symbolID" : "EDC14E49-63F9-4398-BD18-72DE5BC78086",
+          "verticalRulerData" : {
+            "<class>" : "MSRulerData",
+            "base" : 0,
+            "guides" : [
+
+            ]
+          },
+          "isFlippedVertical" : 0,
+          "<class>" : "MSSymbolMaster",
+          "nameIsFixed" : 1,
+          "layers" : [
+            {
+              "shouldBreakMaskChain" : 0,
+              "style" : {
+                "startDecorationType" : 0,
+                "borderOptions" : {
+                  "lineJoinStyle" : 0,
+                  "<class>" : "MSStyleBorderOptions",
+                  "isEnabled" : 0,
+                  "lineCapStyle" : 0,
+                  "dashPattern" : [
+
+                  ]
+                },
+                "endDecorationType" : 0,
+                "contextSettings" : {
+                  "<class>" : "MSGraphicsContextSettings",
+                  "opacity" : 1,
+                  "blendMode" : 0
+                },
+                "blur" : {
+                  "radius" : 10,
+                  "<class>" : "MSStyleBlur",
+                  "motionAngle" : 0,
+                  "isEnabled" : 0,
+                  "type" : 0,
+                  "center" : {
+                    "x" : 0.5,
+                    "y" : 0.5
+                  }
+                },
+                "reflection" : {
+                  "<class>" : "MSStyleReflection",
+                  "strength" : 0.5,
+                  "isEnabled" : 0,
+                  "distance" : 1
+                },
+                "<class>" : "MSStyle",
+                "miterLimit" : 10,
+                "colorControls" : {
+                  "hue" : 0,
+                  "<class>" : "MSStyleColorControls",
+                  "brightness" : 0,
+                  "contrast" : 1,
+                  "isEnabled" : 0,
+                  "saturation" : 1
+                },
+                "fills" : [
+
+                ],
+                "borders" : [
+
+                ],
+                "innerShadows" : [
+
+                ],
+                "shadows" : [
+
+                ]
+              },
+              "rotation" : 0,
+              "layers" : [
+                {
+                  "isFlippedHorizontal" : 0,
+                  "style" : {
+                    "startDecorationType" : 0,
+                    "sharedObjectID" : "4AA10963-FA7D-408E-A9A7-403AB73D37F6",
+                    "borderOptions" : {
+                      "lineJoinStyle" : 0,
+                      "<class>" : "MSStyleBorderOptions",
+                      "isEnabled" : 0,
+                      "lineCapStyle" : 0,
+                      "dashPattern" : [
+
+                      ]
+                    },
+                    "endDecorationType" : 0,
+                    "contextSettings" : {
+                      "<class>" : "MSGraphicsContextSettings",
+                      "opacity" : 1,
+                      "blendMode" : 0
+                    },
+                    "blur" : {
+                      "radius" : 10,
+                      "<class>" : "MSStyleBlur",
+                      "motionAngle" : 0,
+                      "isEnabled" : 0,
+                      "type" : 0,
+                      "center" : {
+                        "x" : 0.5,
+                        "y" : 0.5
+                      }
+                    },
+                    "reflection" : {
+                      "<class>" : "MSStyleReflection",
+                      "strength" : 0.5,
+                      "isEnabled" : 0,
+                      "distance" : 1
+                    },
+                    "<class>" : "MSStyle",
+                    "miterLimit" : 10,
+                    "colorControls" : {
+                      "hue" : 0,
+                      "<class>" : "MSStyleColorControls",
+                      "brightness" : 0,
+                      "contrast" : 1,
+                      "isEnabled" : 0,
+                      "saturation" : 1
+                    },
+                    "fills" : [
+                      {
+                        "contextSettings" : {
+                          "<class>" : "MSGraphicsContextSettings",
+                          "opacity" : 1,
+                          "blendMode" : 0
+                        },
+                        "color" : {
+                          "<class>" : "MSColor",
+                          "value" : "#0076FF"
+                        },
+                        "<class>" : "MSStyleFill",
+                        "gradient" : {
+                          "from" : {
+                            "x" : 0.5,
+                            "y" : 0
+                          },
+                          "shouldSmoothenOpacity" : 0,
+                          "gradientType" : 0,
+                          "<class>" : "MSGradient",
+                          "stops" : [
+                            {
+                              "<class>" : "MSGradientStop",
+                              "color" : {
+                                "<class>" : "MSColor",
+                                "value" : "#FFFFFF"
+                              },
+                              "position" : 0
+                            },
+                            {
+                              "<class>" : "MSGradientStop",
+                              "color" : {
+                                "<class>" : "MSColor",
+                                "value" : "#000000"
+                              },
+                              "position" : 1
+                            }
+                          ],
+                          "to" : {
+                            "x" : 0.5,
+                            "y" : 1
+                          },
+                          "elipseLength" : 0
+                        },
+                        "fillType" : 0,
+                        "noiseIntensity" : 0,
+                        "patternFillType" : 1,
+                        "patternTileScale" : 1,
+                        "noiseIndex" : 0,
+                        "isEnabled" : 1
+                      }
+                    ],
+                    "borders" : [
+
+                    ],
+                    "innerShadows" : [
+                      {
+                        "spread" : 0,
+                        "color" : {
+                          "<class>" : "MSColor",
+                          "value" : "#0076FF"
+                        },
+                        "offsetY" : 0,
+                        "offsetX" : -1,
+                        "<class>" : "MSStyleInnerShadow",
+                        "blurRadius" : 0,
+                        "contextSettings" : {
+                          "<class>" : "MSGraphicsContextSettings",
+                          "opacity" : 1,
+                          "blendMode" : 0
+                        },
+                        "isEnabled" : 1
+                      }
+                    ],
+                    "shadows" : [
+
+                    ]
+                  },
+                  "rotation" : 0,
+                  "frame" : {
+                    "y" : 0,
+                    "<class>" : "MSRect",
+                    "constrainProportions" : 0,
+                    "height" : 29,
+                    "width" : 100,
+                    "x" : 0
+                  },
+                  "hasClickThrough" : 0,
+                  "objectID" : "CE0F15A7-FC83-434F-9B53-22E3DE445CC9",
+                  "exportOptions" : {
+                    "shouldTrim" : 0,
+                    "<class>" : "MSExportOptions",
+                    "includedLayerIds" : [
+
+                    ],
+                    "layerOptions" : 0,
+                    "exportFormats" : [
+
+                    ]
+                  },
+                  "layerListExpandedType" : 1,
+                  "windingRule" : 1,
+                  "isFlippedVertical" : 0,
+                  "clippingMaskMode" : 0,
+                  "resizingType" : 0,
+                  "layers" : [
+                    {
+                      "isFlippedHorizontal" : 0,
+                      "objectID" : "1AA07CDD-338C-45CB-BEDC-07F830BBAB15",
+                      "rotation" : 0,
+                      "frame" : {
+                        "y" : 0,
+                        "<class>" : "MSRect",
+                        "constrainProportions" : 0,
+                        "height" : 29,
+                        "width" : 100,
+                        "x" : 0
+                      },
+                      "layerListExpandedType" : 0,
+                      "hasConvertedToNewRoundCorners" : 1,
+                      "exportOptions" : {
+                        "shouldTrim" : 0,
+                        "<class>" : "MSExportOptions",
+                        "includedLayerIds" : [
+
+                        ],
+                        "layerOptions" : 0,
+                        "exportFormats" : [
+
+                        ]
+                      },
+                      "edited" : 0,
+                      "path" : {
+                        "points" : [
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 0,
+                              "y" : 0
+                            },
+                            "point" : {
+                              "x" : 0,
+                              "y" : 0
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 0,
+                              "y" : 0
+                            },
+                            "hasCurveTo" : 0
+                          },
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 1,
+                              "y" : 0
+                            },
+                            "point" : {
+                              "x" : 1,
+                              "y" : 0
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 1,
+                              "y" : 0
+                            },
+                            "hasCurveTo" : 0
+                          },
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 1,
+                              "y" : 1
+                            },
+                            "point" : {
+                              "x" : 1,
+                              "y" : 1
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 1,
+                              "y" : 1
+                            },
+                            "hasCurveTo" : 0
+                          },
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 0,
+                              "y" : 1
+                            },
+                            "point" : {
+                              "x" : 0,
+                              "y" : 1
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 0,
+                              "y" : 1
+                            },
+                            "hasCurveTo" : 0
+                          }
+                        ],
+                        "<class>" : "MSShapePath",
+                        "pointRadiusBehaviour" : 0,
+                        "isClosed" : 1
+                      },
+                      "isFlippedVertical" : 0,
+                      "<class>" : "MSRectangleShape",
+                      "resizingType" : 0,
+                      "isVisible" : 1,
+                      "nameIsFixed" : 0,
+                      "name" : "Path",
+                      "isLocked" : 0,
+                      "shouldBreakMaskChain" : 0,
+                      "fixedRadius" : 0,
+                      "booleanOperation" : -1,
+                      "resizingConstraint" : 63
+                    }
+                  ],
+                  "isVisible" : 1,
+                  "hasClippingMask" : 0,
+                  "<class>" : "MSShapeGroup",
+                  "nameIsFixed" : 1,
+                  "name" : "BG",
+                  "isLocked" : 0,
+                  "shouldBreakMaskChain" : 0,
+                  "resizingConstraint" : 63
+                },
+                {
+                  "shouldBreakMaskChain" : 0,
+                  "style" : {
+                    "startDecorationType" : 0,
+                    "borderOptions" : {
+                      "lineJoinStyle" : 0,
+                      "<class>" : "MSStyleBorderOptions",
+                      "isEnabled" : 0,
+                      "lineCapStyle" : 0,
+                      "dashPattern" : [
+
+                      ]
+                    },
+                    "endDecorationType" : 0,
+                    "contextSettings" : {
+                      "<class>" : "MSGraphicsContextSettings",
+                      "opacity" : 1,
+                      "blendMode" : 0
+                    },
+                    "blur" : {
+                      "radius" : 10,
+                      "<class>" : "MSStyleBlur",
+                      "motionAngle" : 0,
+                      "isEnabled" : 0,
+                      "type" : 0,
+                      "center" : {
+                        "x" : 0.5,
+                        "y" : 0.5
+                      }
+                    },
+                    "reflection" : {
+                      "<class>" : "MSStyleReflection",
+                      "strength" : 0.5,
+                      "isEnabled" : 0,
+                      "distance" : 1
+                    },
+                    "<class>" : "MSStyle",
+                    "miterLimit" : 10,
+                    "colorControls" : {
+                      "hue" : 0,
+                      "<class>" : "MSStyleColorControls",
+                      "brightness" : 0,
+                      "contrast" : 1,
+                      "isEnabled" : 0,
+                      "saturation" : 1
+                    },
+                    "fills" : [
+
+                    ],
+                    "borders" : [
+
+                    ],
+                    "innerShadows" : [
+
+                    ],
+                    "shadows" : [
+
+                    ]
+                  },
+                  "rotation" : 0,
+                  "layers" : [
+                    {
+                      "isFlippedHorizontal" : 0,
+                      "style" : {
+                        "startDecorationType" : 0,
+                        "borderOptions" : {
+                          "lineJoinStyle" : 0,
+                          "<class>" : "MSStyleBorderOptions",
+                          "isEnabled" : 0,
+                          "lineCapStyle" : 0,
+                          "dashPattern" : [
+
+                          ]
+                        },
+                        "endDecorationType" : 0,
+                        "contextSettings" : {
+                          "<class>" : "MSGraphicsContextSettings",
+                          "opacity" : 1,
+                          "blendMode" : 0
+                        },
+                        "blur" : {
+                          "radius" : 10,
+                          "<class>" : "MSStyleBlur",
+                          "motionAngle" : 0,
+                          "isEnabled" : 0,
+                          "type" : 0,
+                          "center" : {
+                            "x" : 0.5,
+                            "y" : 0.5
+                          }
+                        },
+                        "reflection" : {
+                          "<class>" : "MSStyleReflection",
+                          "strength" : 0.5,
+                          "isEnabled" : 0,
+                          "distance" : 1
+                        },
+                        "<class>" : "MSStyle",
+                        "miterLimit" : 10,
+                        "colorControls" : {
+                          "hue" : 0,
+                          "<class>" : "MSStyleColorControls",
+                          "brightness" : 0,
+                          "contrast" : 1,
+                          "isEnabled" : 0,
+                          "saturation" : 1
+                        },
+                        "fills" : [
+
+                        ],
+                        "borders" : [
+
+                        ],
+                        "innerShadows" : [
+
+                        ],
+                        "shadows" : [
+
+                        ]
+                      },
+                      "rotation" : 0,
+                      "frame" : {
+                        "y" : 0,
+                        "<class>" : "MSRect",
+                        "constrainProportions" : 0,
+                        "height" : 28,
+                        "width" : 99,
+                        "x" : 0
+                      },
+                      "hasClickThrough" : 0,
+                      "objectID" : "C88CE42B-9B2E-4E75-930E-0F544CF15AE1",
+                      "exportOptions" : {
+                        "shouldTrim" : 0,
+                        "<class>" : "MSExportOptions",
+                        "includedLayerIds" : [
+
+                        ],
+                        "layerOptions" : 0,
+                        "exportFormats" : [
+
+                        ]
+                      },
+                      "layerListExpandedType" : 1,
+                      "windingRule" : 1,
+                      "isFlippedVertical" : 0,
+                      "clippingMaskMode" : 0,
+                      "resizingType" : 0,
+                      "layers" : [
+                        {
+                          "isFlippedHorizontal" : 0,
+                          "objectID" : "D1D6365D-1D1D-46B7-9F27-1161CCB7C770",
+                          "rotation" : 0,
+                          "frame" : {
+                            "y" : 0,
+                            "<class>" : "MSRect",
+                            "constrainProportions" : 0,
+                            "height" : 28,
+                            "width" : 99,
+                            "x" : 0
+                          },
+                          "layerListExpandedType" : 0,
+                          "hasConvertedToNewRoundCorners" : 1,
+                          "exportOptions" : {
+                            "shouldTrim" : 0,
+                            "<class>" : "MSExportOptions",
+                            "includedLayerIds" : [
+
+                            ],
+                            "layerOptions" : 0,
+                            "exportFormats" : [
+
+                            ]
+                          },
+                          "edited" : 0,
+                          "path" : {
+                            "points" : [
+                              {
+                                "hasCurveFrom" : 0,
+                                "curveMode" : 1,
+                                "curveFrom" : {
+                                  "x" : 0,
+                                  "y" : 0
+                                },
+                                "point" : {
+                                  "x" : 0,
+                                  "y" : 0
+                                },
+                                "<class>" : "MSCurvePoint",
+                                "cornerRadius" : 0,
+                                "curveTo" : {
+                                  "x" : 0,
+                                  "y" : 0
+                                },
+                                "hasCurveTo" : 0
+                              },
+                              {
+                                "hasCurveFrom" : 0,
+                                "curveMode" : 1,
+                                "curveFrom" : {
+                                  "x" : 1,
+                                  "y" : 0
+                                },
+                                "point" : {
+                                  "x" : 1,
+                                  "y" : 0
+                                },
+                                "<class>" : "MSCurvePoint",
+                                "cornerRadius" : 0,
+                                "curveTo" : {
+                                  "x" : 1,
+                                  "y" : 0
+                                },
+                                "hasCurveTo" : 0
+                              },
+                              {
+                                "hasCurveFrom" : 0,
+                                "curveMode" : 1,
+                                "curveFrom" : {
+                                  "x" : 1,
+                                  "y" : 1
+                                },
+                                "point" : {
+                                  "x" : 1,
+                                  "y" : 1
+                                },
+                                "<class>" : "MSCurvePoint",
+                                "cornerRadius" : 0,
+                                "curveTo" : {
+                                  "x" : 1,
+                                  "y" : 1
+                                },
+                                "hasCurveTo" : 0
+                              },
+                              {
+                                "hasCurveFrom" : 0,
+                                "curveMode" : 1,
+                                "curveFrom" : {
+                                  "x" : 0,
+                                  "y" : 1
+                                },
+                                "point" : {
+                                  "x" : 0,
+                                  "y" : 1
+                                },
+                                "<class>" : "MSCurvePoint",
+                                "cornerRadius" : 0,
+                                "curveTo" : {
+                                  "x" : 0,
+                                  "y" : 1
+                                },
+                                "hasCurveTo" : 0
+                              }
+                            ],
+                            "<class>" : "MSShapePath",
+                            "pointRadiusBehaviour" : 0,
+                            "isClosed" : 1
+                          },
+                          "isFlippedVertical" : 0,
+                          "<class>" : "MSRectangleShape",
+                          "resizingType" : 0,
+                          "isVisible" : 1,
+                          "nameIsFixed" : 0,
+                          "name" : "Path",
+                          "isLocked" : 0,
+                          "shouldBreakMaskChain" : 0,
+                          "fixedRadius" : 0,
+                          "booleanOperation" : -1,
+                          "resizingConstraint" : 63
+                        }
+                      ],
+                      "isVisible" : 1,
+                      "hasClippingMask" : 0,
+                      "<class>" : "MSShapeGroup",
+                      "nameIsFixed" : 1,
+                      "name" : "Text Bound",
+                      "isLocked" : 0,
+                      "shouldBreakMaskChain" : 0,
+                      "resizingConstraint" : 63
+                    },
+                    {
+                      "originalObjectID" : "29B9E5AF-70E8-45BB-86E9-31581792EF81",
+                      "isFlippedHorizontal" : 0,
+                      "objectID" : "E57C86E5-BEF5-4792-80FE-E28FC9727D8F",
+                      "glyphBounds" : {
+                        "y" : 0,
+                        "x" : 0,
+                        "width" : 25,
+                        "height" : 15
+                      },
+                      "frame" : {
+                        "y" : 5,
+                        "<class>" : "MSRect",
+                        "constrainProportions" : 0,
+                        "height" : 18,
+                        "width" : 25,
+                        "x" : 37
+                      },
+                      "layerListExpandedType" : 0,
+                      "rotation" : 0,
+                      "exportOptions" : {
+                        "shouldTrim" : 0,
+                        "<class>" : "MSExportOptions",
+                        "includedLayerIds" : [
+
+                        ],
+                        "layerOptions" : 0,
+                        "exportFormats" : [
+
+                        ]
+                      },
+                      "style" : {
+                        "startDecorationType" : 0,
+                        "sharedObjectID" : "E8E89177-1750-42BF-8A43-799D66BC11FE",
+                        "textStyle" : {
+                          "NSColor" : {
+                            "<class>" : "NSColor",
+                            "color" : "rgba(1.000000,1.000000,1.000000,1.000000)"
+                          },
+                          "<class>" : "MSTextStyle",
+                          "NSKern" : -0.07999999821186066,
+                          "NSFont" : {
+                            "name" : "系统字体",
+                            "attributes" : {
+                              "NSCTFontUIUsageAttribute" : "CTFontRegularUsage",
+                              "NSFontSizeAttribute" : 13
+                            },
+                            "family" : ".AppleSystemUIFont"
+                          },
+                          "NSParagraphStyle" : {
+                            "<class>" : "NSMutableParagraphStyle",
+                            "style" : {
+                              "headerLevel" : 0,
+                              "paragraphSpacing" : 0,
+                              "tabStops" : [
+                                28,
+                                56,
+                                84,
+                                112,
+                                140,
+                                168,
+                                196,
+                                224,
+                                252,
+                                280,
+                                308,
+                                336
+                              ],
+                              "headIndent" : 0,
+                              "lineBreakMode" : 0,
+                              "hyphenationFactor" : 0,
+                              "alignment" : 2,
+                              "paragraphSpacingBefore" : 0,
+                              "tailIndent" : 0,
+                              "firstLineHeadIndent" : 0,
+                              "minimumLineHeight" : 18,
+                              "lineSpacing" : 0,
+                              "maximumLineHeight" : 18,
+                              "lineHeightMultiple" : 0,
+                              "baseWritingDirection" : -1,
+                              "defaultTabInterval" : 0
+                            }
+                          }
+                        },
+                        "borderOptions" : {
+                          "lineJoinStyle" : 0,
+                          "<class>" : "MSStyleBorderOptions",
+                          "isEnabled" : 0,
+                          "lineCapStyle" : 0,
+                          "dashPattern" : [
+
+                          ]
+                        },
+                        "endDecorationType" : 0,
+                        "contextSettings" : {
+                          "<class>" : "MSGraphicsContextSettings",
+                          "opacity" : 1,
+                          "blendMode" : 0
+                        },
+                        "blur" : {
+                          "radius" : 10,
+                          "<class>" : "MSStyleBlur",
+                          "motionAngle" : 0,
+                          "isEnabled" : 0,
+                          "type" : 0,
+                          "center" : {
+                            "x" : 0.5,
+                            "y" : 0.5
+                          }
+                        },
+                        "reflection" : {
+                          "<class>" : "MSStyleReflection",
+                          "strength" : 0.5,
+                          "isEnabled" : 0,
+                          "distance" : 1
+                        },
+                        "<class>" : "MSStyle",
+                        "miterLimit" : 10,
+                        "colorControls" : {
+                          "hue" : 0,
+                          "<class>" : "MSStyleColorControls",
+                          "brightness" : 0,
+                          "contrast" : 1,
+                          "isEnabled" : 0,
+                          "saturation" : 1
+                        },
+                        "fills" : [
+
+                        ],
+                        "borders" : [
+
+                        ],
+                        "innerShadows" : [
+
+                        ],
+                        "shadows" : [
+
+                        ]
+                      },
+                      "heightIsClipped" : 0,
+                      "lineSpacingBehaviour" : 2,
+                      "dontSynchroniseWithSymbol" : 1,
+                      "textBehaviour" : 0,
+                      "isFlippedVertical" : 0,
+                      "<class>" : "MSTextLayer",
+                      "nameIsFixed" : 1,
+                      "isVisible" : 1,
+                      "resizingType" : 3,
+                      "name" : "Label 1",
+                      "isLocked" : 0,
+                      "attributedString" : {
+                        "<class>" : "NSConcreteAttributedString",
+                        "value" : {
+                          "<class>" : "NSConcreteAttributedString",
+                          "text" : "One",
+                          "attributes" : [
+                            {
+                              "NSKern" : -0.07999999821186066,
+                              "length" : 3,
+                              "NSFont" : {
+                                "name" : "系统字体",
+                                "attributes" : {
+                                  "NSCTFontUIUsageAttribute" : "CTFontRegularUsage",
+                                  "NSFontSizeAttribute" : 13
+                                },
+                                "family" : ".AppleSystemUIFont"
+                              },
+                              "location" : 0,
+                              "NSColor" : {
+                                "<class>" : "NSColor",
+                                "color" : "rgba(1.000000,1.000000,1.000000,1.000000)"
+                              },
+                              "text" : "One",
+                              "NSParagraphStyle" : {
+                                "<class>" : "NSMutableParagraphStyle",
+                                "style" : {
+                                  "headerLevel" : 0,
+                                  "paragraphSpacing" : 0,
+                                  "tabStops" : [
+                                    28,
+                                    56,
+                                    84,
+                                    112,
+                                    140,
+                                    168,
+                                    196,
+                                    224,
+                                    252,
+                                    280,
+                                    308,
+                                    336
+                                  ],
+                                  "headIndent" : 0,
+                                  "lineBreakMode" : 0,
+                                  "hyphenationFactor" : 0,
+                                  "alignment" : 2,
+                                  "paragraphSpacingBefore" : 0,
+                                  "tailIndent" : 0,
+                                  "firstLineHeadIndent" : 0,
+                                  "minimumLineHeight" : 18,
+                                  "lineSpacing" : 0,
+                                  "maximumLineHeight" : 18,
+                                  "lineHeightMultiple" : 0,
+                                  "baseWritingDirection" : -1,
+                                  "defaultTabInterval" : 0
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "shouldBreakMaskChain" : 0,
+                      "resizingConstraint" : 45,
+                      "automaticallyDrawOnUnderlyingPath" : 0
+                    }
+                  ],
+                  "exportOptions" : {
+                    "shouldTrim" : 0,
+                    "<class>" : "MSExportOptions",
+                    "includedLayerIds" : [
+
+                    ],
+                    "layerOptions" : 0,
+                    "exportFormats" : [
+
+                    ]
+                  },
+                  "frame" : {
+                    "y" : 0,
+                    "<class>" : "MSRect",
+                    "constrainProportions" : 0,
+                    "height" : 28,
+                    "width" : 99,
+                    "x" : 0
+                  },
+                  "isFlippedVertical" : 0,
+                  "hasClickThrough" : 0,
+                  "isVisible" : 1,
+                  "objectID" : "B04B045A-6523-411D-9890-03E86ECFA261",
+                  "resizingConstraint" : 18,
+                  "isFlippedHorizontal" : 0,
+                  "resizingType" : 2,
+                  "<class>" : "MSLayerGroup",
+                  "isLocked" : 0,
+                  "layerListExpandedType" : 2,
+                  "nameIsFixed" : 1,
+                  "name" : "Label"
+                }
+              ],
+              "exportOptions" : {
+                "shouldTrim" : 0,
+                "<class>" : "MSExportOptions",
+                "includedLayerIds" : [
+
+                ],
+                "layerOptions" : 0,
+                "exportFormats" : [
+
+                ]
+              },
+              "frame" : {
+                "y" : 0,
+                "<class>" : "MSRect",
+                "constrainProportions" : 0,
+                "height" : 29,
+                "width" : 100,
+                "x" : 0
+              },
+              "isFlippedVertical" : 0,
+              "hasClickThrough" : 0,
+              "isVisible" : 1,
+              "objectID" : "9505C8F9-54DD-44A8-9695-3B6068E09228",
+              "resizingConstraint" : 63,
+              "isFlippedHorizontal" : 0,
+              "resizingType" : 0,
+              "<class>" : "MSLayerGroup",
+              "isLocked" : 0,
+              "layerListExpandedType" : 2,
+              "nameIsFixed" : 1,
+              "name" : "Tab 1"
+            }
+          ],
+          "isVisible" : 1,
+          "name" : "Basic Elements\/Controls\/Segmented Control\/2-1",
+          "resizingType" : 0,
+          "isLocked" : 0,
+          "shouldBreakMaskChain" : 0,
+          "resizingConstraint" : 63,
+          "includeBackgroundColorInExport" : 0
+        },
+        {
+          "shouldBreakMaskChain" : 0,
+          "style" : {
+            "startDecorationType" : 0,
+            "borderOptions" : {
+              "lineJoinStyle" : 0,
+              "<class>" : "MSStyleBorderOptions",
+              "isEnabled" : 0,
+              "lineCapStyle" : 0,
+              "dashPattern" : [
+
+              ]
+            },
+            "endDecorationType" : 0,
+            "contextSettings" : {
+              "<class>" : "MSGraphicsContextSettings",
+              "opacity" : 1,
+              "blendMode" : 0
+            },
+            "blur" : {
+              "radius" : 10,
+              "<class>" : "MSStyleBlur",
+              "motionAngle" : 0,
+              "isEnabled" : 0,
+              "type" : 0,
+              "center" : {
+                "x" : 0.5,
+                "y" : 0.5
+              }
+            },
+            "reflection" : {
+              "<class>" : "MSStyleReflection",
+              "strength" : 0.5,
+              "isEnabled" : 0,
+              "distance" : 1
+            },
+            "<class>" : "MSStyle",
+            "miterLimit" : 10,
+            "colorControls" : {
+              "hue" : 0,
+              "<class>" : "MSStyleColorControls",
+              "brightness" : 0,
+              "contrast" : 1,
+              "isEnabled" : 0,
+              "saturation" : 1
+            },
+            "fills" : [
+
+            ],
+            "borders" : [
+
+            ],
+            "innerShadows" : [
+
+            ],
+            "shadows" : [
+
+            ]
+          },
+          "rotation" : 0,
+          "layers" : [
+            {
+              "isFlippedHorizontal" : 0,
+              "style" : {
+                "startDecorationType" : 0,
+                "sharedObjectID" : "A3158ACD-60EA-48EE-9FDD-CC20A38E09DC",
+                "borderOptions" : {
+                  "lineJoinStyle" : 0,
+                  "<class>" : "MSStyleBorderOptions",
+                  "isEnabled" : 0,
+                  "lineCapStyle" : 0,
+                  "dashPattern" : [
+
+                  ]
+                },
+                "endDecorationType" : 0,
+                "contextSettings" : {
+                  "<class>" : "MSGraphicsContextSettings",
+                  "opacity" : 1,
+                  "blendMode" : 0
+                },
+                "blur" : {
+                  "radius" : 10,
+                  "<class>" : "MSStyleBlur",
+                  "motionAngle" : 0,
+                  "isEnabled" : 0,
+                  "type" : 0,
+                  "center" : {
+                    "x" : 0.5,
+                    "y" : 0.5
+                  }
+                },
+                "reflection" : {
+                  "<class>" : "MSStyleReflection",
+                  "strength" : 0.5,
+                  "isEnabled" : 0,
+                  "distance" : 1
+                },
+                "<class>" : "MSStyle",
+                "miterLimit" : 10,
+                "colorControls" : {
+                  "hue" : 0,
+                  "<class>" : "MSStyleColorControls",
+                  "brightness" : 0,
+                  "contrast" : 1,
+                  "isEnabled" : 0,
+                  "saturation" : 1
+                },
+                "fills" : [
+
+                ],
+                "borders" : [
+
+                ],
+                "innerShadows" : [
+                  {
+                    "spread" : 0,
+                    "color" : {
+                      "<class>" : "MSColor",
+                      "value" : "#0076FF"
+                    },
+                    "offsetY" : 0,
+                    "offsetX" : -1,
+                    "<class>" : "MSStyleInnerShadow",
+                    "blurRadius" : 0,
+                    "contextSettings" : {
+                      "<class>" : "MSGraphicsContextSettings",
+                      "opacity" : 1,
+                      "blendMode" : 0
+                    },
+                    "isEnabled" : 1
+                  }
+                ],
+                "shadows" : [
+
+                ]
+              },
+              "rotation" : 0,
+              "frame" : {
+                "y" : 0,
+                "<class>" : "MSRect",
+                "constrainProportions" : 0,
+                "height" : 29,
+                "width" : 100,
+                "x" : 0
+              },
+              "hasClickThrough" : 0,
+              "objectID" : "C308699B-1C62-4011-B4EE-FE946C6CEC74",
+              "exportOptions" : {
+                "shouldTrim" : 0,
+                "<class>" : "MSExportOptions",
+                "includedLayerIds" : [
+
+                ],
+                "layerOptions" : 0,
+                "exportFormats" : [
+
+                ]
+              },
+              "layerListExpandedType" : 1,
+              "windingRule" : 1,
+              "isFlippedVertical" : 0,
+              "clippingMaskMode" : 0,
+              "resizingType" : 0,
+              "layers" : [
+                {
+                  "isFlippedHorizontal" : 0,
+                  "objectID" : "B84158A4-A81B-4246-9E57-00D663E8F285",
+                  "rotation" : 0,
+                  "frame" : {
+                    "y" : 0,
+                    "<class>" : "MSRect",
+                    "constrainProportions" : 0,
+                    "height" : 29,
+                    "width" : 100,
+                    "x" : 0
+                  },
+                  "layerListExpandedType" : 0,
+                  "hasConvertedToNewRoundCorners" : 1,
+                  "exportOptions" : {
+                    "shouldTrim" : 0,
+                    "<class>" : "MSExportOptions",
+                    "includedLayerIds" : [
+
+                    ],
+                    "layerOptions" : 0,
+                    "exportFormats" : [
+
+                    ]
+                  },
+                  "edited" : 0,
+                  "path" : {
+                    "points" : [
+                      {
+                        "hasCurveFrom" : 0,
+                        "curveMode" : 1,
+                        "curveFrom" : {
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "point" : {
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "<class>" : "MSCurvePoint",
+                        "cornerRadius" : 0,
+                        "curveTo" : {
+                          "x" : 0,
+                          "y" : 0
+                        },
+                        "hasCurveTo" : 0
+                      },
+                      {
+                        "hasCurveFrom" : 0,
+                        "curveMode" : 1,
+                        "curveFrom" : {
+                          "x" : 1,
+                          "y" : 0
+                        },
+                        "point" : {
+                          "x" : 1,
+                          "y" : 0
+                        },
+                        "<class>" : "MSCurvePoint",
+                        "cornerRadius" : 0,
+                        "curveTo" : {
+                          "x" : 1,
+                          "y" : 0
+                        },
+                        "hasCurveTo" : 0
+                      },
+                      {
+                        "hasCurveFrom" : 0,
+                        "curveMode" : 1,
+                        "curveFrom" : {
+                          "x" : 1,
+                          "y" : 1
+                        },
+                        "point" : {
+                          "x" : 1,
+                          "y" : 1
+                        },
+                        "<class>" : "MSCurvePoint",
+                        "cornerRadius" : 0,
+                        "curveTo" : {
+                          "x" : 1,
+                          "y" : 1
+                        },
+                        "hasCurveTo" : 0
+                      },
+                      {
+                        "hasCurveFrom" : 0,
+                        "curveMode" : 1,
+                        "curveFrom" : {
+                          "x" : 0,
+                          "y" : 1
+                        },
+                        "point" : {
+                          "x" : 0,
+                          "y" : 1
+                        },
+                        "<class>" : "MSCurvePoint",
+                        "cornerRadius" : 0,
+                        "curveTo" : {
+                          "x" : 0,
+                          "y" : 1
+                        },
+                        "hasCurveTo" : 0
+                      }
+                    ],
+                    "<class>" : "MSShapePath",
+                    "pointRadiusBehaviour" : 0,
+                    "isClosed" : 1
+                  },
+                  "isFlippedVertical" : 0,
+                  "<class>" : "MSRectangleShape",
+                  "resizingType" : 0,
+                  "isVisible" : 1,
+                  "nameIsFixed" : 0,
+                  "name" : "Path",
+                  "isLocked" : 0,
+                  "shouldBreakMaskChain" : 0,
+                  "fixedRadius" : 0,
+                  "booleanOperation" : -1,
+                  "resizingConstraint" : 63
+                }
+              ],
+              "isVisible" : 1,
+              "hasClippingMask" : 0,
+              "<class>" : "MSShapeGroup",
+              "nameIsFixed" : 1,
+              "name" : "BG",
+              "isLocked" : 0,
+              "shouldBreakMaskChain" : 0,
+              "resizingConstraint" : 63
+            },
+            {
+              "shouldBreakMaskChain" : 0,
+              "style" : {
+                "startDecorationType" : 0,
+                "borderOptions" : {
+                  "lineJoinStyle" : 0,
+                  "<class>" : "MSStyleBorderOptions",
+                  "isEnabled" : 0,
+                  "lineCapStyle" : 0,
+                  "dashPattern" : [
+
+                  ]
+                },
+                "endDecorationType" : 0,
+                "contextSettings" : {
+                  "<class>" : "MSGraphicsContextSettings",
+                  "opacity" : 1,
+                  "blendMode" : 0
+                },
+                "blur" : {
+                  "radius" : 10,
+                  "<class>" : "MSStyleBlur",
+                  "motionAngle" : 0,
+                  "isEnabled" : 0,
+                  "type" : 0,
+                  "center" : {
+                    "x" : 0.5,
+                    "y" : 0.5
+                  }
+                },
+                "reflection" : {
+                  "<class>" : "MSStyleReflection",
+                  "strength" : 0.5,
+                  "isEnabled" : 0,
+                  "distance" : 1
+                },
+                "<class>" : "MSStyle",
+                "miterLimit" : 10,
+                "colorControls" : {
+                  "hue" : 0,
+                  "<class>" : "MSStyleColorControls",
+                  "brightness" : 0,
+                  "contrast" : 1,
+                  "isEnabled" : 0,
+                  "saturation" : 1
+                },
+                "fills" : [
+
+                ],
+                "borders" : [
+
+                ],
+                "innerShadows" : [
+
+                ],
+                "shadows" : [
+
+                ]
+              },
+              "rotation" : 0,
+              "layers" : [
+                {
+                  "isFlippedHorizontal" : 0,
+                  "style" : {
+                    "startDecorationType" : 0,
+                    "borderOptions" : {
+                      "lineJoinStyle" : 0,
+                      "<class>" : "MSStyleBorderOptions",
+                      "isEnabled" : 0,
+                      "lineCapStyle" : 0,
+                      "dashPattern" : [
+
+                      ]
+                    },
+                    "endDecorationType" : 0,
+                    "contextSettings" : {
+                      "<class>" : "MSGraphicsContextSettings",
+                      "opacity" : 1,
+                      "blendMode" : 0
+                    },
+                    "blur" : {
+                      "radius" : 10,
+                      "<class>" : "MSStyleBlur",
+                      "motionAngle" : 0,
+                      "isEnabled" : 0,
+                      "type" : 0,
+                      "center" : {
+                        "x" : 0.5,
+                        "y" : 0.5
+                      }
+                    },
+                    "reflection" : {
+                      "<class>" : "MSStyleReflection",
+                      "strength" : 0.5,
+                      "isEnabled" : 0,
+                      "distance" : 1
+                    },
+                    "<class>" : "MSStyle",
+                    "miterLimit" : 10,
+                    "colorControls" : {
+                      "hue" : 0,
+                      "<class>" : "MSStyleColorControls",
+                      "brightness" : 0,
+                      "contrast" : 1,
+                      "isEnabled" : 0,
+                      "saturation" : 1
+                    },
+                    "fills" : [
+
+                    ],
+                    "borders" : [
+
+                    ],
+                    "innerShadows" : [
+
+                    ],
+                    "shadows" : [
+
+                    ]
+                  },
+                  "rotation" : 0,
+                  "frame" : {
+                    "y" : 0,
+                    "<class>" : "MSRect",
+                    "constrainProportions" : 0,
+                    "height" : 28,
+                    "width" : 99,
+                    "x" : 0
+                  },
+                  "hasClickThrough" : 0,
+                  "objectID" : "8F3C0719-1409-440C-8BF7-7E0967FD8DD4",
+                  "exportOptions" : {
+                    "shouldTrim" : 0,
+                    "<class>" : "MSExportOptions",
+                    "includedLayerIds" : [
+
+                    ],
+                    "layerOptions" : 0,
+                    "exportFormats" : [
+
+                    ]
+                  },
+                  "layerListExpandedType" : 1,
+                  "windingRule" : 1,
+                  "isFlippedVertical" : 0,
+                  "clippingMaskMode" : 0,
+                  "resizingType" : 0,
+                  "layers" : [
+                    {
+                      "isFlippedHorizontal" : 0,
+                      "objectID" : "5EB34868-C38B-4B38-A5A9-D29B2A5A29BB",
+                      "rotation" : 0,
+                      "frame" : {
+                        "y" : 0,
+                        "<class>" : "MSRect",
+                        "constrainProportions" : 0,
+                        "height" : 28,
+                        "width" : 99,
+                        "x" : 0
+                      },
+                      "layerListExpandedType" : 0,
+                      "hasConvertedToNewRoundCorners" : 1,
+                      "exportOptions" : {
+                        "shouldTrim" : 0,
+                        "<class>" : "MSExportOptions",
+                        "includedLayerIds" : [
+
+                        ],
+                        "layerOptions" : 0,
+                        "exportFormats" : [
+
+                        ]
+                      },
+                      "edited" : 0,
+                      "path" : {
+                        "points" : [
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 0,
+                              "y" : 0
+                            },
+                            "point" : {
+                              "x" : 0,
+                              "y" : 0
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 0,
+                              "y" : 0
+                            },
+                            "hasCurveTo" : 0
+                          },
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 1,
+                              "y" : 0
+                            },
+                            "point" : {
+                              "x" : 1,
+                              "y" : 0
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 1,
+                              "y" : 0
+                            },
+                            "hasCurveTo" : 0
+                          },
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 1,
+                              "y" : 1
+                            },
+                            "point" : {
+                              "x" : 1,
+                              "y" : 1
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 1,
+                              "y" : 1
+                            },
+                            "hasCurveTo" : 0
+                          },
+                          {
+                            "hasCurveFrom" : 0,
+                            "curveMode" : 1,
+                            "curveFrom" : {
+                              "x" : 0,
+                              "y" : 1
+                            },
+                            "point" : {
+                              "x" : 0,
+                              "y" : 1
+                            },
+                            "<class>" : "MSCurvePoint",
+                            "cornerRadius" : 0,
+                            "curveTo" : {
+                              "x" : 0,
+                              "y" : 1
+                            },
+                            "hasCurveTo" : 0
+                          }
+                        ],
+                        "<class>" : "MSShapePath",
+                        "pointRadiusBehaviour" : 0,
+                        "isClosed" : 1
+                      },
+                      "isFlippedVertical" : 0,
+                      "<class>" : "MSRectangleShape",
+                      "resizingType" : 0,
+                      "isVisible" : 1,
+                      "nameIsFixed" : 0,
+                      "name" : "Path",
+                      "isLocked" : 0,
+                      "shouldBreakMaskChain" : 0,
+                      "fixedRadius" : 0,
+                      "booleanOperation" : -1,
+                      "resizingConstraint" : 63
+                    }
+                  ],
+                  "isVisible" : 1,
+                  "hasClippingMask" : 0,
+                  "<class>" : "MSShapeGroup",
+                  "nameIsFixed" : 1,
+                  "name" : "Text Bound",
+                  "isLocked" : 0,
+                  "shouldBreakMaskChain" : 0,
+                  "resizingConstraint" : 63
+                },
+                {
+                  "originalObjectID" : "29B9E5AF-70E8-45BB-86E9-31581792EF81",
+                  "isFlippedHorizontal" : 0,
+                  "objectID" : "C1B7270C-003D-42BC-84E4-38D1E4F92975",
+                  "glyphBounds" : {
+                    "y" : 0,
+                    "x" : 0,
+                    "width" : 25,
+                    "height" : 15
+                  },
+                  "frame" : {
+                    "y" : 5,
+                    "<class>" : "MSRect",
+                    "constrainProportions" : 0,
+                    "height" : 18,
+                    "width" : 25,
+                    "x" : 37
+                  },
+                  "layerListExpandedType" : 0,
+                  "rotation" : 0,
+                  "exportOptions" : {
+                    "shouldTrim" : 0,
+                    "<class>" : "MSExportOptions",
+                    "includedLayerIds" : [
+
+                    ],
+                    "layerOptions" : 0,
+                    "exportFormats" : [
+
+                    ]
+                  },
+                  "style" : {
+                    "startDecorationType" : 0,
+                    "sharedObjectID" : "C85883A0-E666-4551-A6AF-AC774E667D9E",
+                    "textStyle" : {
+                      "NSColor" : {
+                        "<class>" : "NSColor",
+                        "color" : "rgba(0.000000,0.462745,1.000000,1.000000)"
+                      },
+                      "<class>" : "MSTextStyle",
+                      "NSKern" : -0.07999999821186066,
+                      "NSFont" : {
+                        "name" : "系统字体",
+                        "attributes" : {
+                          "NSCTFontUIUsageAttribute" : "CTFontRegularUsage",
+                          "NSFontSizeAttribute" : 13
+                        },
+                        "family" : ".AppleSystemUIFont"
+                      },
+                      "NSParagraphStyle" : {
+                        "<class>" : "NSMutableParagraphStyle",
+                        "style" : {
+                          "headerLevel" : 0,
+                          "paragraphSpacing" : 0,
+                          "tabStops" : [
+                            28,
+                            56,
+                            84,
+                            112,
+                            140,
+                            168,
+                            196,
+                            224,
+                            252,
+                            280,
+                            308,
+                            336
+                          ],
+                          "headIndent" : 0,
+                          "lineBreakMode" : 0,
+                          "hyphenationFactor" : 0,
+                          "alignment" : 2,
+                          "paragraphSpacingBefore" : 0,
+                          "tailIndent" : 0,
+                          "firstLineHeadIndent" : 0,
+                          "minimumLineHeight" : 18,
+                          "lineSpacing" : 0,
+                          "maximumLineHeight" : 18,
+                          "lineHeightMultiple" : 0,
+                          "baseWritingDirection" : -1,
+                          "defaultTabInterval" : 0
+                        }
+                      }
+                    },
+                    "borderOptions" : {
+                      "lineJoinStyle" : 0,
+                      "<class>" : "MSStyleBorderOptions",
+                      "isEnabled" : 0,
+                      "lineCapStyle" : 0,
+                      "dashPattern" : [
+
+                      ]
+                    },
+                    "endDecorationType" : 0,
+                    "contextSettings" : {
+                      "<class>" : "MSGraphicsContextSettings",
+                      "opacity" : 1,
+                      "blendMode" : 0
+                    },
+                    "blur" : {
+                      "radius" : 10,
+                      "<class>" : "MSStyleBlur",
+                      "motionAngle" : 0,
+                      "isEnabled" : 0,
+                      "type" : 0,
+                      "center" : {
+                        "x" : 0.5,
+                        "y" : 0.5
+                      }
+                    },
+                    "reflection" : {
+                      "<class>" : "MSStyleReflection",
+                      "strength" : 0.5,
+                      "isEnabled" : 0,
+                      "distance" : 1
+                    },
+                    "<class>" : "MSStyle",
+                    "miterLimit" : 10,
+                    "colorControls" : {
+                      "hue" : 0,
+                      "<class>" : "MSStyleColorControls",
+                      "brightness" : 0,
+                      "contrast" : 1,
+                      "isEnabled" : 0,
+                      "saturation" : 1
+                    },
+                    "fills" : [
+
+                    ],
+                    "borders" : [
+
+                    ],
+                    "innerShadows" : [
+
+                    ],
+                    "shadows" : [
+
+                    ]
+                  },
+                  "heightIsClipped" : 0,
+                  "lineSpacingBehaviour" : 2,
+                  "dontSynchroniseWithSymbol" : 1,
+                  "textBehaviour" : 0,
+                  "isFlippedVertical" : 0,
+                  "<class>" : "MSTextLayer",
+                  "nameIsFixed" : 1,
+                  "isVisible" : 1,
+                  "resizingType" : 3,
+                  "name" : "Label 2",
+                  "isLocked" : 0,
+                  "attributedString" : {
+                    "<class>" : "NSConcreteAttributedString",
+                    "value" : {
+                      "<class>" : "NSConcreteAttributedString",
+                      "text" : "Two",
+                      "attributes" : [
+                        {
+                          "length" : 3,
+                          "NSFont" : {
+                            "name" : "系统字体",
+                            "attributes" : {
+                              "NSCTFontUIUsageAttribute" : "CTFontRegularUsage",
+                              "NSFontSizeAttribute" : 13
+                            },
+                            "family" : ".AppleSystemUIFont"
+                          },
+                          "NSKern" : -0.07999999821186066,
+                          "location" : 0,
+                          "NSColor" : {
+                            "<class>" : "NSColor",
+                            "color" : "rgba(0.000000,0.462745,1.000000,1.000000)"
+                          },
+                          "text" : "Two",
+                          "NSParagraphStyle" : {
+                            "<class>" : "NSMutableParagraphStyle",
+                            "style" : {
+                              "headerLevel" : 0,
+                              "paragraphSpacing" : 0,
+                              "tabStops" : [
+                                28,
+                                56,
+                                84,
+                                112,
+                                140,
+                                168,
+                                196,
+                                224,
+                                252,
+                                280,
+                                308,
+                                336
+                              ],
+                              "headIndent" : 0,
+                              "lineBreakMode" : 0,
+                              "hyphenationFactor" : 0,
+                              "alignment" : 2,
+                              "paragraphSpacingBefore" : 0,
+                              "tailIndent" : 0,
+                              "firstLineHeadIndent" : 0,
+                              "minimumLineHeight" : 18,
+                              "lineSpacing" : 0,
+                              "maximumLineHeight" : 18,
+                              "lineHeightMultiple" : 0,
+                              "baseWritingDirection" : -1,
+                              "defaultTabInterval" : 0
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "shouldBreakMaskChain" : 0,
+                  "resizingConstraint" : 45,
+                  "automaticallyDrawOnUnderlyingPath" : 0
+                }
+              ],
+              "exportOptions" : {
+                "shouldTrim" : 0,
+                "<class>" : "MSExportOptions",
+                "includedLayerIds" : [
+
+                ],
+                "layerOptions" : 0,
+                "exportFormats" : [
+
+                ]
+              },
+              "frame" : {
+                "y" : 0,
+                "<class>" : "MSRect",
+                "constrainProportions" : 0,
+                "height" : 28,
+                "width" : 99,
+                "x" : 0
+              },
+              "isFlippedVertical" : 0,
+              "hasClickThrough" : 0,
+              "isVisible" : 1,
+              "objectID" : "2B715A48-F345-4716-9672-3B11D32188D7",
+              "resizingConstraint" : 18,
+              "isFlippedHorizontal" : 0,
+              "resizingType" : 2,
+              "<class>" : "MSLayerGroup",
+              "isLocked" : 0,
+              "layerListExpandedType" : 2,
+              "nameIsFixed" : 1,
+              "name" : "Label"
+            }
+          ],
+          "exportOptions" : {
+            "shouldTrim" : 0,
+            "<class>" : "MSExportOptions",
+            "includedLayerIds" : [
+
+            ],
+            "layerOptions" : 0,
+            "exportFormats" : [
+
+            ]
+          },
+          "frame" : {
+            "y" : -36,
+            "<class>" : "MSRect",
+            "constrainProportions" : 0,
+            "height" : 29,
+            "width" : 100,
+            "x" : 695
+          },
+          "isFlippedVertical" : 0,
+          "hasClickThrough" : 0,
+          "isVisible" : 1,
+          "objectID" : "E5D9EE6F-61BE-48B7-BEF2-78EDFDB2BE82",
+          "resizingConstraint" : 63,
+          "isFlippedHorizontal" : 0,
+          "resizingType" : 0,
+          "<class>" : "MSLayerGroup",
+          "isLocked" : 0,
+          "layerListExpandedType" : 1,
+          "nameIsFixed" : 1,
+          "name" : "Tab 2"
+        },
+        {
+          "isFlippedHorizontal" : 0,
+          "style" : {
+            "startDecorationType" : 0,
+            "sharedObjectID" : "4DD785BE-6949-411C-BB8E-ABC249E1B7A9",
+            "borderOptions" : {
+              "lineJoinStyle" : 0,
+              "<class>" : "MSStyleBorderOptions",
+              "isEnabled" : 0,
+              "lineCapStyle" : 0,
+              "dashPattern" : [
+
+              ]
+            },
+            "endDecorationType" : 0,
+            "contextSettings" : {
+              "<class>" : "MSGraphicsContextSettings",
+              "opacity" : 1,
+              "blendMode" : 0
+            },
+            "blur" : {
+              "radius" : 10,
+              "<class>" : "MSStyleBlur",
+              "motionAngle" : 0,
+              "isEnabled" : 0,
+              "type" : 0,
+              "center" : {
+                "x" : 0.5,
+                "y" : 0.5
+              }
+            },
+            "reflection" : {
+              "<class>" : "MSStyleReflection",
+              "strength" : 0.5,
+              "isEnabled" : 0,
+              "distance" : 1
+            },
+            "<class>" : "MSStyle",
+            "miterLimit" : 10,
+            "colorControls" : {
+              "hue" : 0,
+              "<class>" : "MSStyleColorControls",
+              "brightness" : 0,
+              "contrast" : 1,
+              "isEnabled" : 0,
+              "saturation" : 1
+            },
+            "fills" : [
+
+            ],
+            "borders" : [
+              {
+                "position" : 1,
+                "color" : {
+                  "<class>" : "MSColor",
+                  "value" : "#0076FF"
+                },
+                "<class>" : "MSStyleBorder",
+                "gradient" : {
+                  "from" : {
+                    "x" : 0.5,
+                    "y" : 0
+                  },
+                  "shouldSmoothenOpacity" : 0,
+                  "gradientType" : 0,
+                  "<class>" : "MSGradient",
+                  "stops" : [
+                    {
+                      "<class>" : "MSGradientStop",
+                      "color" : {
+                        "<class>" : "MSColor",
+                        "value" : "#FFFFFF"
+                      },
+                      "position" : 0
+                    },
+                    {
+                      "<class>" : "MSGradientStop",
+                      "color" : {
+                        "<class>" : "MSColor",
+                        "value" : "#000000"
+                      },
+                      "position" : 1
+                    }
+                  ],
+                  "to" : {
+                    "x" : 0.5,
+                    "y" : 1
+                  },
+                  "elipseLength" : 0
+                },
+                "fillType" : 0,
+                "thickness" : 1,
+                "contextSettings" : {
+                  "<class>" : "MSGraphicsContextSettings",
+                  "opacity" : 1,
+                  "blendMode" : 0
+                },
+                "isEnabled" : 1
+              }
+            ],
+            "innerShadows" : [
+
+            ],
+            "shadows" : [
+
+            ]
+          },
+          "rotation" : 0,
+          "frame" : {
+            "y" : 36,
+            "<class>" : "MSRect",
+            "constrainProportions" : 0,
+            "height" : 29,
+            "width" : 200,
+            "x" : 575
+          },
+          "hasClickThrough" : 0,
+          "objectID" : "0CFEC306-C3AC-4E19-A0D0-8135EA4C987B",
+          "exportOptions" : {
+            "shouldTrim" : 0,
+            "<class>" : "MSExportOptions",
+            "includedLayerIds" : [
+
+            ],
+            "layerOptions" : 0,
+            "exportFormats" : [
+
+            ]
+          },
+          "layerListExpandedType" : 1,
+          "windingRule" : 1,
+          "isFlippedVertical" : 0,
+          "clippingMaskMode" : 0,
+          "resizingType" : 0,
+          "layers" : [
+            {
+              "isFlippedHorizontal" : 0,
+              "objectID" : "521AEC6F-9A80-42C2-810F-1F5C3196A8D5",
+              "rotation" : 0,
+              "frame" : {
+                "y" : 0,
+                "<class>" : "MSRect",
+                "constrainProportions" : 0,
+                "height" : 29,
+                "width" : 200,
+                "x" : 0
+              },
+              "layerListExpandedType" : 0,
+              "hasConvertedToNewRoundCorners" : 1,
+              "exportOptions" : {
+                "shouldTrim" : 0,
+                "<class>" : "MSExportOptions",
+                "includedLayerIds" : [
+
+                ],
+                "layerOptions" : 0,
+                "exportFormats" : [
+
+                ]
+              },
+              "edited" : 0,
+              "path" : {
+                "points" : [
+                  {
+                    "hasCurveFrom" : 0,
+                    "curveMode" : 1,
+                    "curveFrom" : {
+                      "x" : 0,
+                      "y" : 0
+                    },
+                    "point" : {
+                      "x" : 0,
+                      "y" : 0
+                    },
+                    "<class>" : "MSCurvePoint",
+                    "cornerRadius" : 4,
+                    "curveTo" : {
+                      "x" : 0,
+                      "y" : 0
+                    },
+                    "hasCurveTo" : 0
+                  },
+                  {
+                    "hasCurveFrom" : 0,
+                    "curveMode" : 1,
+                    "curveFrom" : {
+                      "x" : 1,
+                      "y" : 0
+                    },
+                    "point" : {
+                      "x" : 1,
+                      "y" : 0
+                    },
+                    "<class>" : "MSCurvePoint",
+                    "cornerRadius" : 4,
+                    "curveTo" : {
+                      "x" : 1,
+                      "y" : 0
+                    },
+                    "hasCurveTo" : 0
+                  },
+                  {
+                    "hasCurveFrom" : 0,
+                    "curveMode" : 1,
+                    "curveFrom" : {
+                      "x" : 1,
+                      "y" : 1
+                    },
+                    "point" : {
+                      "x" : 1,
+                      "y" : 1
+                    },
+                    "<class>" : "MSCurvePoint",
+                    "cornerRadius" : 4,
+                    "curveTo" : {
+                      "x" : 1,
+                      "y" : 1
+                    },
+                    "hasCurveTo" : 0
+                  },
+                  {
+                    "hasCurveFrom" : 0,
+                    "curveMode" : 1,
+                    "curveFrom" : {
+                      "x" : 0,
+                      "y" : 1
+                    },
+                    "point" : {
+                      "x" : 0,
+                      "y" : 1
+                    },
+                    "<class>" : "MSCurvePoint",
+                    "cornerRadius" : 4,
+                    "curveTo" : {
+                      "x" : 0,
+                      "y" : 1
+                    },
+                    "hasCurveTo" : 0
+                  }
+                ],
+                "<class>" : "MSShapePath",
+                "pointRadiusBehaviour" : 1,
+                "isClosed" : 1
+              },
+              "isFlippedVertical" : 0,
+              "<class>" : "MSRectangleShape",
+              "resizingType" : 0,
+              "isVisible" : 1,
+              "nameIsFixed" : 0,
+              "name" : "Path",
+              "isLocked" : 0,
+              "shouldBreakMaskChain" : 0,
+              "fixedRadius" : 4,
+              "booleanOperation" : -1,
+              "resizingConstraint" : 63
+            }
+          ],
+          "isVisible" : 1,
+          "hasClippingMask" : 1,
+          "<class>" : "MSShapeGroup",
+          "nameIsFixed" : 0,
+          "name" : "Mask",
+          "isLocked" : 0,
+          "shouldBreakMaskChain" : 0,
+          "resizingConstraint" : 63
+        }
+      ],
+      "isVisible" : 1,
+      "nameIsFixed" : 0,
+      "name" : "Symbols",
+      "isLocked" : 0,
+      "shouldBreakMaskChain" : 0,
+      "resizingConstraint" : 63
+    }
+  ],
+  "enableSliceInteraction" : 1,
+  "<class>" : "MSDocumentData",
+  "layerTextStyles" : {
+    "<class>" : "MSSharedTextStyleContainer",
+    "objects" : [
+      {
+        "<class>" : "MSSharedStyle",
+        "value" : {
+          "startDecorationType" : 0,
+          "sharedObjectID" : "E8E89177-1750-42BF-8A43-799D66BC11FE",
+          "textStyle" : {
+            "NSColor" : {
+              "<class>" : "NSColor",
+              "color" : "rgba(1.000000,1.000000,1.000000,1.000000)"
+            },
+            "<class>" : "MSTextStyle",
+            "NSKern" : -0.07999999821186066,
+            "NSFont" : {
+              "name" : "系统字体",
+              "attributes" : {
+                "NSCTFontUIUsageAttribute" : "CTFontRegularUsage",
+                "NSFontSizeAttribute" : 13
+              },
+              "family" : ".AppleSystemUIFont"
+            },
+            "NSParagraphStyle" : {
+              "<class>" : "NSMutableParagraphStyle",
+              "style" : {
+                "headerLevel" : 0,
+                "paragraphSpacing" : 0,
+                "tabStops" : [
+                  28,
+                  56,
+                  84,
+                  112,
+                  140,
+                  168,
+                  196,
+                  224,
+                  252,
+                  280,
+                  308,
+                  336
+                ],
+                "headIndent" : 0,
+                "lineBreakMode" : 0,
+                "hyphenationFactor" : 0,
+                "alignment" : 2,
+                "paragraphSpacingBefore" : 0,
+                "tailIndent" : 0,
+                "firstLineHeadIndent" : 0,
+                "minimumLineHeight" : 18,
+                "lineSpacing" : 0,
+                "maximumLineHeight" : 18,
+                "lineHeightMultiple" : 0,
+                "baseWritingDirection" : -1,
+                "defaultTabInterval" : 0
+              }
+            }
+          },
+          "borderOptions" : {
+            "lineJoinStyle" : 0,
+            "<class>" : "MSStyleBorderOptions",
+            "isEnabled" : 0,
+            "lineCapStyle" : 0,
+            "dashPattern" : [
+
+            ]
+          },
+          "endDecorationType" : 0,
+          "contextSettings" : {
+            "<class>" : "MSGraphicsContextSettings",
+            "opacity" : 1,
+            "blendMode" : 0
+          },
+          "blur" : {
+            "radius" : 10,
+            "<class>" : "MSStyleBlur",
+            "motionAngle" : 0,
+            "isEnabled" : 0,
+            "type" : 0,
+            "center" : {
+              "x" : 0.5,
+              "y" : 0.5
+            }
+          },
+          "reflection" : {
+            "<class>" : "MSStyleReflection",
+            "strength" : 0.5,
+            "isEnabled" : 0,
+            "distance" : 1
+          },
+          "<class>" : "MSStyle",
+          "miterLimit" : 10,
+          "colorControls" : {
+            "hue" : 0,
+            "<class>" : "MSStyleColorControls",
+            "brightness" : 0,
+            "contrast" : 1,
+            "isEnabled" : 0,
+            "saturation" : 1
+          },
+          "fills" : [
+
+          ],
+          "borders" : [
+
+          ],
+          "innerShadows" : [
+
+          ],
+          "shadows" : [
+
+          ]
+        },
+        "objectID" : "E8E89177-1750-42BF-8A43-799D66BC11FE",
+        "name" : "Segmented Control\/Label Active"
+      },
+      {
+        "<class>" : "MSSharedStyle",
+        "value" : {
+          "startDecorationType" : 0,
+          "sharedObjectID" : "C85883A0-E666-4551-A6AF-AC774E667D9E",
+          "textStyle" : {
+            "NSColor" : {
+              "<class>" : "NSColor",
+              "color" : "rgba(0.000000,0.462745,1.000000,1.000000)"
+            },
+            "<class>" : "MSTextStyle",
+            "NSKern" : -0.07999999821186066,
+            "NSFont" : {
+              "name" : "系统字体",
+              "attributes" : {
+                "NSCTFontUIUsageAttribute" : "CTFontRegularUsage",
+                "NSFontSizeAttribute" : 13
+              },
+              "family" : ".AppleSystemUIFont"
+            },
+            "NSParagraphStyle" : {
+              "<class>" : "NSMutableParagraphStyle",
+              "style" : {
+                "headerLevel" : 0,
+                "paragraphSpacing" : 0,
+                "tabStops" : [
+                  28,
+                  56,
+                  84,
+                  112,
+                  140,
+                  168,
+                  196,
+                  224,
+                  252,
+                  280,
+                  308,
+                  336
+                ],
+                "headIndent" : 0,
+                "lineBreakMode" : 0,
+                "hyphenationFactor" : 0,
+                "alignment" : 2,
+                "paragraphSpacingBefore" : 0,
+                "tailIndent" : 0,
+                "firstLineHeadIndent" : 0,
+                "minimumLineHeight" : 18,
+                "lineSpacing" : 0,
+                "maximumLineHeight" : 18,
+                "lineHeightMultiple" : 0,
+                "baseWritingDirection" : -1,
+                "defaultTabInterval" : 0
+              }
+            }
+          },
+          "borderOptions" : {
+            "lineJoinStyle" : 0,
+            "<class>" : "MSStyleBorderOptions",
+            "isEnabled" : 0,
+            "lineCapStyle" : 0,
+            "dashPattern" : [
+
+            ]
+          },
+          "endDecorationType" : 0,
+          "contextSettings" : {
+            "<class>" : "MSGraphicsContextSettings",
+            "opacity" : 1,
+            "blendMode" : 0
+          },
+          "blur" : {
+            "radius" : 10,
+            "<class>" : "MSStyleBlur",
+            "motionAngle" : 0,
+            "isEnabled" : 0,
+            "type" : 0,
+            "center" : {
+              "x" : 0.5,
+              "y" : 0.5
+            }
+          },
+          "reflection" : {
+            "<class>" : "MSStyleReflection",
+            "strength" : 0.5,
+            "isEnabled" : 0,
+            "distance" : 1
+          },
+          "<class>" : "MSStyle",
+          "miterLimit" : 10,
+          "colorControls" : {
+            "hue" : 0,
+            "<class>" : "MSStyleColorControls",
+            "brightness" : 0,
+            "contrast" : 1,
+            "isEnabled" : 0,
+            "saturation" : 1
+          },
+          "fills" : [
+
+          ],
+          "borders" : [
+
+          ],
+          "innerShadows" : [
+
+          ],
+          "shadows" : [
+
+          ]
+        },
+        "objectID" : "C85883A0-E666-4551-A6AF-AC774E667D9E",
+        "name" : "Segmented Control\/Label"
+      }
+    ]
+  },
+  "enableLayerInteraction" : 1,
+  "layerSymbols" : {
+    "<class>" : "MSSymbolContainer",
+    "objects" : [
+
+    ]
+  },
+  "objectID" : "090C9209-2E94-40BD-99AC-1C79AAFE85A3"
+}

@@ -1,6 +1,7 @@
 import sketch from 'sketchjs'
 import { 
-    filterFrame, 
+    filterFrame,
+    filterComponentName,
     filterBackgroundColor,
     filterTextDescription,
     filterComponentType,
@@ -14,83 +15,104 @@ import font_sketch from './font_sketch.json'
 const log = console.log.bind(console)
 
 
-let {
-    pages:[{
-        layers,
-        name
-    }]}
-= font_sketch
-// let Page1name = pages[0].name
-// const SymbolSame = (layers) => {
-//     return layers.name === Page1name
-// }
-let tempArr = []
-
-const iterator = (layers) => {
-    let idx = 1
+let newArr = []
+const dfs = (data) => {
+    if(!data || !data.length) return
     let stack = []
-    let newArr = []
-    if(!layers || !layers.length) return
-    
-    for(let i = 0, len = layers.length; i < len; i++) {
-        stack.push(layers[i])
-    }
+     //    Now the stack is copy data
+    data.forEach(v => {
+        stack.push(v)
+    })
 
-    let item
+    let idx = 1
+    let _page
+    let multiX
+    let multiY
     while(stack.length) {
-        item = stack.shift()
+        // 获得最外层的object
+        _page = stack.shift()
         const { 
             frame, 
             hasBackgroundColor, 
             backgroundColor,
             attributedString,
             style,
-            name,
-            path
-         } = item
-        const nameType = item['<class>']
-        // if(nameType === 'MSPage' || nameType === 'MSGroup') {
-        //     if(item.layers && item.layers.length) {
-        //         stack = item.layers.concat(stack)
-        //     }
-        //     continue
-        // }
-        let tempComponentType = nameType && filterComponentType(nameType)
-        let tempFrame = frame && filterFrame(frame)
-        let tempBackground = hasBackgroundColor && filterBackgroundColor(!!hasBackgroundColor, backgroundColor)
-        let tempAttributedString = attributedString && filterTextDescription(attributedString)
-        let tempBorders = style && style.borders && style.borders.length && filterBorders(style)
-        let tempShadow = style && style.shadows && style.shadows.length && filterShadow(style)
-        let tempFill = style && style.fills && style.fills.length && filterFill(style)
-        let tempFourBorderRadius = path && filterFourBorderRadius(path)
-        
-        if(tempBorders) {
-            Object.assign(tempFrame, tempBorders)
-        }
-        if(tempShadow) {
-            Object.assign(tempFrame, tempShadow)            
-        }
-        if(tempFill) {
-            Object.assign(tempFrame, tempFill)
-        }
-        if(tempFourBorderRadius) {
-            Object.assign(tempFrame, tempFourBorderRadius)
-        }
-        
-        newArr.push(Object.assign(tempFrame, 
-            tempBackground, 
-            tempAttributedString,
-            tempComponentType, 
-            {z: idx++}))
+            name
+         } = _page
+         const classType = _page['<class>']         
 
+        if(classType === 'MSLayerGroup') {
+            log('---- I am in')
+            let {left, top} = filterFrame(frame)
+            multiX = left
+            multiY = top
+            log(multiX, multiY)
+        }
 
-        if(item.layers && item.layers.length) {
-            stack = item.layers.concat(stack)
+        // 匹配到时获取它的值，但后面还是要遍历，这样就可以直接获得最底层需要的元素        
+        if(
+               classType != 'MSGroup'
+            && classType != 'MSPage'
+            && classType != 'MSSymbolInstance'
+            && classType != 'MSSymbolMaster'
+            && classType != 'MSLayerGroup'
+        ) {
+            let tempComponentType = classType && filterComponentType(classType)
+            let tempComponentName = name && filterComponentName(name)
+            let tempFrame = frame && filterFrame(frame, multiX, multiY)
+            let tempBackground = hasBackgroundColor && filterBackgroundColor(!!hasBackgroundColor, backgroundColor)
+            let tempAttributedString = attributedString && filterTextDescription(attributedString)
+            let tempBorders = style && style.borders && style.borders.length && filterBorders(style)
+            let tempShadow = style && style.shadows && style.shadows.length && filterShadow(style)
+            let tempFill = style && style.fills && style.fills.length && filterFill(style)
+            let tempFourBorderRadius
+            if(classType === 'MSShapeGroup' && (~name.indexOf('Rectangle') || ~name.indexOf('Mask'))) {
+                let path = _page.layers && _page.layers[0].path
+                log(' I am getting path')
+                tempFourBorderRadius = path && filterFourBorderRadius(path)      
+            }
+
+            if(tempBorders) {
+                Object.assign(tempFrame, tempBorders)
+            }
+            if(tempShadow) {
+                Object.assign(tempFrame, tempShadow)            
+            }
+            if(tempFill) {
+                Object.assign(tempFrame, tempFill)
+            }
+            if(tempFourBorderRadius) {
+                Object.assign(tempFrame, tempFourBorderRadius)
+            }
+            
+            newArr.push(Object.assign(tempFrame, 
+                tempComponentName,
+                tempBackground, 
+                tempAttributedString,
+                tempComponentType, 
+                {z: idx++}))
+        }
+        // 最后一个判断是取消 rectangle 里面的圆角，已经在上层中计算出来
+        if(_page.layers && _page.layers.length && !_page.layers[0].path) {
+            stack = _page.layers.concat(stack)
         }
     }
-    return newArr
 }
 
 
+sketch.dump('font.sketch', function(json){
+    fs.writeFile('font_test.json', json, 'utf8', function(err){
+        if(err) console.log(err)
+    })
+    let data = JSON.parse(json)
+    
+    let { pages } = data
 
-log(layers)
+    dfs(pages)
+    console.log(newArr)
+    fs.writeFile('font_result.json', JSON.stringify(newArr, null, 4), 'utf8', function(err) {
+        if(err) {
+            log(err)
+        }
+    })
+})

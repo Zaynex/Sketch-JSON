@@ -1,10 +1,4 @@
-1. 分析每部分 JSON 数据的含义
-2. 提取可用的关键字导出相应的样式
-
-### 实现细节
-1. 展开数据，使其所有 layers 位于同一层级
-2. 给每个 layers 增加一个 zIndex 属性，值是通过遍历的次数去获取
-
+1. sketch 中的 width 是否包含 border ？ border-box : content-box
 
 ### 需要导出的样式：
 ```

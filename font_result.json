@@ -1,0 +1,85 @@
+[
+    {
+        "width": 100,
+        "height": 29,
+        "left": 0,
+        "top": 0,
+        "bg": "#0076FF",
+        "title": "BG",
+        "name": "rounded_rect",
+        "z": 1
+    },
+    {
+        "width": 99,
+        "height": 28,
+        "left": 0,
+        "top": 0,
+        "title": "Text Bound",
+        "name": "rounded_rect",
+        "z": 2
+    },
+    {
+        "width": 25,
+        "height": 18,
+        "left": 37,
+        "top": 5,
+        "title": "Label 1",
+        "tc": "rgba(255,255,255,1.0)",
+        "text": "One",
+        "fs": 13,
+        "fontFamily": ".AppleSystemUIFont",
+        "lh": 18,
+        "wordSpcing": -0.07999999821186066,
+        "va": "bottom",
+        "ha": "left",
+        "name": "text_view",
+        "z": 3
+    },
+    {
+        "width": 100,
+        "height": 29,
+        "left": 695,
+        "top": -36,
+        "title": "BG",
+        "name": "rounded_rect",
+        "z": 4
+    },
+    {
+        "width": 99,
+        "height": 28,
+        "left": 0,
+        "top": 0,
+        "title": "Text Bound",
+        "name": "rounded_rect",
+        "z": 5
+    },
+    {
+        "width": 25,
+        "height": 18,
+        "left": 37,
+        "top": 5,
+        "title": "Label 2",
+        "tc": "rgba(0,118,255,1.0)",
+        "text": "Two",
+        "fs": 13,
+        "fontFamily": ".AppleSystemUIFont",
+        "lh": 18,
+        "wordSpcing": -0.07999999821186066,
+        "va": "bottom",
+        "ha": "left",
+        "name": "text_view",
+        "z": 6
+    },
+    {
+        "width": 200,
+        "height": 29,
+        "left": 575,
+        "top": 36,
+        "bc": "#0076FF",
+        "bs": 1,
+        "br": 4,
+        "title": "Mask",
+        "name": "rounded_rect",
+        "z": 7
+    }
+]
