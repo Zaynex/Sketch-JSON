@@ -47,8 +47,8 @@ const dfs = (data) => {
         if(classType === 'MSLayerGroup') {
             // 记录上一层级的(x, y)
             let {left, top} = filterFrame(frame)
-            multiX = left
-            multiY = top
+            multiX += left
+            multiY += top
             log(multiX, multiY)
         }
 
