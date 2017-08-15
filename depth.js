@@ -10,34 +10,44 @@ import {
   filterFourBorderRadius
 } from './lib'
 import sketch from 'sketchjs'
-
+import fs from 'fs'
 
 let newArr = []
-
 sketch.dump('font.sketch', function (json) {
+  fs.writeFile('font_result.json', JSON.stringify(JSON.parse(json), null, 4), (err) =>{
+    if(err) console.log(err)
+  })
   let data = JSON.parse(json)
   let { pages } = data
-  depthFirstSearch(pages[0], handleData)
-
+  if(pages[0].layers.length == 0 || (pages[0] && pages[0].layers && pages[0].layers.length && pages[0].layers[0]['<class>'] === 'MSSymbolInstance')) {
+    depthFirstSearch(pages[1], handleData)
+  }else {
+    depthFirstSearch(pages[0], handleData)
+  }
 })
 
 
 function depthFirstSearch(treeData, callback) {
 
   let keyLevelStack = (treeData.layers || []).map((node) => {
-    const { x, y } = node.frame
-    return [node, 0, x, y]
+    return [node, 0, 0, 0]
   }).reverse()
   let nodeLevelLeftTop
   while ((nodeLevelLeftTop = keyLevelStack.pop())) {
     const [node, level, x, y, i] = nodeLevelLeftTop
+
     callback && newArr.push(callback(node, level, x, y, i))
     if (node.layers && node.layers.length) {
       keyLevelStack = [
         ...keyLevelStack,
         ...node.layers.map((node, i) => {
           const { frame } = node
-          return [node, level + 1, x + (frame && frame.x || 0), y + (frame && frame.y || 0), i]
+          let type = node['<class>']
+          if(~type.indexOf('Group')) {
+            return [node, level + 1, x + frame.x, y + frame.y, i]
+          } else {
+            return [node, level + 1, x, y, i]
+          }
         }).reverse()
       ]
     }
@@ -57,7 +67,7 @@ function handleData(node, level, x, y, i) {
     style,
     name
   } = node
-  let classType = node['<class>']
+  let classType = node['<class>'] 
   if (
     classType != 'MSGroup'
     && classType != 'MSPage'
@@ -65,7 +75,18 @@ function handleData(node, level, x, y, i) {
     && classType != 'MSSymbolMaster'
     && classType != 'MSLayerGroup'
     && name != 'Path'
+    && name != 'Text'
+    && name != 'row bg'
+    || classType === 'MSLayerGroup'  && (name === 'Table View/Elements/Slider')
   ) {
+    /**
+     * hack for android two line with avator and icon
+     */
+    if(classType === 'MSShapeGroup' && (name === 'Rectangle-path' || name === 'Oval')) {
+      console.log(style && style.fills && style.fills.length && filterFill(style))
+      return
+    }
+    
     let tempComponentType = classType && filterComponentType(classType)
     let tempComponentName = name && filterComponentName(name)
     let tempFrame = frame && filterFrame(frame, x, y)
@@ -98,6 +119,6 @@ function handleData(node, level, x, y, i) {
       tempBackground,
       tempAttributedString,
       tempComponentType,
-      { z: level, i: i}))
+      { z: level}))
   }
 }

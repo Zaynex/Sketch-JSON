@@ -1,4 +1,5 @@
 1. sketch 中的 width 是否包含 border ？ border-box : content-box
+2. 对于 rectangle-path 中的组件，它的背景颜色在下一层，而如果到下一层的话，就会再次渲染
 
 ### 需要导出的样式：
 ```
