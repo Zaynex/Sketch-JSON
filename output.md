@@ -1,3 +1,34 @@
+## 默认情况下，行高和高是相等，通过计算判断，使用 label 还是 text_view
+
+
+
+
+1. sketch 中部分文字显示不全，宽度的原因 (字体和宽度都有问题)
+2. 每个传入的组件都会默认添加一个border，有border重叠的现象（我这边也可以手动删除）
+3. 目前圆角可以设定所有的相同的值，没有太大顾虑。
+4. 上层组件是圆，但是背景色在下层组件，需要拿到上层组件，然后不遍历下层组件
+5. icon 图标选用，对于没有的，如何处理
+6. edit menu: 比较hack的方式我这边处理，手动减去宽高，因为宽高是下一层计算出的，所以只能自己提前减一个固定的数值。
+
+1. left top 依赖问题已解决
+
+- word-break: 断行规则，默认是 normal 以单词划分
+1. 如果是 break-all 则填满宽度后，字符间断行
+2. keep-all, 文本不断行
+
+- word-wrap（overflow-wrap）: 原本是微软的私有属性，已经在 css3规范中重命名为 overflow-wrap
+定义规范是当一个不能被分开的字符串因太长而不能填充包裹盒时，为防止其溢出，浏览器是否允许这样的单词中断换行
+默认值 normal: 在正常的单词结束处换行
+break-word: 如果行内没有多余的地方容纳到该单词结尾，则那些正常的不能被分割的单词会被强制分割换行
+
+
+
+## to do
+1. 找孟轲拿新的设计稿，注意事项（文字的宽度设置，以及 固定方式）
+2. icon 叫给YIJUN 生成
+3. 去掉组件边框的默认值
+
+
 1. sketch 中的 width 是否包含 border ？ border-box : content-box
 2. 对于 rectangle-path 中的组件，它的背景颜色在下一层，而如果到下一层的话，就会再次渲染
 
@@ -30,4 +61,7 @@ ts: text-shadow width
 tsc: text-shadow color
 padding: padding
 ls: border-style
+is: icon-size 可以直接用 width/height 代替
+i: 是否斜体
+tc: icon-color
 ```
