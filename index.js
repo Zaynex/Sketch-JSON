@@ -1,13 +1,13 @@
 import sketch from 'sketchjs'
 import { 
-    filterFrame, 
+    getFrame, 
     filterBackgroundColor,
-    filterTextDescription,
-    filterComponentType,
-    filterBorders,
-    filterShadow,
-    filterFill,
-    filterFourBorderRadius
+    getTextDescription,
+    getComponentType,
+    getBorders,
+    getShadow,
+    getBackground,
+    getFourBorderRadius
 } from './lib'
 import fs from 'fs'
 
@@ -38,14 +38,14 @@ sketch.dump('./font.sketch',function(json){
                 path
             } = layer
         const nameType = layer['<class>']
-        let tempComponentType = nameType && filterComponentType(nameType)
-        let tempFrame = frame && filterFrame(frame)
+        let tempComponentType = nameType && getComponentType(nameType)
+        let tempFrame = frame && getFrame(frame)
         let tempBackground = hasBackgroundColor && filterBackgroundColor(!!hasBackgroundColor, backgroundColor)
-        let tempAttributedString = attributedString && filterTextDescription(attributedString)
-        let tempBorders = style && style.borders && style.borders.length && filterBorders(style)
-        let tempShadow = style && style.shadows && style.shadows.length && filterShadow(style)
-        let tempFill = style && style.fills && style.fills.length && filterFill(style)
-        let tempFourBorderRadius = path && filterFourBorderRadius(path)
+        let tempAttributedString = attributedString && getTextDescription(attributedString)
+        let tempBorders = style && style.borders && style.borders.length && getBorders(style)
+        let tempShadow = style && style.shadows && style.shadows.length && getShadow(style)
+        let tempFill = style && style.fills && style.fills.length && getBackground(style)
+        let tempFourBorderRadius = path && getFourBorderRadius(path)
         if(tempBorders) {
             Object.assign(tempObj, tempBorders)
         }

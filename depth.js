@@ -1,12 +1,12 @@
 import {
-  filterFrame,
-  filterComponentName,
-  filterTextDescription,
-  filterComponentType,
-  filterBorders,
-  filterShadow,
-  filterFill,
-  filterFourBorderRadius
+  getFrame,
+  getComponentName,
+  getTextDescription,
+  getComponentType,
+  getBorders,
+  getShadow,
+  getBackground,
+  getFourBorderRadius
 } from './lib'
 import sketch from 'sketchjs'
 import fs from 'fs'
@@ -200,7 +200,7 @@ function handleData(node, level, x, y, i) {
      * hack for android two line with avator and icon
      */
     if (classType === 'MSShapeGroup' && (name === 'Rectangle-path' || name === 'Oval')) {
-      // console.log(style && style.fills && style.fills.length && filterFill(style))
+      // console.log(style && style.fills && style.fills.length && getBackground(style))
       return
     }
     /** hack for android two line with avator and icon */
@@ -208,22 +208,21 @@ function handleData(node, level, x, y, i) {
       return
     }
 
-    let tempComponentName = name && filterComponentName(name)
-    let tempFrame = frame && filterFrame(frame, x, y)
-    tempFrame = { ...tempFrame, left: x, top: y }
-    let tempAttributedString = attributedString && filterTextDescription(attributedString)
-    let tempBorders = style && filterBorders(style)
-    let tempShadow = style && style.shadows && style.shadows.length && filterShadow(style)
-    let tempFill = style && style.fills && style.fills.length && filterFill(style)
+    let tempComponentName = name && getComponentName(name)
+    let tempFrame = {...(frame && getFrame(frame)), left: x, top: y}
+    let tempAttributedString = attributedString && getTextDescription(attributedString)
+    let tempBorders = style && getBorders(style)
+    let tempShadow = style && getShadow(style)
+    let tempFill = style && style.fills && style.fills.length && getBackground(style)
 
-    let tempComponentType = classType && filterComponentType(classType, name, tempFrame, tempAttributedString)
+    let tempComponentType = classType && getComponentType(classType, name, tempFrame, tempAttributedString)
     let tempFourBorderRadius
 
     if (
       classType === 'MSShapeGroup' && (~name.indexOf('Rectangle') || ~name.indexOf('Mask') || ~name.indexOf('Base') || ~name.indexOf('Path') || name == 'Search Bar')
     ) {
       let path = node.layers && node.layers[0].path
-      tempFourBorderRadius = path && filterFourBorderRadius(path)
+      tempFourBorderRadius = path && getFourBorderRadius(path)
     }
 
 
@@ -348,7 +347,7 @@ function handleData(node, level, x, y, i) {
 
     if (classType == 'MSLayerGroup' && name == 'Back') {
       // icon 位置渲染会出现问题
-      let tc = node.layers && node.layers.length && filterFill(node.layers[node.layers.length - 1].style).bg
+      let tc = node.layers && node.layers.length && getBackground(node.layers[node.layers.length - 1].style).bg
       node.layers = []
       return Object.assign(tempFrame, tempIcon, {icon: 'md-chevron_left'}, {tc, is: 36})
     }
@@ -393,7 +392,7 @@ function handleData(node, level, x, y, i) {
     // 避免颜色被覆盖
       
       let style = node.layers && node.layers.length && node.layers[0].style
-      let background = filterFill(style)
+      let background = getBackground(style)
       // ui 给的数据
       Object.assign(tempFrame, background, {br: 4})
       node.layers = []
