@@ -1,87 +1,53 @@
 import sketch from 'sketchjs'
-import { 
-    getFrame, 
-    filterBackgroundColor,
-    getTextDescription,
-    getComponentType,
-    getBorders,
-    getShadow,
-    getBackground,
-    getFourBorderRadius
-} from './lib'
 import fs from 'fs'
+import handleData from './handleData'
 
-sketch.dump('./font.sketch',function(json){
-    fs.writeFile('font_sketch.json', json, 'utf8', (err) => {
-        if(err) {console.log(err)}
+const actionSheet = "sketch/actionSheet.sketch"
+const actionSheetModel = "data/actionSheetModel.json"
+const actionSheetModelResult = "data/actionSheetModelResult.json"
+
+sketch.dump(actionSheet, (json) => {
+    fs.writeFile(actionSheetModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+        if (err) console.log(err)
     })
-    let { pages: [{layers}] } = JSON.parse(json)
-    let resultArr = []
-    let obj = {}
-
-    const iterator = (layer) => {
-        const {layers} = layer
-        let tempObj = {}    
-        
-        if(layers && layers.length) {
-            Object.assign(obj, ...layers.map((inlayer) => iterator(inlayer)))
-        } 
-        let idx = 1
-        let tempArr= []
-        const { 
-                frame, 
-                hasBackgroundColor, 
-                backgroundColor,
-                attributedString,
-                style,
-                name,
-                path
-            } = layer
-        const nameType = layer['<class>']
-        let tempComponentType = nameType && getComponentType(nameType)
-        let tempFrame = frame && getFrame(frame)
-        let tempBackground = hasBackgroundColor && filterBackgroundColor(!!hasBackgroundColor, backgroundColor)
-        let tempAttributedString = attributedString && getTextDescription(attributedString)
-        let tempBorders = style && style.borders && style.borders.length && getBorders(style)
-        let tempShadow = style && style.shadows && style.shadows.length && getShadow(style)
-        let tempFill = style && style.fills && style.fills.length && getBackground(style)
-        let tempFourBorderRadius = path && getFourBorderRadius(path)
-        if(tempBorders) {
-            Object.assign(tempObj, tempBorders)
-        }
-        if(tempShadow) {
-            Object.assign(tempObj, tempShadow)            
-        }
-        if(tempFill) {
-            Object.assign(tempObj, tempFill)
-        }
-        if(tempFourBorderRadius) {
-            Object.assign(tempObj, tempFourBorderRadius)
-        }
-        if(tempFrame) {
-            Object.assign(tempObj, tempFrame)
-        }
-        if(tempBackground) {
-            Object.assign(tempObj, tempBackground)
-        }
-        if(tempAttributedString) {
-            Object.assign(tempObj, tempAttributedString)
-        }
-        if(tempComponentType) {
-            Object.assign(tempObj, tempComponentType)        
-        }
-        
-        return Object.assign({}, obj,tempObj,
-            {z: idx++})
-            
+    let data = JSON.parse(json)
+    let { pages } = data
+    if (pages[0].layers.length == 0 || (pages[0] && pages[0].layers && pages[0].layers.length && pages[0].layers[0]['<class>'] === 'MSSymbolInstance')) {
+        depthFirstSearch(pages[1], handleData)
+    } else {
+        depthFirstSearch(pages[0], handleData)
     }
-    
-    layers.map((layer) => {
-        obj = {}
-        return resultArr.push(iterator(layer))
-    })
-
-    fs.writeFile('font.json', JSON.stringify(resultArr, null, 4), 'utf8', (err) => {
-        if(err) console.log(err)
-    })
 })
+
+
+let resultArr = []
+
+/**
+ * 
+ * @param {json} 读取sketch json 文件
+ * @param {function} 处理逻辑
+ */
+function depthFirstSearch(treeData, callback) {
+
+    let keyLevelStack = (treeData.layers || []).map((node) => {
+        return [node, 0, 0, 0]
+    }).reverse()
+    let nodeLevelLeftTop
+    while ((nodeLevelLeftTop = keyLevelStack.pop())) {
+        const [node, level, x, y, i] = nodeLevelLeftTop
+
+        callback && resultArr.push(callback(node, level, x, y, i))
+        if (node.layers && node.layers.length) {
+            keyLevelStack = [
+                ...keyLevelStack,
+                ...node.layers.map((node, i) => {
+                    const { frame } = node
+                    return [node, level + 1, x + frame.x, y + frame.y, i]
+                }).reverse()
+            ]
+        }
+    }
+    resultArr = resultArr.filter(v => v != undefined)
+    fs.writeFile(actionSheetModelResult, JSON.stringify(resultArr, null, 4), 'utf8', err => { if (err) console.log(err) })
+    console.log(resultArr)
+}

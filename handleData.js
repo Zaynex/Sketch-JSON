@@ -1,164 +1,14 @@
 import {
-  getFrame,
-  getComponentName,
-  getTextDescription,
-  getComponentType,
-  getBorders,
-  getShadow,
-  getBackground,
-  getFourBorderRadius
-} from './lib'
-import sketch from 'sketchjs'
-import fs from 'fs'
-
-
-/** pass */
-const quickAction = "sketch/quickAction.sketch"
-const quickActionModel = "data/quickActionModel.json"
-const quickActionModelResult = "data/quickActionResult.json"
-
-const notification = 'sketch/notification.sketch'
-const notificationModel = 'data/notificationModel.json'
-const notificationModelResult = "data/notificationModelResult.json"
-
-const widgetBase = "sketch/widgetBase.sketch"
-const widgetBaseModel = "data/widgetBaseModel.json"
-const widgetBaseResult = "data/widgetBaseResult.json"
-
-const modalOne = "sketch/modalOne.sketch"
-const modalOneModel = "data/modalOneModel.json"
-const modalOneModelResult = "data/modalOneModelResult.json"
-
-const modalTwo = "sketch/modalTwo.sketch"
-const modalTwoModel = "data/modalTwoModel.json"
-const modalTwoModelResult = "data/modalTwoModelResult.json"
-
-const modalMult = "sketch/modalMult.sketch"
-const modalMultModel = "data/modalMultModel.json"
-const modalMultModelResult = "data/modalMultModelResult.json"
-
-const Prompt = "sketch/Prompt.sketch"
-const PromptModel = "data/PromptModel.json"
-const PromptModelResult = "data/PromptModelResult.json"
-
-const barSafari = "sketch/barSafari.sketch"
-const barSafariModel = "data/barSafariModel.json"
-const barSafariModelResult = "data/barSafariModelResult.json"
-
-const barSearch = "sketch/barSearch.sketch"
-const barSearchModel = "data/barSearchModel.json"
-const barSearchModelResult = "data/barSearchModelResult.json"
-
-const normalNested = "sketch/normalNested.sketch"
-const normalNestedModel = "data/normalNestedModel.json"
-const normalNestedModelResult = "data/normalNestedResult.json"
-
-const thumbMessage = "sketch/thumbMessage.sketch"
-const thumbMessageModel = "data/thumbMessageModel.json"
-const thumbMessageModelResult = "data/thumbMessageModelResult.json"
-
-const tabFour = "sketch/tabFour.sketch"
-const tabFourModel = "data/tabFourModel.json"
-const tebFourModelResult = "data/tabFourModelResult.json"
-
-const tabFive = "sketch/tabFive.sketch"
-const tabFiveModel = "data/tabFiveModel.json"
-const tabFiveModelResult = "data/tabFiveModelResult.json"
-
-const elementSlide = "sketch/elementSlide.sketch"
-const elementSlideModel = "data/elementSlideModel.json"
-const elementSlideModelResult = "data/elementSlideModelResult.json"
-
-const editMenu = "sketch/editMenu.sketch"
-const editMenuModel = "data/editMenuModel.json"
-const editMenuModelResult = "data/editMenuModelResult.json"
-
-const actionSheet = "sketch/actionSheet.sketch"
-const actionSheetModel = "data/actionSheetModel.json"
-const actionSheetModelResult = "data/actionSheetModelResult.json"
-
-
-/**
- * 圆角问题
- */
-
-const controlTwo = "sketch/controlTwo.sketch"
-const controlTwoModel = "data/controlTwoModel.json"
-const controlTwoModelResult = "data/controlTwoModelResult.json"
-
-const controlThree = "sketch/controlThree.sketch"
-const controlThreeModel = "data/controlThreeModel.json"
-const controlThreeModelResult = "data/controlThreeModelResult.json"
-
-
-/**
- *  need to fix
- */
-const barIcon = "sketch/barIcon.sketch"
-const barIconModel = "data/barIconModel.json"
-const barIconModelResult = "data/barIconModelResult.json"
-
-const barSubtitle = "sketch/barSubtitle.sketch"
-const barSubtitleModel = "data/barSubtitleModel.json"
-const barSubtitleModelResult = "data/barSubtitleModelResult.json"
-/**
- *  need to fix
- */
-
-
-
-let newArr = []
-sketch.dump(actionSheet, function (json) {
-  fs.writeFile(actionSheetModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
-    if (err) console.log(err)
-  })
-  let data = JSON.parse(json)
-  let { pages } = data
-  if (pages[0].layers.length == 0 || (pages[0] && pages[0].layers && pages[0].layers.length && pages[0].layers[0]['<class>'] === 'MSSymbolInstance')) {
-    depthFirstSearch(pages[1], handleData)
-  } else {
-    depthFirstSearch(pages[0], handleData)
-  }
-})
-
-
-function depthFirstSearch(treeData, callback) {
-
-  let keyLevelStack = (treeData.layers || []).map((node) => {
-    return [node, 0, 0, 0]
-  }).reverse()
-  let nodeLevelLeftTop
-  while ((nodeLevelLeftTop = keyLevelStack.pop())) {
-    const [node, level, x, y, i] = nodeLevelLeftTop
-
-    callback && newArr.push(callback(node, level, x, y, i))
-    if (node.layers && node.layers.length) {
-      keyLevelStack = [
-        ...keyLevelStack,
-        ...node.layers.map((node, i) => {
-          const { frame } = node
-          return [node, level + 1, x + frame.x, y + frame.y, i]
-        }).reverse()
-      ]
-    }
-  }
-  newArr = newArr.filter(v => v != undefined)
-  fs.writeFile(actionSheetModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
-  console.log(newArr)
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+    getFrame,
+    getComponentName,
+    getTextDescription,
+    getComponentType,
+    getBorders,
+    getShadow,
+    getBackground,
+    getFourBorderRadius
+  } from './lib'
+  
 let idx = 0
 function handleData(node, level, x, y, i) {
   let {
@@ -402,3 +252,5 @@ function handleData(node, level, x, y, i) {
       { z: idx++, resizingType }))
   }
 }
+
+module.exports = handleData
