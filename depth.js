@@ -1,7 +1,6 @@
 import {
   filterFrame,
   filterComponentName,
-  filterBackgroundColor,
   filterTextDescription,
   filterComponentType,
   filterBorders,
@@ -16,7 +15,7 @@ import fs from 'fs'
 /** pass */
 const quickAction = "sketch/quickAction.sketch"
 const quickActionModel = "data/quickActionModel.json"
-const quickActionResult = "data/quickActionResult.json"
+const quickActionModelResult = "data/quickActionResult.json"
 
 const notification = 'sketch/notification.sketch'
 const notificationModel = 'data/notificationModel.json'
@@ -50,6 +49,48 @@ const barSearch = "sketch/barSearch.sketch"
 const barSearchModel = "data/barSearchModel.json"
 const barSearchModelResult = "data/barSearchModelResult.json"
 
+const normalNested = "sketch/normalNested.sketch"
+const normalNestedModel = "data/normalNestedModel.json"
+const normalNestedModelResult = "data/normalNestedResult.json"
+
+const thumbMessage = "sketch/thumbMessage.sketch"
+const thumbMessageModel = "data/thumbMessageModel.json"
+const thumbMessageModelResult = "data/thumbMessageModelResult.json"
+
+const tabFour = "sketch/tabFour.sketch"
+const tabFourModel = "data/tabFourModel.json"
+const tebFourModelResult = "data/tabFourModelResult.json"
+
+const tabFive = "sketch/tabFive.sketch"
+const tabFiveModel = "data/tabFiveModel.json"
+const tabFiveModelResult = "data/tabFiveModelResult.json"
+
+const elementSlide = "sketch/elementSlide.sketch"
+const elementSlideModel = "data/elementSlideModel.json"
+const elementSlideModelResult = "data/elementSlideModelResult.json"
+
+const editMenu = "sketch/editMenu.sketch"
+const editMenuModel = "data/editMenuModel.json"
+const editMenuModelResult = "data/editMenuModelResult.json"
+
+const actionSheet = "sketch/actionSheet.sketch"
+const actionSheetModel = "data/actionSheetModel.json"
+const actionSheetModelResult = "data/actionSheetModelResult.json"
+
+
+/**
+ * 圆角问题
+ */
+
+const controlTwo = "sketch/controlTwo.sketch"
+const controlTwoModel = "data/controlTwoModel.json"
+const controlTwoModelResult = "data/controlTwoModelResult.json"
+
+const controlThree = "sketch/controlThree.sketch"
+const controlThreeModel = "data/controlThreeModel.json"
+const controlThreeModelResult = "data/controlThreeModelResult.json"
+
+
 /**
  *  need to fix
  */
@@ -60,7 +101,6 @@ const barIconModelResult = "data/barIconModelResult.json"
 const barSubtitle = "sketch/barSubtitle.sketch"
 const barSubtitleModel = "data/barSubtitleModel.json"
 const barSubtitleModelResult = "data/barSubtitleModelResult.json"
-
 /**
  *  need to fix
  */
@@ -68,8 +108,8 @@ const barSubtitleModelResult = "data/barSubtitleModelResult.json"
 
 
 let newArr = []
-sketch.dump(barSearch, function (json) {
-  fs.writeFile(barSearchModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(actionSheet, function (json) {
+  fs.writeFile(actionSheetModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
     if (err) console.log(err)
   })
   let data = JSON.parse(json)
@@ -104,7 +144,8 @@ function depthFirstSearch(treeData, callback) {
   }
   newArr = newArr.filter(v => v != undefined)
   newArr = newArr.filter((v, i, a) => v != a[i + 1])
-  fs.writeFile(barSearchModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
+  fs.writeFile(actionSheetModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
+  console.log(newArr)
 }
 
 
@@ -123,8 +164,6 @@ let idx = 0
 function handleData(node, level, x, y, i) {
   let {
     frame,
-    hasBackgroundColor,
-    backgroundColor,
     attributedString,
     style,
     resizingType,
@@ -140,7 +179,6 @@ function handleData(node, level, x, y, i) {
     && name != 'Path'
     && name != 'Text'
     && name != 'Text Bound'
-    || (classType == 'MSSymbolMaster' && name == 'Basic Elements/Controls/Edit Menu')
     || (classType == 'MSLayerGroup' && name == 'Table View/Elements/Slider')
     || (classType == 'MSLayerGroup' && name == 'Refresh')
     || (classType == 'MSLayerGroup' && name == 'icon-share')
@@ -155,6 +193,8 @@ function handleData(node, level, x, y, i) {
     || (classType == 'MSLayerGroup' && name == 'menu')
     || (classType == 'MSLayerGroup' && ~name.indexOf('App Icon'))
     || (classType == 'MSLayerGroup' && name == 'Back')
+    || (classType == 'MSLayerGroup' && name == 'Arrow')
+    
   ) {
     /**
      * hack for android two line with avator and icon
@@ -171,7 +211,6 @@ function handleData(node, level, x, y, i) {
     let tempComponentName = name && filterComponentName(name)
     let tempFrame = frame && filterFrame(frame, x, y)
     tempFrame = { ...tempFrame, left: x, top: y }
-    let tempBackground = hasBackgroundColor && filterBackgroundColor(!!hasBackgroundColor, backgroundColor)
     let tempAttributedString = attributedString && filterTextDescription(attributedString)
     let tempBorders = style && filterBorders(style)
     let tempShadow = style && style.shadows && style.shadows.length && filterShadow(style)
@@ -179,6 +218,7 @@ function handleData(node, level, x, y, i) {
 
     let tempComponentType = classType && filterComponentType(classType, name, tempFrame, tempAttributedString)
     let tempFourBorderRadius
+
     if (
       classType === 'MSShapeGroup' && (~name.indexOf('Rectangle') || ~name.indexOf('Mask') || ~name.indexOf('Base') || ~name.indexOf('Path') || name == 'Search Bar')
     ) {
@@ -186,33 +226,80 @@ function handleData(node, level, x, y, i) {
       tempFourBorderRadius = path && filterFourBorderRadius(path)
     }
 
-    console.log(name)
+
+    /**
+     * 将矩形转换为圆形：添加 border-radius
+     */
+    if(classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob')) {
+      console.log(name)
+      let { width } = frame
+      tempFourBorderRadius = {
+        br: parseInt(width/2, 10)
+      }   
+    }
 
 
+    /**
+     * IOS control Two 组件
+     * 去掉白色的BG
+     * 增加边框
+     */
+    if(name === 'BG' && style.fills &&  style.fills.length == 0) {
+      return
+    }
+    // console.log(name, tempFill)
 
 
-
-
+    /**
+     * IOS edit Menu
+     */
+    if(name == 'Point') {
+      Object.assign(tempFrame, tempComponentType, {tc: tempFill.bg})
+    }
 
     /**
      * for icons start
      */
-    let tempIcon = { z: level, name: 'icon_button' }
+    let tempIcon = { z: 1000, name: 'icon_button' }
+    let iconSize = () => {
+      let {width, height} = tempFrame
+      return +width > +height ? +width : +height
+    }
     if (name == 'Refresh') {
       // 给下面的数组清0 ，不进入子组件循环
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'fa-repeat' }, {is: 16})
+      return Object.assign(tempFrame, tempIcon, { icon: 'fa-repeat' }, {is: iconSize()})
     }
     if (classType == 'MSShapeGroup' && (name == 'Search Icon')) {
-      let tc = filterFill(node.layers[node.layers.length - 1].style).bg
+      
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'ci-yql-search' }, {z: 1000, is: 16, tc})
+      return Object.assign(tempFrame, tempIcon, { icon: 'ci-yql-search' }, {is: iconSize(), tc: tempFill.bg})
     }
     if (name == 'Clear') {
-      let tc = filterFill(node.layers[node.layers.length - 1].style).bg      
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'mb-times-circle-filled' }, {z: 1000, is: 16, tc})
+      return Object.assign(tempFrame, tempIcon, { icon: 'mb-times-circle-filled' }, {is: iconSize(), tc: tempFill.bg})
     }
+
+    if(name == 'Arrow' && classType == 'MSLayerGroup') {
+      node.layers = []      
+      const bg = "#C7C7CC"
+      let {left, top} = tempFrame
+      return Object.assign(tempFrame, {left: left - 5, top: top - 2}, tempIcon, {icon: 'fa-angle-right'}, {is: iconSize(), tc: bg})
+    }
+
+    if((classType == 'MSShapeGroup' && name.indexOf('Icon') == 0)) {
+      node.layers = []     
+      // default icon 
+      return Object.assign(tempFrame, tempIcon, {icon: 'mb-widget-icon-label'})
+    }
+    
+
+
+
+
+
+
+
     if (name == 'icon-share') {
       node.layers = []
       return Object.assign(tempFrame, tempIcon, { icon: 'fa-share' })
@@ -297,7 +384,7 @@ function handleData(node, level, x, y, i) {
       Object.assign(tempFrame, tempShadow)
     }
     
-    if (tempFill) {
+    if (tempFill && name.indexOf('Label')) {
       Object.assign(tempFrame, tempFill)
     }
 
@@ -317,7 +404,6 @@ function handleData(node, level, x, y, i) {
     }
     return (Object.assign(tempFrame,
       tempComponentName,
-      tempBackground,
       tempAttributedString,
       tempComponentType,
       { z: idx++, resizingType}))
