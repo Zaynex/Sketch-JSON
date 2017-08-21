@@ -77,6 +77,14 @@ const actionSheet = "sketch/actionSheet.sketch"
 const actionSheetModel = "data/actionSheetModel.json"
 const actionSheetModelResult = "data/actionSheetModelResult.json"
 
+const barIcon = "sketch/barIcon.sketch"
+const barIconModel = "data/barIconModel.json"
+const barIconModelResult = "data/barIconModelResult.json"
+
+const barSubtitle = "sketch/barSubtitle.sketch"
+const barSubtitleModel = "data/barSubtitleModel.json"
+const barSubtitleModelResult = "data/barSubtitleModelResult.json"
+
 
 /**
  * 圆角问题
@@ -91,41 +99,30 @@ const controlThreeModel = "data/controlThreeModel.json"
 const controlThreeModelResult = "data/controlThreeModelResult.json"
 
 
-/**
- *  need to fix
- */
-const barIcon = "sketch/barIcon.sketch"
-const barIconModel = "data/barIconModel.json"
-const barIconModelResult = "data/barIconModelResult.json"
-
-const barSubtitle = "sketch/barSubtitle.sketch"
-const barSubtitleModel = "data/barSubtitleModel.json"
-const barSubtitleModelResult = "data/barSubtitleModelResult.json"
-/**
- *  need to fix
- */
-
 
 
 let newArr = []
-sketch.dump(actionSheet, function (json) {
-  fs.writeFile(actionSheetModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(controlThree, (json) => {
+  fs.writeFile(controlThreeModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
     if (err) console.log(err)
   })
   let data = JSON.parse(json)
   let { pages } = data
-  if (pages[0].layers.length == 0 || (pages[0] && pages[0].layers && pages[0].layers.length && pages[0].layers[0]['<class>'] === 'MSSymbolInstance')) {
-    depthFirstSearch(pages[1], handleData)
-  } else {
-    depthFirstSearch(pages[0], handleData)
-  }
+  let symbols = pages[0].layers
+  let AllResult = symbols.map((symbol) => {
+    let name = symbol.name
+    return { [name] : depthFirstSearch(symbol, handleData)}
+  })
+  console.log(AllResult)
+  fs.writeFile(controlThreeModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })  
 })
 
 
 function depthFirstSearch(treeData, callback) {
 
   let keyLevelStack = (treeData.layers || []).map((node) => {
-    return [node, 0, 0, 0]
+    let {x, y} = node.frame
+    return [node, 0, x, y]
   }).reverse()
   let nodeLevelLeftTop
   while ((nodeLevelLeftTop = keyLevelStack.pop())) {
@@ -143,8 +140,9 @@ function depthFirstSearch(treeData, callback) {
     }
   }
   newArr = newArr.filter(v => v != undefined)
-  fs.writeFile(actionSheetModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
-  console.log(newArr)
+  return newArr
+  // fs.writeFile(controlThreeModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
+  // console.log(newArr)
 }
 
 

@@ -36,15 +36,32 @@ break-word: 如果行内没有多余的地方容纳到该单词结尾，则那�
 
 
 
-## to do
-1. 找孟轲拿新的设计稿，注意事项（文字的宽度设置，以及 固定方式）
-2. icon 叫给YIJUN 生成
-3. 去掉组件边框的默认值
-
-
-1. sketch 中的 width 是否包含 border ？ border-box : content-box
-2. 对于 rectangle-path 中的组件，它的背景颜色在下一层，而如果到下一层的话，就会再次渲染
-
+## 样式
+```
+{
+    frame, // 位置大小
+    style: {
+        textStyle: {
+            NSFont:{
+                attributes: {
+                    FontSize,
+                    FontFamily
+                }
+            },
+            NSParagraphStyle: {
+                style:{
+                    alignment,
+                    lineSpacing,
+                    maximumLineHeight
+                }
+            },
+            NSColor: {
+                color: 'rbga'
+            }
+        }
+    }
+}
+```
 ### 需要导出的样式：
 ```
 name: 组件类型，比如（lable, text)
@@ -62,7 +79,7 @@ va: 文字垂直对齐
 z:  z-index
 lh: line-height
 o:  opacity
-ds: drop-shadow width
+ds: drop-shadow width(阴影)
 sc: drop-shadow color
 bg: background-color
 tc: text-color

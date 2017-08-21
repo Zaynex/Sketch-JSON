@@ -1,14 +1,14 @@
 import {
-    getFrame,
-    getComponentName,
-    getTextDescription,
-    getComponentType,
-    getBorders,
-    getShadow,
-    getBackground,
-    getFourBorderRadius
-  } from './lib'
-  
+  getFrame,
+  getComponentName,
+  getTextDescription,
+  getComponentType,
+  getBorders,
+  getShadow,
+  getBackground,
+  getFourBorderRadius
+} from './lib'
+
 let idx = 0
 function handleData(node, level, x, y, i) {
   let {
@@ -30,6 +30,7 @@ function handleData(node, level, x, y, i) {
     && name != 'Text Bound'
     || (classType == 'MSLayerGroup' && name == 'Table View/Elements/Slider')
     || (classType == 'MSLayerGroup' && name == 'Refresh')
+    // material design icon
     || (classType == 'MSLayerGroup' && name == 'icon-share')
     || (classType == 'MSLayerGroup' && name == 'icon-upload')
     || (classType == 'MSLayerGroup' && name == 'icon-copy')
@@ -43,29 +44,34 @@ function handleData(node, level, x, y, i) {
     || (classType == 'MSLayerGroup' && ~name.indexOf('App Icon'))
     || (classType == 'MSLayerGroup' && name == 'Back')
     || (classType == 'MSLayerGroup' && name == 'Arrow')
-
+    || (classType == 'MSLayerGroup' && name == 'icon-arrow')
+    || (classType == 'MSLayerGroup' && name == 'icon-avatar')
+    || (classType == 'MSLayerGroup' && name == 'icon-hangouts')
+    || (classType == 'MSLayerGroup' && name == 'icon-gmail')
+    || (classType == 'MSLayerGroup' && name == 'icon-gplus')
+    || (classType == 'MSLayerGroup' && name == 'icon-message')
+    || (classType == 'MSLayerGroup' && name == 'icon-gplus')
+    || (classType == 'MSLayerGroup' && name == 'icon-more-h')
+    || (classType == 'MSLayerGroup' && name == 'icon-mail')
   ) {
-    /**
-     * hack for android two line with avator and icon
-     */
-    if (classType === 'MSShapeGroup' && (name === 'Rectangle-path' || name === 'Oval')) {
-      // console.log(style && style.fills && style.fills.length && getBackground(style))
-      return
-    }
-    /** hack for android two line with avator and icon */
-    if (name == 'row bg' || name == 'row bounds') {
-      return
-    }
 
+    let tempFrame = { ...(frame && getFrame(frame)), left: x, top: y } 
     let tempComponentName = name && getComponentName(name)
-    let tempFrame = { ...(frame && getFrame(frame)), left: x, top: y }
     let tempAttributedString = attributedString && getTextDescription(attributedString)
-    let tempBorders = style && getBorders(style)
     let tempShadow = style && getShadow(style)
-    let tempFill = style && style.fills && style.fills.length && getBackground(style)
-
+    let tempFill = style && getBackground(style)
     let tempComponentType = classType && getComponentType(classType, name, tempFrame, tempAttributedString)
+    let tempBorders = style && getBorders(style, tempComponentType, name)
     let tempFourBorderRadius
+    const DEFAULTICON = 'md-message'
+    /**
+     * icon的默认样式
+     */
+    let tempIcon = { z: 1000, name: 'icon_button' }
+    let iconSize = () => {
+      let { width, height } = tempFrame
+      return +width > +height ? +width : +height
+    }
 
     if (
       classType === 'MSShapeGroup' && (~name.indexOf('Rectangle') || ~name.indexOf('Mask') || ~name.indexOf('Base') || ~name.indexOf('Path') || name == 'Search Bar')
@@ -73,19 +79,44 @@ function handleData(node, level, x, y, i) {
       let path = node.layers && node.layers[0].path
       tempFourBorderRadius = path && getFourBorderRadius(path)
     }
-
+    if (classType == 'MSLayerGroup' && name == 'icon-avatar') {
+      tempFourBorderRadius = { br: tempFrame.width / 2 }
+    }
 
     /**
      * 将矩形转换为圆形：添加 border-radius
      */
-    if (classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob')) {
-      console.log(name)
+    if (classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob' || name == 'Mask' || name == 'Oval')) {
       let { width } = frame
       tempFourBorderRadius = {
         br: parseInt(width / 2, 10)
       }
     }
 
+    /** material design two lines with avatar and icon */
+    if (classType == 'MSShapeGroup' && name == 'Oval') {
+      node.layers = []
+      return Object.assign(tempFrame, tempFourBorderRadius, { name: 'image_view' })
+    }
+
+    if (classType == 'MSShapeGroup' && name == 'Rectangle-path') {
+      console.log(tempFill)
+      node.layers = []
+      return Object.assign(tempFrame, tempIcon, { is: iconSize(), tc: tempFill.bg, o: tempFill.o, icon: DEFAULTICON })
+    }
+
+    if (name == 'icon-avatar') {
+      console.log(tempFourBorderRadius)
+      node.layers = []
+      return Object.assign(tempFrame, tempFourBorderRadius, { name: 'image_view', z: 1000 })
+    }
+
+    if (classType == 'MSShapeGroup' && name == 'Mask') {
+      node.layers = []
+      console.log(tempFourBorderRadius)
+      // return Object.assign(tempFrame, tempFourBorderRadius, tempComponentType)
+      return Object.assign(tempFrame, tempFourBorderRadius, tempComponentName, { name: 'image_view', z: 1000 })
+    }
 
     /**
      * IOS control Two 组件
@@ -108,14 +139,11 @@ function handleData(node, level, x, y, i) {
     /**
      * for icons start
      */
-    let tempIcon = { z: 1000, name: 'icon_button' }
-    let iconSize = () => {
-      let { width, height } = tempFrame
-      return +width > +height ? +width : +height
-    }
+    // 可以把icons保存在一个数组里，然后map 去读取，这样的话会更好
     if (name == 'Refresh') {
       // 给下面的数组清0 ，不进入子组件循环
       node.layers = []
+      // return { ...ICON_MAP[name] }
       return Object.assign(tempFrame, tempIcon, { icon: 'fa-repeat' }, { is: iconSize() })
     }
     if (classType == 'MSShapeGroup' && (name == 'Search Icon')) {
@@ -147,10 +175,12 @@ function handleData(node, level, x, y, i) {
 
 
 
-
+    /**
+     * material design icon 
+     */
     if (name == 'icon-share') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'fa-share' })
+      return Object.assign(tempFrame, tempIcon, { icon: 'md-share' })
     }
     if (name == 'icon-upload') {
       node.layers = []
@@ -158,7 +188,7 @@ function handleData(node, level, x, y, i) {
     }
     if (name == 'icon-copy') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'mb-duplicate' })
+      return Object.assign(tempFrame, tempIcon, { icon: 'md-content_copy' })
     }
     if (name == 'icon-print') {
       node.layers = []
@@ -173,34 +203,48 @@ function handleData(node, level, x, y, i) {
       node.layers = []
       return Object.assign(tempFrame, tempIcon, { icon: 'md-search' })
     }
-    if (name == 'reply icon') {
-      node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-reply' })
-    }
-    if (name == 'archive icon') {
-      node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-archive' })
-    }
-    if (name == 'Imported Layers') {
-      node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-mail_outline' })
-    }
-    if (classType == 'MSLayerGroup' && name == 'more') {
+    // if (name == 'reply icon') {
+    //   node.layers = []
+    //   return Object.assign(tempFrame, tempIcon, { icon: 'md-reply' })
+    // }
+    // if (name == 'archive icon') {
+    //   node.layers = []
+    //   return Object.assign(tempFrame, tempIcon, { icon: 'md-archive' })
+    // }
+    // if (name == 'Imported Layers') {
+    //   node.layers = []
+    //   return Object.assign(tempFrame, tempIcon, { icon: 'md-mail_outline' })
+    // }
+
+
+    /**
+     * material design App bar 
+     */
+    if (classType == 'MSLayerGroup' && name == 'icon-more') {
       node.layers = []
       return Object.assign(tempFrame, tempIcon, { icon: 'md-more_vert', tc: '#fff' })
     }
-    if (classType == 'MSLayerGroup' && name == 'menu') {
+    if (classType == 'MSLayerGroup' && name == 'icon-menu') {
       node.layers = []
       return Object.assign(tempFrame, tempIcon, { icon: 'md-menu', tc: '#fff' })
     }
 
     if (classType == 'MSLayerGroup' && name == 'Back') {
-      // icon 位置渲染会出现问题
+      // icon 位置渲染会出现问题, 手动调
+      let { left, top } = tempFrame
       let tc = node.layers && node.layers.length && getBackground(node.layers[node.layers.length - 1].style).bg
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-chevron_left' }, { tc, is: 36 })
+      return Object.assign(tempFrame, tempIcon, { left: left, top: top - 3, icon: 'fa-angle-left' }, { tc, is: 36 })
     }
 
+    if (name == 'icon-arrow') {
+      node.layers = []
+      return Object.assign(tempFrame, tempIcon, { icon: 'md-arrow_drop_up' })
+    }
+    if (name == 'icon-hangouts' || name == 'icon-gplus' || name == 'icon-gmail' || name == 'icon-more-h' || name == 'icon-message' || name == 'icon-mail') {
+      node.layers = []
+      return Object.assign(tempFrame, tempIcon, { icon: DEFAULTICON })
+    }
     /**
      * for icons end
      */
