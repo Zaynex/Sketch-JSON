@@ -8,9 +8,11 @@ import {
   getBackground,
   getFourBorderRadius
 } from './lib'
+import ICON_MAP from './iconMap.js'
 
 let idx = 0
 function handleData(node, level, x, y, i) {
+  if(!node) return
   let {
     frame,
     attributedString,
@@ -37,10 +39,10 @@ function handleData(node, level, x, y, i) {
     || (classType == 'MSLayerGroup' && name == 'icon-print')
     || (classType == 'MSLayerGroup' && name == 'mic')
     || (classType == 'MSLayerGroup' && name == 'search')
-    || (classType == 'MSLayerGroup' && name == 'reply icon')
-    || (classType == 'MSLayerGroup' && name == 'archive icon')
-    || (classType == 'MSLayerGroup' && name == 'more')
-    || (classType == 'MSLayerGroup' && name == 'menu')
+    || (classType == 'MSLayerGroup' && name == 'icon-reply')
+    || (classType == 'MSLayerGroup' && name == 'icon-archive')
+    // || (classType == 'MSLayerGroup' && name == 'more')
+    // || (classType == 'MSLayerGroup' && name == 'menu')
     || (classType == 'MSLayerGroup' && ~name.indexOf('App Icon'))
     || (classType == 'MSLayerGroup' && name == 'Back')
     || (classType == 'MSLayerGroup' && name == 'Arrow')
@@ -53,8 +55,9 @@ function handleData(node, level, x, y, i) {
     || (classType == 'MSLayerGroup' && name == 'icon-gplus')
     || (classType == 'MSLayerGroup' && name == 'icon-more-h')
     || (classType == 'MSLayerGroup' && name == 'icon-mail')
+    || (classType == 'MSLayerGroup' && name == 'icon-more')
+    || (classType == 'MSLayerGroup' && name == 'icon-menu')
   ) {
-
     let tempFrame = { ...(frame && getFrame(frame)), left: x, top: y } 
     let tempComponentName = name && getComponentName(name)
     let tempAttributedString = attributedString && getTextDescription(attributedString)
@@ -63,35 +66,45 @@ function handleData(node, level, x, y, i) {
     let tempComponentType = classType && getComponentType(classType, name, tempFrame, tempAttributedString)
     let tempBorders = style && getBorders(style, tempComponentType, name)
     let tempFourBorderRadius
-    const DEFAULTICON = 'md-message'
-    /**
-     * icon的默认样式
-     */
-    let tempIcon = { z: 1000, name: 'icon_button' }
-    let iconSize = () => {
-      let { width, height } = tempFrame
-      return +width > +height ? +width : +height
+
+    // 过滤 sketch 组件里面的 base
+    if(name == 'Popover') {
+      node.layers.splice(0, 1)
     }
 
+    /**
+     * 如果是矩形的遮罩层，必须带上 4个border边框属性
+     */
     if (
       classType === 'MSShapeGroup' && (~name.indexOf('Rectangle') || ~name.indexOf('Mask') || ~name.indexOf('Base') || ~name.indexOf('Path') || name == 'Search Bar')
     ) {
       let path = node.layers && node.layers[0].path
       tempFourBorderRadius = path && getFourBorderRadius(path)
     }
-    if (classType == 'MSLayerGroup' && name == 'icon-avatar') {
-      tempFourBorderRadius = { br: tempFrame.width / 2 }
+
+
+    /**
+     * 将矩形转换为圆形
+     */
+    if (
+      classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob' || name == 'Oval') ||
+      (classType == 'MSLayerGroup' && name == 'icon-avatar')
+    ) {
+      tempFourBorderRadius = {
+        br: Math.round(tempFrame.width / 2)
+      }
     }
 
     /**
-     * 将矩形转换为圆形：添加 border-radius
+     * material design list sheet
+     * 可能对会IOS造成影响
      */
-    if (classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob' || name == 'Mask' || name == 'Oval')) {
-      let { width } = frame
-      tempFourBorderRadius = {
-        br: parseInt(width / 2, 10)
-      }
+    if(classType == 'MSTextLayer' && (name == 'Share' || name == 'Upload' || name == 'Copy' || name == 'Print this page')) {
+      console.log(name)
+      let {top } = tempFrame
+      tempFrame = {...tempFrame, top: top + 5}
     }
+
 
     /** material design two lines with avatar and icon */
     if (classType == 'MSShapeGroup' && name == 'Oval') {
@@ -100,9 +113,9 @@ function handleData(node, level, x, y, i) {
     }
 
     if (classType == 'MSShapeGroup' && name == 'Rectangle-path') {
-      console.log(tempFill)
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { is: iconSize(), tc: tempFill.bg, o: tempFill.o, icon: DEFAULTICON })
+      return ICON_MAP(name, tempFrame, tempFill)
+      // return Object.assign(tempFrame, tempIcon, { is: iconSize(), tc: tempFill.bg, o: tempFill.o, icon: DEFAULTICON })
     }
 
     if (name == 'icon-avatar') {
@@ -111,12 +124,16 @@ function handleData(node, level, x, y, i) {
       return Object.assign(tempFrame, tempFourBorderRadius, { name: 'image_view', z: 1000 })
     }
 
-    if (classType == 'MSShapeGroup' && name == 'Mask') {
-      node.layers = []
-      console.log(tempFourBorderRadius)
-      // return Object.assign(tempFrame, tempFourBorderRadius, tempComponentType)
-      return Object.assign(tempFrame, tempFourBorderRadius, tempComponentName, { name: 'image_view', z: 1000 })
-    }
+    /**
+     * 这部分逻辑与 android 的相冲突，需要修改下sketch文件
+     * 重新制定下规则
+     */
+    // if (classType == 'MSShapeGroup' && name == 'Mask') {
+    //   node.layers = []
+    //   console.log(tempFourBorderRadius)
+    //   // return Object.assign(tempFrame, tempFourBorderRadius, tempComponentType)
+    //   return Object.assign(tempFrame, tempFourBorderRadius, tempComponentName, { name: 'image_view', z: 1000 })
+    // }
 
     /**
      * IOS control Two 组件
@@ -126,7 +143,6 @@ function handleData(node, level, x, y, i) {
     if (name === 'BG' && style.fills && style.fills.length == 0) {
       return
     }
-    // console.log(name, tempFill)
 
 
     /**
@@ -139,34 +155,34 @@ function handleData(node, level, x, y, i) {
     /**
      * for icons start
      */
-    // 可以把icons保存在一个数组里，然后map 去读取，这样的话会更好
     if (name == 'Refresh') {
       // 给下面的数组清0 ，不进入子组件循环
       node.layers = []
-      // return { ...ICON_MAP[name] }
-      return Object.assign(tempFrame, tempIcon, { icon: 'fa-repeat' }, { is: iconSize() })
+      return ICON_MAP(name, tempFrame)
     }
     if (classType == 'MSShapeGroup' && (name == 'Search Icon')) {
 
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'ci-yql-search' }, { is: iconSize(), tc: tempFill.bg })
+      return ICON_MAP(name, tempFrame, tempFill)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'ci-yql-search' }, { is: iconSize(), tc: tempFill.bg })
     }
     if (name == 'Clear') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'mb-times-circle-filled' }, { is: iconSize(), tc: tempFill.bg })
+      return ICON_MAP(name, tempFrame, tempFill)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'mb-times-circle-filled' }, { is: iconSize(), tc: tempFill.bg })
     }
 
     if (name == 'Arrow' && classType == 'MSLayerGroup') {
       node.layers = []
-      const bg = "#C7C7CC"
-      let { left, top } = tempFrame
-      return Object.assign(tempFrame, { left: left - 5, top: top - 2 }, tempIcon, { icon: 'fa-angle-right' }, { is: iconSize(), tc: bg })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, { left: left - 5, top: top - 2 }, tempIcon, { icon: 'fa-angle-right' }, { is: iconSize(), tc: bg })
     }
 
     if ((classType == 'MSShapeGroup' && name.indexOf('Icon') == 0)) {
       node.layers = []
       // default icon 
-      return Object.assign(tempFrame, tempIcon, { icon: 'mb-widget-icon-label' })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'mb-widget-icon-label' })
     }
 
 
@@ -180,70 +196,81 @@ function handleData(node, level, x, y, i) {
      */
     if (name == 'icon-share') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-share' })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-share' })
     }
     if (name == 'icon-upload') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-cloud_upload' })
+      return ICON_MAP(name, tempFrame)      
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-cloud_upload' })
     }
     if (name == 'icon-copy') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-content_copy' })
+      return ICON_MAP(name, tempFrame)            
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-content_copy' })
     }
     if (name == 'icon-print') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-print' })
+      return ICON_MAP(name, tempFrame)      
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-print' })
     }
     if (name == 'mic') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-mic' })
+      return ICON_MAP(name, tempFrame)      
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-mic' })
     }
     /** 会存在 search组件是一个 LayerGroup，但是 icon也是 LayerGroup */
     if (classType == 'MSLayerGroup' && name == 'search' && node.layers[0].name == 'Shape') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-search' })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-search' })
     }
-    // if (name == 'reply icon') {
-    //   node.layers = []
-    //   return Object.assign(tempFrame, tempIcon, { icon: 'md-reply' })
-    // }
-    // if (name == 'archive icon') {
-    //   node.layers = []
-    //   return Object.assign(tempFrame, tempIcon, { icon: 'md-archive' })
-    // }
+    if (name == 'icon-reply') {
+      node.layers = []
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-reply' })
+    }
+    if (name == 'icon-archive') {
+      node.layers = []
+      return ICON_MAP(name, tempFrame)      
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-archive' })
+    }
     // if (name == 'Imported Layers') {
     //   node.layers = []
     //   return Object.assign(tempFrame, tempIcon, { icon: 'md-mail_outline' })
     // }
-
 
     /**
      * material design App bar 
      */
     if (classType == 'MSLayerGroup' && name == 'icon-more') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-more_vert', tc: '#fff' })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-more_vert', tc: '#fff' })
     }
     if (classType == 'MSLayerGroup' && name == 'icon-menu') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-menu', tc: '#fff' })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-menu', tc: '#fff' })
     }
 
     if (classType == 'MSLayerGroup' && name == 'Back') {
       // icon 位置渲染会出现问题, 手动调
-      let { left, top } = tempFrame
       let tc = node.layers && node.layers.length && getBackground(node.layers[node.layers.length - 1].style).bg
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { left: left, top: top - 3, icon: 'fa-angle-left' }, { tc, is: 36 })
+      return ICON_MAP(name, tempFrame, {bg: tc})
+      // return Object.assign(tempFrame, tempIcon, { left: left, top: top - 3, icon: 'fa-angle-left' }, { tc, is: 36 })
     }
 
     if (name == 'icon-arrow') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'md-arrow_drop_up' })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: 'md-arrow_drop_up' })
     }
     if (name == 'icon-hangouts' || name == 'icon-gplus' || name == 'icon-gmail' || name == 'icon-more-h' || name == 'icon-message' || name == 'icon-mail') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: DEFAULTICON })
+      return ICON_MAP(name, tempFrame)
+      // return Object.assign(tempFrame, tempIcon, { icon: DEFAULTICON })
     }
     /**
      * for icons end

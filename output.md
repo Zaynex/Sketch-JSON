@@ -1,15 +1,19 @@
-## 默认情况下，行高和高是相等，通过计算判断，使用 label 还是 text_view
+## 规范命名
+### 圆角图标
+1. 凡是圆形图标都命名为 avatar/Oval 放着图片的占位符
+2. 如果是 icon， 那就规范为 `icon-` 开头
 
-##
-1. 圆角  图片占位 App Icon 统一采用 Mask 形式
-2. 直角  Icon 填充
+### Mask
+用于最外层的遮罩，含边框
+
+## 维护
+1. 默认情况下，行高和高是相等，通过计算判断，使用 label 还是 text_view
+
 
 
 ## BUG
 1. 粘贴时，图标库的搜索框也会监听事件
 
-
-fa-angle-left
 ## sketch 规范
 1. 圆角图标  App Icon
 2. 图标 Icon

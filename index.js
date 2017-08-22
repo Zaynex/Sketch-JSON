@@ -11,9 +11,13 @@ const actiontest = "sketch/actiontest.sketch"
 const actiontestModel = "data/actiontestModel.json"
 const actiontestModelResult = "data/actiontestModelResult.json"
 
+const barSafari = "sketch/barSafari.sketch"
+const barSafariModel = "data/barSafariModel.json"
+const barSafariModelResult = "data/barSafariModelResult.json"
 
-sketch.dump(actiontest, (json) => {
-    fs.writeFile(actiontestModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+
+sketch.dump(Androidtest, (json) => {
+    fs.writeFile(AndroidtestModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
         if(err) console.log(err)
     })
     let data = JSON.parse(json)
@@ -24,7 +28,7 @@ sketch.dump(actiontest, (json) => {
         return { [name] : depthFirstSearch(symbol, handleData)}
     })
 
-    fs.writeFile(actiontestModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
+    fs.writeFile(AndroidtestModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
     
 })
 
