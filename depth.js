@@ -77,6 +77,14 @@ const actionSheet = "sketch/actionSheet.sketch"
 const actionSheetModel = "data/actionSheetModel.json"
 const actionSheetModelResult = "data/actionSheetModelResult.json"
 
+const barIcon = "sketch/barIcon.sketch"
+const barIconModel = "data/barIconModel.json"
+const barIconModelResult = "data/barIconModelResult.json"
+
+const barSubtitle = "sketch/barSubtitle.sketch"
+const barSubtitleModel = "data/barSubtitleModel.json"
+const barSubtitleModelResult = "data/barSubtitleModelResult.json"
+
 
 /**
  * 圆角问题
@@ -91,41 +99,30 @@ const controlThreeModel = "data/controlThreeModel.json"
 const controlThreeModelResult = "data/controlThreeModelResult.json"
 
 
-/**
- *  need to fix
- */
-const barIcon = "sketch/barIcon.sketch"
-const barIconModel = "data/barIconModel.json"
-const barIconModelResult = "data/barIconModelResult.json"
-
-const barSubtitle = "sketch/barSubtitle.sketch"
-const barSubtitleModel = "data/barSubtitleModel.json"
-const barSubtitleModelResult = "data/barSubtitleModelResult.json"
-/**
- *  need to fix
- */
-
 
 
 let newArr = []
-sketch.dump(actionSheet, function (json) {
-  fs.writeFile(actionSheetModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(controlThree, (json) => {
+  fs.writeFile(controlThreeModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
     if (err) console.log(err)
   })
   let data = JSON.parse(json)
   let { pages } = data
-  if (pages[0].layers.length == 0 || (pages[0] && pages[0].layers && pages[0].layers.length && pages[0].layers[0]['<class>'] === 'MSSymbolInstance')) {
-    depthFirstSearch(pages[1], handleData)
-  } else {
-    depthFirstSearch(pages[0], handleData)
-  }
+  let symbols = pages[0].layers
+  let AllResult = symbols.map((symbol) => {
+    let name = symbol.name
+    return { [name] : depthFirstSearch(symbol, handleData)}
+  })
+  console.log(AllResult)
+  fs.writeFile(controlThreeModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })  
 })
 
 
 function depthFirstSearch(treeData, callback) {
 
   let keyLevelStack = (treeData.layers || []).map((node) => {
-    return [node, 0, 0, 0]
+    let {x, y} = node.frame
+    return [node, 0, x, y]
   }).reverse()
   let nodeLevelLeftTop
   while ((nodeLevelLeftTop = keyLevelStack.pop())) {
@@ -143,9 +140,9 @@ function depthFirstSearch(treeData, callback) {
     }
   }
   newArr = newArr.filter(v => v != undefined)
-  newArr = newArr.filter((v, i, a) => v != a[i + 1])
-  fs.writeFile(actionSheetModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
-  console.log(newArr)
+  return newArr
+  // fs.writeFile(controlThreeModelResult, JSON.stringify(newArr, null, 4), 'utf8', err => { if (err) console.log(err) })
+  // console.log(newArr)
 }
 
 
@@ -194,7 +191,7 @@ function handleData(node, level, x, y, i) {
     || (classType == 'MSLayerGroup' && ~name.indexOf('App Icon'))
     || (classType == 'MSLayerGroup' && name == 'Back')
     || (classType == 'MSLayerGroup' && name == 'Arrow')
-    
+
   ) {
     /**
      * hack for android two line with avator and icon
@@ -209,7 +206,7 @@ function handleData(node, level, x, y, i) {
     }
 
     let tempComponentName = name && getComponentName(name)
-    let tempFrame = {...(frame && getFrame(frame)), left: x, top: y}
+    let tempFrame = { ...(frame && getFrame(frame)), left: x, top: y }
     let tempAttributedString = attributedString && getTextDescription(attributedString)
     let tempBorders = style && getBorders(style)
     let tempShadow = style && getShadow(style)
@@ -229,12 +226,12 @@ function handleData(node, level, x, y, i) {
     /**
      * 将矩形转换为圆形：添加 border-radius
      */
-    if(classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob')) {
+    if (classType == 'MSShapeGroup' && (name == 'Unread' || name == 'Avatar' || name == 'Knob')) {
       console.log(name)
       let { width } = frame
       tempFourBorderRadius = {
-        br: parseInt(width/2, 10)
-      }   
+        br: parseInt(width / 2, 10)
+      }
     }
 
 
@@ -243,7 +240,7 @@ function handleData(node, level, x, y, i) {
      * 去掉白色的BG
      * 增加边框
      */
-    if(name === 'BG' && style.fills &&  style.fills.length == 0) {
+    if (name === 'BG' && style.fills && style.fills.length == 0) {
       return
     }
     // console.log(name, tempFill)
@@ -252,8 +249,8 @@ function handleData(node, level, x, y, i) {
     /**
      * IOS edit Menu
      */
-    if(name == 'Point') {
-      Object.assign(tempFrame, tempComponentType, {tc: tempFill.bg})
+    if (name == 'Point') {
+      Object.assign(tempFrame, tempComponentType, { tc: tempFill.bg })
     }
 
     /**
@@ -261,37 +258,37 @@ function handleData(node, level, x, y, i) {
      */
     let tempIcon = { z: 1000, name: 'icon_button' }
     let iconSize = () => {
-      let {width, height} = tempFrame
+      let { width, height } = tempFrame
       return +width > +height ? +width : +height
     }
     if (name == 'Refresh') {
       // 给下面的数组清0 ，不进入子组件循环
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'fa-repeat' }, {is: iconSize()})
+      return Object.assign(tempFrame, tempIcon, { icon: 'fa-repeat' }, { is: iconSize() })
     }
     if (classType == 'MSShapeGroup' && (name == 'Search Icon')) {
-      
+
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'ci-yql-search' }, {is: iconSize(), tc: tempFill.bg})
+      return Object.assign(tempFrame, tempIcon, { icon: 'ci-yql-search' }, { is: iconSize(), tc: tempFill.bg })
     }
     if (name == 'Clear') {
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, { icon: 'mb-times-circle-filled' }, {is: iconSize(), tc: tempFill.bg})
+      return Object.assign(tempFrame, tempIcon, { icon: 'mb-times-circle-filled' }, { is: iconSize(), tc: tempFill.bg })
     }
 
-    if(name == 'Arrow' && classType == 'MSLayerGroup') {
-      node.layers = []      
+    if (name == 'Arrow' && classType == 'MSLayerGroup') {
+      node.layers = []
       const bg = "#C7C7CC"
-      let {left, top} = tempFrame
-      return Object.assign(tempFrame, {left: left - 5, top: top - 2}, tempIcon, {icon: 'fa-angle-right'}, {is: iconSize(), tc: bg})
+      let { left, top } = tempFrame
+      return Object.assign(tempFrame, { left: left - 5, top: top - 2 }, tempIcon, { icon: 'fa-angle-right' }, { is: iconSize(), tc: bg })
     }
 
-    if((classType == 'MSShapeGroup' && name.indexOf('Icon') == 0)) {
-      node.layers = []     
+    if ((classType == 'MSShapeGroup' && name.indexOf('Icon') == 0)) {
+      node.layers = []
       // default icon 
-      return Object.assign(tempFrame, tempIcon, {icon: 'mb-widget-icon-label'})
+      return Object.assign(tempFrame, tempIcon, { icon: 'mb-widget-icon-label' })
     }
-    
+
 
 
 
@@ -349,7 +346,7 @@ function handleData(node, level, x, y, i) {
       // icon 位置渲染会出现问题
       let tc = node.layers && node.layers.length && getBackground(node.layers[node.layers.length - 1].style).bg
       node.layers = []
-      return Object.assign(tempFrame, tempIcon, {icon: 'md-chevron_left'}, {tc, is: 36})
+      return Object.assign(tempFrame, tempIcon, { icon: 'md-chevron_left' }, { tc, is: 36 })
     }
 
     /**
@@ -363,48 +360,43 @@ function handleData(node, level, x, y, i) {
      * 将其宽度或者高度设为border-width
      */
     if (classType === 'MSShapeGroup' && ~name.indexOf('Line')) {
-      let { bs,bc } = tempBorders
-      let {width, height, left, top} = tempFrame
-      let tempLineStyle = {name: 'rounded_rect', bg: bc, bs: 0}
+      let { bs, bc } = tempBorders
+      let { width, height, left, top } = tempFrame
+      let tempLineStyle = { name: 'rounded_rect', bg: bc, bs: 0 }
 
-      if(+height == 3 && (+height < +width)) {
-        return Object.assign(tempLineStyle, tempFrame, { height: bs})
+      if (+height == 3 && (+height < +width)) {
+        return Object.assign(tempLineStyle, tempFrame, { height: bs })
       }
-      return Object.assign(tempLineStyle, { width: bs, left: left, height: +height + 2, top: +top - 2})        
+      return Object.assign(tempLineStyle, { width: bs, left: left, height: +height + 2, top: +top - 2 })
     }
 
 
-    
-    if (tempBorders) {
-      Object.assign(tempFrame, tempBorders)
-    }
 
-    if (tempShadow) {
-      Object.assign(tempFrame, tempShadow)
-    }
-    
+    tempBorders && Object.assign(tempFrame, tempBorders)
+
+    tempShadow && Object.assign(tempFrame, tempShadow)
+
     if (tempFill && name.indexOf('Label')) {
       Object.assign(tempFrame, tempFill)
     }
 
-    
-    if(classType == 'MSLayerGroup' && ~name.indexOf('App Icon')) {
-    // 避免颜色被覆盖
-      
+
+    if (classType == 'MSLayerGroup' && ~name.indexOf('App Icon')) {
+      // 避免颜色被覆盖
+
       let style = node.layers && node.layers.length && node.layers[0].style
       let background = getBackground(style)
       // ui 给的数据
-      Object.assign(tempFrame, background, {br: 4})
+      Object.assign(tempFrame, background, { br: 4 })
       node.layers = []
     }
 
-    if (tempFourBorderRadius) {
-      Object.assign(tempFrame, tempFourBorderRadius)
-    }
+    tempFourBorderRadius && Object.assign(tempFrame, tempFourBorderRadius)
+
     return (Object.assign(tempFrame,
       tempComponentName,
       tempAttributedString,
       tempComponentType,
-      { z: idx++, resizingType}))
+      { z: idx++, resizingType }))
   }
 }

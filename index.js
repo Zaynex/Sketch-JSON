@@ -1,87 +1,67 @@
 import sketch from 'sketchjs'
-import { 
-    getFrame, 
-    filterBackgroundColor,
-    getTextDescription,
-    getComponentType,
-    getBorders,
-    getShadow,
-    getBackground,
-    getFourBorderRadius
-} from './lib'
 import fs from 'fs'
+import handleData from './handleData'
 
-sketch.dump('./font.sketch',function(json){
-    fs.writeFile('font_sketch.json', json, 'utf8', (err) => {
-        if(err) {console.log(err)}
-    })
-    let { pages: [{layers}] } = JSON.parse(json)
-    let resultArr = []
-    let obj = {}
+const Androidtest = "sketch/android.sketch"
+const AndroidtestModel = "data/androidtestModel.json"
+const AndroidtestModelResult = "data/androidtestModelResult.json"
 
-    const iterator = (layer) => {
-        const {layers} = layer
-        let tempObj = {}    
-        
-        if(layers && layers.length) {
-            Object.assign(obj, ...layers.map((inlayer) => iterator(inlayer)))
-        } 
-        let idx = 1
-        let tempArr= []
-        const { 
-                frame, 
-                hasBackgroundColor, 
-                backgroundColor,
-                attributedString,
-                style,
-                name,
-                path
-            } = layer
-        const nameType = layer['<class>']
-        let tempComponentType = nameType && getComponentType(nameType)
-        let tempFrame = frame && getFrame(frame)
-        let tempBackground = hasBackgroundColor && filterBackgroundColor(!!hasBackgroundColor, backgroundColor)
-        let tempAttributedString = attributedString && getTextDescription(attributedString)
-        let tempBorders = style && style.borders && style.borders.length && getBorders(style)
-        let tempShadow = style && style.shadows && style.shadows.length && getShadow(style)
-        let tempFill = style && style.fills && style.fills.length && getBackground(style)
-        let tempFourBorderRadius = path && getFourBorderRadius(path)
-        if(tempBorders) {
-            Object.assign(tempObj, tempBorders)
-        }
-        if(tempShadow) {
-            Object.assign(tempObj, tempShadow)            
-        }
-        if(tempFill) {
-            Object.assign(tempObj, tempFill)
-        }
-        if(tempFourBorderRadius) {
-            Object.assign(tempObj, tempFourBorderRadius)
-        }
-        if(tempFrame) {
-            Object.assign(tempObj, tempFrame)
-        }
-        if(tempBackground) {
-            Object.assign(tempObj, tempBackground)
-        }
-        if(tempAttributedString) {
-            Object.assign(tempObj, tempAttributedString)
-        }
-        if(tempComponentType) {
-            Object.assign(tempObj, tempComponentType)        
-        }
-        
-        return Object.assign({}, obj,tempObj,
-            {z: idx++})
-            
-    }
-    
-    layers.map((layer) => {
-        obj = {}
-        return resultArr.push(iterator(layer))
-    })
 
-    fs.writeFile('font.json', JSON.stringify(resultArr, null, 4), 'utf8', (err) => {
+const actiontest = "sketch/actiontest.sketch"
+const actiontestModel = "data/actiontestModel.json"
+const actiontestModelResult = "data/actiontestModelResult.json"
+
+const barSafari = "sketch/barSafari.sketch"
+const barSafariModel = "data/barSafariModel.json"
+const barSafariModelResult = "data/barSafariModelResult.json"
+
+
+sketch.dump(Androidtest, (json) => {
+    fs.writeFile(AndroidtestModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
         if(err) console.log(err)
     })
+    let data = JSON.parse(json)
+    let { pages } = data
+    let symbols = pages[0].layers
+    let AllResult = symbols.map((symbol) => {
+        let name = symbol.name
+        return { [name] : depthFirstSearch(symbol, handleData)}
+    })
+
+    fs.writeFile(AndroidtestModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
+    
 })
+
+/**
+ * 
+ * @param {json} 读取sketch json 文件
+ * @param {function} 处理逻辑
+ */
+function depthFirstSearch(treeData, callback) {
+    let resultArr = new Set() 
+    let keyLevelStack = (treeData.layers || []).map((node) => {
+        let {x, y} = node && node.frame
+        return [node, 0, x, y]
+    }).reverse()
+    let nodeLevelLeftTop
+    while ((nodeLevelLeftTop = keyLevelStack.pop())) {
+        const [node, level, x, y, i] = nodeLevelLeftTop
+
+        callback && resultArr.add(callback(node, level, x, y, i))
+        if (node.layers && node.layers.length) {
+            keyLevelStack = [
+                ...keyLevelStack,
+                ...node.layers.map((node, i) => {
+                    const { frame } = node
+                    return [node, level + 1, x + frame.x, y + frame.y, i]
+                }).reverse()
+            ]
+        }
+    }
+    resultArr = ([...resultArr].filter(v => v != null))
+    // resultArr = resultArr.filter(v => v != null || v != undefined)
+    // resultArr = resultArr.filter((v,i, res) => v != res[i+1])
+    // fs.writeFile(actiontestModelResult, JSON.stringify(resultArr, null, 4), 'utf8', err => { if (err) console.log(err) })
+    return resultArr
+    // console.log(resultArr)
+}

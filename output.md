@@ -1,15 +1,19 @@
-## 默认情况下，行高和高是相等，通过计算判断，使用 label 还是 text_view
+## 规范命名
+### 圆角图标
+1. 凡是圆形图标都命名为 avatar/Oval 放着图片的占位符
+2. 如果是 icon， 那就规范为 `icon-` 开头
 
-##
-1. 圆角  图片占位 App Icon 统一采用 Mask 形式
-2. 直角  Icon 填充
+### Mask
+用于最外层的遮罩，含边框
+
+## 维护
+1. 默认情况下，行高和高是相等，通过计算判断，使用 label 还是 text_view
+
 
 
 ## BUG
 1. 粘贴时，图标库的搜索框也会监听事件
 
-
-fa-angle-left
 ## sketch 规范
 1. 圆角图标  App Icon
 2. 图标 Icon
@@ -36,15 +40,32 @@ break-word: 如果行内没有多余的地方容纳到该单词结尾，则那�
 
 
 
-## to do
-1. 找孟轲拿新的设计稿，注意事项（文字的宽度设置，以及 固定方式）
-2. icon 叫给YIJUN 生成
-3. 去掉组件边框的默认值
-
-
-1. sketch 中的 width 是否包含 border ？ border-box : content-box
-2. 对于 rectangle-path 中的组件，它的背景颜色在下一层，而如果到下一层的话，就会再次渲染
-
+## 样式
+```
+{
+    frame, // 位置大小
+    style: {
+        textStyle: {
+            NSFont:{
+                attributes: {
+                    FontSize,
+                    FontFamily
+                }
+            },
+            NSParagraphStyle: {
+                style:{
+                    alignment,
+                    lineSpacing,
+                    maximumLineHeight
+                }
+            },
+            NSColor: {
+                color: 'rbga'
+            }
+        }
+    }
+}
+```
 ### 需要导出的样式：
 ```
 name: 组件类型，比如（lable, text)
@@ -62,7 +83,7 @@ va: 文字垂直对齐
 z:  z-index
 lh: line-height
 o:  opacity
-ds: drop-shadow width
+ds: drop-shadow width(阴影)
 sc: drop-shadow color
 bg: background-color
 tc: text-color
