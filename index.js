@@ -1,19 +1,19 @@
 import sketch from 'sketchjs'
 import fs from 'fs'
-import handleData from './handleData'
+import handleData from './lib/handleData'
 
 const Androidtest = "sketch/android.sketch"
 const AndroidtestModel = "data/androidtestModel.json"
 const AndroidtestModelResult = "data/androidtestModelResult.json"
 
 
-const actiontest = "sketch/actiontest.sketch"
-const actiontestModel = "data/actiontestModel.json"
-const actiontestModelResult = "data/actiontestModelResult.json"
+// const actiontest = "sketch/actiontest.sketch"
+// const actiontestModel = "data/actiontestModel.json"
+// const actiontestModelResult = "data/actiontestModelResult.json"
 
-const barSafari = "sketch/barSafari.sketch"
-const barSafariModel = "data/barSafariModel.json"
-const barSafariModelResult = "data/barSafariModelResult.json"
+// const barSafari = "sketch/barSafari.sketch"
+// const barSafariModel = "data/barSafariModel.json"
+// const barSafariModelResult = "data/barSafariModelResult.json"
 
 
 sketch.dump(Androidtest, (json) => {
