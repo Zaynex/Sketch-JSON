@@ -1,10 +1,10 @@
 ## Ready
 ```
 npm i
-npm i -g babel-cli
 ```
 
 ## Start
 ```
-babel-node index.js
+npm run build
+npm run start
 ```
