@@ -1691,5 +1691,80 @@
                 "name": "image_view"
             }
         ]
+    },
+    {
+        "button": [
+            {
+                "width": 94,
+                "height": 36,
+                "left": 0,
+                "top": 0,
+                "bs": 0,
+                "sc": "rgba(0,0,0,0.24)",
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 8,
+                "blurRadius": 8,
+                "spread": 0,
+                "ds": 2,
+                "bg": "#009688",
+                "title": "button bg",
+                "name": "rounded_rect",
+                "z": 77,
+                "resizingType": 0
+            },
+            {
+                "width": 61,
+                "height": 16,
+                "left": 16.5,
+                "top": 10,
+                "bs": 0,
+                "title": "NORMAL",
+                "tc": "rgba(255,255,255,1.00)",
+                "text": "NORMAL",
+                "fs": 14,
+                "lh": "auto",
+                "wordSpcing": 0.5,
+                "va": "baseline",
+                "ha": "center",
+                "name": "text_view",
+                "z": 78,
+                "resizingType": 0
+            }
+        ]
+    },
+    {
+        "fab": [
+            {
+                "width": 56,
+                "height": 56,
+                "left": 0,
+                "top": 0,
+                "bs": 0,
+                "sc": "rgba(0,0,0,0.24)",
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 14,
+                "blurRadius": 14,
+                "spread": 0,
+                "ds": 2,
+                "bg": "#009688",
+                "br": 28,
+                "title": "icon-add bg",
+                "name": "rounded_rect",
+                "z": 79,
+                "resizingType": 0
+            },
+            {
+                "icon": "mb-plus",
+                "is": 24,
+                "width": 24,
+                "height": 24,
+                "left": 16,
+                "top": 16,
+                "z": 1000,
+                "name": "icon_button",
+                "tc": "#FFF",
+                "o": 100
+            }
+        ]
     }
 ]
