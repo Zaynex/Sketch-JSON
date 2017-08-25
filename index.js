@@ -6,7 +6,7 @@ import handleData from './lib/handleData'
 // const AndroidtestModel = "data/androidtestModel.json"
 // const AndroidtestModelResult = "data/androidtestModelResult.json"
 
-const ios = "sketch/ios.sketch"
+const ios = "sketch/ios1.sketch"
 const iosModel = "data/iosModel.json"
 const iosModelResult = "data/iosModelResult.json"
 

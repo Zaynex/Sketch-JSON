@@ -4711,10 +4711,10 @@
                                         "x": 24
                                     },
                                     "glyphBounds": {
-                                        "y": 0,
-                                        "x": 0,
-                                        "width": 112,
-                                        "height": 24
+                                        "y": 4,
+                                        "x": 1,
+                                        "width": 110,
+                                        "height": 16
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -4825,7 +4825,7 @@
                                     "heightIsClipped": 0,
                                     "lineSpacingBehaviour": 0,
                                     "dontSynchroniseWithSymbol": 0,
-                                    "textBehaviour": 0,
+                                    "textBehaviour": 1,
                                     "isFlippedVertical": 0,
                                     "<class>": "MSTextLayer",
                                     "resizingType": 0,
@@ -4895,7 +4895,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 47,
+                                    "resizingConstraint": 63,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -11145,19 +11145,7 @@
                                                     "resizingConstraint": 63
                                                 },
                                                 {
-                                                    "isFlippedHorizontal": 0,
-                                                    "verticalSpacing": 0,
-                                                    "objectID": "54299878-39B4-4EEF-BF6A-F3B712B92220",
-                                                    "rotation": 0,
-                                                    "frame": {
-                                                        "y": 0,
-                                                        "<class>": "MSRect",
-                                                        "constrainProportions": 1,
-                                                        "height": 24,
-                                                        "width": 24,
-                                                        "x": 0
-                                                    },
-                                                    "layerListExpandedType": 0,
+                                                    "shouldBreakMaskChain": 0,
                                                     "style": {
                                                         "startDecorationType": 0,
                                                         "borderOptions": {
@@ -11205,6 +11193,582 @@
                                                         "innerShadows": [],
                                                         "shadows": []
                                                     },
+                                                    "rotation": 0,
+                                                    "layers": [
+                                                        {
+                                                            "isFlippedHorizontal": 0,
+                                                            "style": {
+                                                                "startDecorationType": 0,
+                                                                "sharedObjectID": "DC56376C-8162-4E24-BB3C-91C5B43AD324",
+                                                                "borderOptions": {
+                                                                    "lineJoinStyle": 0,
+                                                                    "<class>": "MSStyleBorderOptions",
+                                                                    "isEnabled": 0,
+                                                                    "lineCapStyle": 0,
+                                                                    "dashPattern": []
+                                                                },
+                                                                "endDecorationType": 0,
+                                                                "contextSettings": {
+                                                                    "<class>": "MSGraphicsContextSettings",
+                                                                    "opacity": 1,
+                                                                    "blendMode": 0
+                                                                },
+                                                                "blur": {
+                                                                    "radius": 10,
+                                                                    "<class>": "MSStyleBlur",
+                                                                    "motionAngle": 0,
+                                                                    "isEnabled": 0,
+                                                                    "type": 0,
+                                                                    "center": {
+                                                                        "x": 0.5,
+                                                                        "y": 0.5
+                                                                    }
+                                                                },
+                                                                "reflection": {
+                                                                    "<class>": "MSStyleReflection",
+                                                                    "strength": 0.5,
+                                                                    "isEnabled": 0,
+                                                                    "distance": 1
+                                                                },
+                                                                "<class>": "MSStyle",
+                                                                "miterLimit": 10,
+                                                                "colorControls": {
+                                                                    "hue": 0,
+                                                                    "<class>": "MSStyleColorControls",
+                                                                    "brightness": 0,
+                                                                    "contrast": 1,
+                                                                    "isEnabled": 0,
+                                                                    "saturation": 1
+                                                                },
+                                                                "fills": [
+                                                                    {
+                                                                        "contextSettings": {
+                                                                            "<class>": "MSGraphicsContextSettings",
+                                                                            "opacity": 1,
+                                                                            "blendMode": 0
+                                                                        },
+                                                                        "color": {
+                                                                            "<class>": "MSColor",
+                                                                            "value": "#000000"
+                                                                        },
+                                                                        "<class>": "MSStyleFill",
+                                                                        "gradient": {
+                                                                            "from": {
+                                                                                "x": 0.5,
+                                                                                "y": 0
+                                                                            },
+                                                                            "shouldSmoothenOpacity": 0,
+                                                                            "gradientType": 0,
+                                                                            "<class>": "MSGradient",
+                                                                            "stops": [
+                                                                                {
+                                                                                    "<class>": "MSGradientStop",
+                                                                                    "color": {
+                                                                                        "<class>": "MSColor",
+                                                                                        "value": "#FFFFFF"
+                                                                                    },
+                                                                                    "position": 0
+                                                                                },
+                                                                                {
+                                                                                    "<class>": "MSGradientStop",
+                                                                                    "color": {
+                                                                                        "<class>": "MSColor",
+                                                                                        "value": "#000000"
+                                                                                    },
+                                                                                    "position": 1
+                                                                                }
+                                                                            ],
+                                                                            "to": {
+                                                                                "x": 0.5,
+                                                                                "y": 1
+                                                                            },
+                                                                            "elipseLength": 0
+                                                                        },
+                                                                        "fillType": 0,
+                                                                        "noiseIntensity": 0,
+                                                                        "patternFillType": 0,
+                                                                        "patternTileScale": 1,
+                                                                        "noiseIndex": 0,
+                                                                        "isEnabled": 1
+                                                                    }
+                                                                ],
+                                                                "borders": [],
+                                                                "innerShadows": [],
+                                                                "shadows": []
+                                                            },
+                                                            "rotation": 0,
+                                                            "frame": {
+                                                                "y": 1.999899999999798,
+                                                                "<class>": "MSRect",
+                                                                "constrainProportions": 0,
+                                                                "height": 20,
+                                                                "width": 18,
+                                                                "x": 3
+                                                            },
+                                                            "hasClickThrough": 0,
+                                                            "objectID": "6BF24F8E-F0BA-4972-8773-739E1EA76A4E",
+                                                            "exportOptions": {
+                                                                "shouldTrim": 0,
+                                                                "<class>": "MSExportOptions",
+                                                                "includedLayerIds": [],
+                                                                "layerOptions": 0,
+                                                                "exportFormats": []
+                                                            },
+                                                            "layerListExpandedType": 0,
+                                                            "windingRule": 1,
+                                                            "isFlippedVertical": 0,
+                                                            "clippingMaskMode": 0,
+                                                            "resizingType": 3,
+                                                            "layers": [
+                                                                {
+                                                                    "shouldBreakMaskChain": 0,
+                                                                    "rotation": 0,
+                                                                    "objectID": "6739FE35-D19A-4C6E-A12E-58DEF96FC8C1",
+                                                                    "edited": 1,
+                                                                    "frame": {
+                                                                        "y": 1.783490802610694e-15,
+                                                                        "<class>": "MSRect",
+                                                                        "constrainProportions": 0,
+                                                                        "height": 20,
+                                                                        "width": 18,
+                                                                        "x": 0
+                                                                    },
+                                                                    "isFlippedVertical": 0,
+                                                                    "exportOptions": {
+                                                                        "shouldTrim": 0,
+                                                                        "<class>": "MSExportOptions",
+                                                                        "includedLayerIds": [],
+                                                                        "layerOptions": 0,
+                                                                        "exportFormats": []
+                                                                    },
+                                                                    "isVisible": 1,
+                                                                    "booleanOperation": -1,
+                                                                    "path": {
+                                                                        "points": [
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.791111111111111,
+                                                                                    "y": 0.706827309236948
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 0.706827309236948
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 0.706827309236948
+                                                                                },
+                                                                                "hasCurveTo": 0
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 0,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.7244444444444444,
+                                                                                    "y": 0.7454819277108435
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.7244444444444444,
+                                                                                    "y": 0.7454819277108435
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.7533333333333333,
+                                                                                    "y": 0.7218875502008034
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.3311111111111112,
+                                                                                    "y": 0.5256024096385543
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.3283333333333334,
+                                                                                    "y": 0.5371485943775102
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.3283333333333334,
+                                                                                    "y": 0.5371485943775102
+                                                                                },
+                                                                                "hasCurveTo": 0
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 2,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.3333333333333334,
+                                                                                    "y": 0.4899598393574299
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.3333333333333334,
+                                                                                    "y": 0.5020080321285142
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.3333333333333334,
+                                                                                    "y": 0.5140562248995985
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 0,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.3283333333333334,
+                                                                                    "y": 0.4668674698795182
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.3283333333333334,
+                                                                                    "y": 0.4668674698795182
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.3311111111111112,
+                                                                                    "y": 0.478413654618474
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.75,
+                                                                                    "y": 0.2856425702811246
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.7200000000000001,
+                                                                                    "y": 0.2605421686746989
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.7200000000000001,
+                                                                                    "y": 0.2605421686746989
+                                                                                },
+                                                                                "hasCurveTo": 0
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 3,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.9255555555555556,
+                                                                                    "y": 0.3012048192771085
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 0.3012048192771085
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.7894444444444445,
+                                                                                    "y": 0.3012048192771085
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 2,
+                                                                                "curveFrom": {
+                                                                                    "x": 1,
+                                                                                    "y": 0.0672690763052209
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 1,
+                                                                                    "y": 0.1506024096385543
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 1,
+                                                                                    "y": 0.2339357429718876
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 2,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.741111111111111,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.9255555555555556,
+                                                                                    "y": 0
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 3,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.6666666666666666,
+                                                                                    "y": 0.1626506024096386
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.6666666666666666,
+                                                                                    "y": 0.1506024096385543
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.6666666666666666,
+                                                                                    "y": 0.0672690763052209
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 0,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.6716666666666666,
+                                                                                    "y": 0.1857429718875503
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.6716666666666666,
+                                                                                    "y": 0.1857429718875503
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.6688888888888889,
+                                                                                    "y": 0.1741967871485944
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.25,
+                                                                                    "y": 0.3669678714859439
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.28,
+                                                                                    "y": 0.3920682730923696
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.28,
+                                                                                    "y": 0.3920682730923696
+                                                                                },
+                                                                                "hasCurveTo": 0
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 3,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.07444444444444444,
+                                                                                    "y": 0.3514056224899599
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.1666666666666667,
+                                                                                    "y": 0.3514056224899599
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.2105555555555556,
+                                                                                    "y": 0.3514056224899599
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 2,
+                                                                                "curveFrom": {
+                                                                                    "x": 0,
+                                                                                    "y": 0.5853413654618476
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0,
+                                                                                    "y": 0.5020080321285142
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0,
+                                                                                    "y": 0.4186746987951808
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 3,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.2105555555555556,
+                                                                                    "y": 0.6526104417670685
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.1666666666666667,
+                                                                                    "y": 0.6526104417670685
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.07444444444444444,
+                                                                                    "y": 0.6526104417670685
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 0,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.28,
+                                                                                    "y": 0.6119477911646588
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.28,
+                                                                                    "y": 0.6119477911646588
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.25,
+                                                                                    "y": 0.6370481927710845
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.6727777777777777,
+                                                                                    "y": 0.8313253012048196
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.6755555555555556,
+                                                                                    "y": 0.8207831325301208
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.6755555555555556,
+                                                                                    "y": 0.8207831325301208
+                                                                                },
+                                                                                "hasCurveTo": 0
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 3,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.6711111111111112,
+                                                                                    "y": 0.9342369477911648
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.6711111111111112,
+                                                                                    "y": 0.8534136546184742
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.6711111111111112,
+                                                                                    "y": 0.8423694779116468
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 2,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.9227777777777777,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.7438888888888889,
+                                                                                    "y": 1
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 1,
+                                                                                "curveMode": 2,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.9955555555555556,
+                                                                                    "y": 0.772590361445783
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.9955555555555556,
+                                                                                    "y": 0.8534136546184737
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.9955555555555556,
+                                                                                    "y": 0.9342369477911648
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            },
+                                                                            {
+                                                                                "hasCurveFrom": 0,
+                                                                                "curveMode": 4,
+                                                                                "curveFrom": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 0.7068273092369476
+                                                                                },
+                                                                                "point": {
+                                                                                    "x": 0.8333333333333334,
+                                                                                    "y": 0.7068273092369476
+                                                                                },
+                                                                                "<class>": "MSCurvePoint",
+                                                                                "cornerRadius": 0,
+                                                                                "curveTo": {
+                                                                                    "x": 0.9227777777777779,
+                                                                                    "y": 0.7068273092369476
+                                                                                },
+                                                                                "hasCurveTo": 1
+                                                                            }
+                                                                        ],
+                                                                        "<class>": "MSShapePath",
+                                                                        "pointRadiusBehaviour": 0,
+                                                                        "isClosed": 1
+                                                                    },
+                                                                    "isFlippedHorizontal": 0,
+                                                                    "resizingConstraint": 63,
+                                                                    "resizingType": 0,
+                                                                    "<class>": "MSShapePathLayer",
+                                                                    "isLocked": 0,
+                                                                    "layerListExpandedType": 0,
+                                                                    "nameIsFixed": 0,
+                                                                    "name": "Path"
+                                                                }
+                                                            ],
+                                                            "isVisible": 1,
+                                                            "hasClippingMask": 0,
+                                                            "<class>": "MSShapeGroup",
+                                                            "nameIsFixed": 0,
+                                                            "name": "Shape",
+                                                            "isLocked": 0,
+                                                            "shouldBreakMaskChain": 0,
+                                                            "resizingConstraint": 45
+                                                        }
+                                                    ],
                                                     "exportOptions": {
                                                         "shouldTrim": 0,
                                                         "<class>": "MSExportOptions",
@@ -11212,21 +11776,26 @@
                                                         "layerOptions": 0,
                                                         "exportFormats": []
                                                     },
-                                                    "masterInfluenceEdgeMaxYPadding": 0,
-                                                    "symbolID": "5A70D556-9A92-4B34-AFFF-83346C94A0B8",
+                                                    "frame": {
+                                                        "y": 0,
+                                                        "<class>": "MSRect",
+                                                        "constrainProportions": 0,
+                                                        "height": 24,
+                                                        "width": 24,
+                                                        "x": 0
+                                                    },
                                                     "isFlippedVertical": 0,
-                                                    "resizingType": 0,
-                                                    "<class>": "MSSymbolInstance",
+                                                    "hasClickThrough": 0,
                                                     "isVisible": 1,
-                                                    "nameIsFixed": 1,
-                                                    "name": "share icon",
-                                                    "horizontalSpacing": 0,
-                                                    "isLocked": 0,
-                                                    "shouldBreakMaskChain": 0,
-                                                    "masterInfluenceEdgeMinYPadding": 0,
+                                                    "objectID": "0940205A-D843-4583-9FE6-8E1AE290B06F",
                                                     "resizingConstraint": 63,
-                                                    "masterInfluenceEdgeMinXPadding": 0,
-                                                    "masterInfluenceEdgeMaxXPadding": 0
+                                                    "isFlippedHorizontal": 0,
+                                                    "resizingType": 0,
+                                                    "<class>": "MSLayerGroup",
+                                                    "isLocked": 0,
+                                                    "layerListExpandedType": 0,
+                                                    "nameIsFixed": 0,
+                                                    "name": "share icon"
                                                 }
                                             ],
                                             "exportOptions": {
@@ -14091,10 +14660,10 @@
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
-                                                        "y": 0,
+                                                        "y": 6,
                                                         "x": 0,
-                                                        "width": 232,
-                                                        "height": 40
+                                                        "width": 211,
+                                                        "height": 34
                                                     },
                                                     "layerListExpandedType": 0,
                                                     "exportOptions": {
@@ -14144,7 +14713,7 @@
                                                                     "headIndent": 0,
                                                                     "lineBreakMode": 0,
                                                                     "hyphenationFactor": 0,
-                                                                    "alignment": 4,
+                                                                    "alignment": 0,
                                                                     "paragraphSpacingBefore": 0,
                                                                     "tailIndent": 0,
                                                                     "firstLineHeadIndent": 0,
@@ -14258,7 +14827,7 @@
                                                                             "headIndent": 0,
                                                                             "lineBreakMode": 0,
                                                                             "hyphenationFactor": 0,
-                                                                            "alignment": 4,
+                                                                            "alignment": 0,
                                                                             "paragraphSpacingBefore": 0,
                                                                             "tailIndent": 0,
                                                                             "firstLineHeadIndent": 0,
@@ -15103,7 +15672,7 @@
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
                                             "isLocked": 0,
-                                            "layerListExpandedType": 1,
+                                            "layerListExpandedType": 0,
                                             "nameIsFixed": 1,
                                             "name": "row"
                                         },
@@ -15171,10 +15740,10 @@
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
-                                                        "y": 0,
+                                                        "y": 6,
                                                         "x": 0,
-                                                        "width": 232,
-                                                        "height": 40
+                                                        "width": 211,
+                                                        "height": 34
                                                     },
                                                     "layerListExpandedType": 0,
                                                     "exportOptions": {
@@ -15291,7 +15860,7 @@
                                                     "resizingType": 0,
                                                     "isVisible": 1,
                                                     "nameIsFixed": 0,
-                                                    "name": "Secondary line text ",
+                                                    "name": "Secondary line text",
                                                     "isLocked": 0,
                                                     "attributedString": {
                                                         "<class>": "NSConcreteAttributedString",
@@ -16451,10 +17020,10 @@
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
-                                                        "y": 0,
+                                                        "y": 6,
                                                         "x": 0,
-                                                        "width": 232,
-                                                        "height": 40
+                                                        "width": 211,
+                                                        "height": 34
                                                     },
                                                     "layerListExpandedType": 0,
                                                     "exportOptions": {
@@ -16504,7 +17073,7 @@
                                                                     "headIndent": 0,
                                                                     "lineBreakMode": 0,
                                                                     "hyphenationFactor": 0,
-                                                                    "alignment": 4,
+                                                                    "alignment": 0,
                                                                     "paragraphSpacingBefore": 0,
                                                                     "tailIndent": 0,
                                                                     "firstLineHeadIndent": 0,
@@ -16618,7 +17187,7 @@
                                                                             "headIndent": 0,
                                                                             "lineBreakMode": 0,
                                                                             "hyphenationFactor": 0,
-                                                                            "alignment": 4,
+                                                                            "alignment": 0,
                                                                             "paragraphSpacingBefore": 0,
                                                                             "tailIndent": 0,
                                                                             "firstLineHeadIndent": 0,
@@ -49734,772 +50303,6 @@
             "isVisible": 1,
             "nameIsFixed": 0,
             "name": "Page 1",
-            "isLocked": 0,
-            "shouldBreakMaskChain": 0,
-            "resizingConstraint": 63
-        },
-        {
-            "isFlippedHorizontal": 0,
-            "style": {
-                "startDecorationType": 0,
-                "borderOptions": {
-                    "lineJoinStyle": 0,
-                    "<class>": "MSStyleBorderOptions",
-                    "isEnabled": 0,
-                    "lineCapStyle": 0,
-                    "dashPattern": []
-                },
-                "endDecorationType": 0,
-                "contextSettings": {
-                    "<class>": "MSGraphicsContextSettings",
-                    "opacity": 1,
-                    "blendMode": 0
-                },
-                "blur": {
-                    "radius": 10,
-                    "<class>": "MSStyleBlur",
-                    "motionAngle": 0,
-                    "isEnabled": 0,
-                    "type": 0,
-                    "center": {
-                        "x": 0.5,
-                        "y": 0.5
-                    }
-                },
-                "reflection": {
-                    "<class>": "MSStyleReflection",
-                    "strength": 0.5,
-                    "isEnabled": 0,
-                    "distance": 1
-                },
-                "<class>": "MSStyle",
-                "miterLimit": 10,
-                "colorControls": {
-                    "hue": 0,
-                    "<class>": "MSStyleColorControls",
-                    "brightness": 0,
-                    "contrast": 1,
-                    "isEnabled": 0,
-                    "saturation": 1
-                },
-                "fills": [],
-                "borders": [],
-                "innerShadows": [],
-                "shadows": []
-            },
-            "horizontalRulerData": {
-                "<class>": "MSRulerData",
-                "base": 0,
-                "guides": []
-            },
-            "frame": {
-                "y": 0,
-                "<class>": "MSRect",
-                "constrainProportions": 0,
-                "height": 300,
-                "width": 300,
-                "x": 0
-            },
-            "hasClickThrough": 1,
-            "includeInCloudUpload": 1,
-            "exportOptions": {
-                "shouldTrim": 0,
-                "<class>": "MSExportOptions",
-                "includedLayerIds": [],
-                "layerOptions": 0,
-                "exportFormats": []
-            },
-            "objectID": "F5921534-B982-49F9-9D7D-5834CDC919BD",
-            "rotation": 0,
-            "layerListExpandedType": 0,
-            "verticalRulerData": {
-                "<class>": "MSRulerData",
-                "base": 0,
-                "guides": []
-            },
-            "isFlippedVertical": 0,
-            "resizingType": 0,
-            "<class>": "MSPage",
-            "layers": [
-                {
-                    "isFlippedHorizontal": 0,
-                    "includeBackgroundColorInInstance": 0,
-                    "objectID": "6313D752-918D-4EDC-8AB3-89A9D6E71E6D",
-                    "horizontalRulerData": {
-                        "<class>": "MSRulerData",
-                        "base": 0,
-                        "guides": []
-                    },
-                    "frame": {
-                        "x": 100,
-                        "height": 24,
-                        "constrainProportions": 0,
-                        "y": 0,
-                        "<class>": "MSRect",
-                        "width": 24,
-                        "objectID": "27D3789F-BD0A-4E3B-9720-3A86AD84BFC0"
-                    },
-                    "hasClickThrough": 1,
-                    "includeInCloudUpload": 1,
-                    "exportOptions": {
-                        "shouldTrim": 0,
-                        "<class>": "MSExportOptions",
-                        "includedLayerIds": [],
-                        "layerOptions": 0,
-                        "exportFormats": []
-                    },
-                    "hasBackgroundColor": 0,
-                    "layerListExpandedType": 0,
-                    "resizesContent": 0,
-                    "backgroundColor": {
-                        "<class>": "MSColor",
-                        "value": "#FFFFFF"
-                    },
-                    "rotation": 0,
-                    "style": {
-                        "startDecorationType": 0,
-                        "borderOptions": {
-                            "lineJoinStyle": 0,
-                            "<class>": "MSStyleBorderOptions",
-                            "isEnabled": 0,
-                            "lineCapStyle": 0,
-                            "dashPattern": []
-                        },
-                        "endDecorationType": 0,
-                        "contextSettings": {
-                            "<class>": "MSGraphicsContextSettings",
-                            "opacity": 1,
-                            "blendMode": 0
-                        },
-                        "blur": {
-                            "radius": 10,
-                            "<class>": "MSStyleBlur",
-                            "motionAngle": 0,
-                            "isEnabled": 0,
-                            "type": 0,
-                            "center": {
-                                "x": 0.5,
-                                "y": 0.5
-                            }
-                        },
-                        "reflection": {
-                            "<class>": "MSStyleReflection",
-                            "strength": 0.5,
-                            "isEnabled": 0,
-                            "distance": 1
-                        },
-                        "<class>": "MSStyle",
-                        "miterLimit": 10,
-                        "colorControls": {
-                            "hue": 0,
-                            "<class>": "MSStyleColorControls",
-                            "brightness": 0,
-                            "contrast": 1,
-                            "isEnabled": 0,
-                            "saturation": 1
-                        },
-                        "fills": [],
-                        "borders": [],
-                        "innerShadows": [],
-                        "shadows": []
-                    },
-                    "symbolID": "5A70D556-9A92-4B34-AFFF-83346C94A0B8",
-                    "verticalRulerData": {
-                        "<class>": "MSRulerData",
-                        "base": 0,
-                        "guides": []
-                    },
-                    "isFlippedVertical": 0,
-                    "<class>": "MSSymbolMaster",
-                    "nameIsFixed": 1,
-                    "layers": [
-                        {
-                            "isFlippedHorizontal": 0,
-                            "style": {
-                                "startDecorationType": 0,
-                                "sharedObjectID": "DC56376C-8162-4E24-BB3C-91C5B43AD324",
-                                "borderOptions": {
-                                    "lineJoinStyle": 0,
-                                    "<class>": "MSStyleBorderOptions",
-                                    "isEnabled": 0,
-                                    "lineCapStyle": 0,
-                                    "dashPattern": []
-                                },
-                                "objectID": "91DE0821-C45E-4DBB-9B62-1F51F46A128D",
-                                "endDecorationType": 0,
-                                "contextSettings": {
-                                    "<class>": "MSGraphicsContextSettings",
-                                    "opacity": 1,
-                                    "blendMode": 0
-                                },
-                                "blur": {
-                                    "radius": 10,
-                                    "<class>": "MSStyleBlur",
-                                    "motionAngle": 0,
-                                    "isEnabled": 0,
-                                    "type": 0,
-                                    "center": {
-                                        "x": 0.5,
-                                        "y": 0.5
-                                    }
-                                },
-                                "reflection": {
-                                    "<class>": "MSStyleReflection",
-                                    "strength": 0.5,
-                                    "isEnabled": 0,
-                                    "distance": 1
-                                },
-                                "<class>": "MSStyle",
-                                "miterLimit": 10,
-                                "colorControls": {
-                                    "hue": 0,
-                                    "<class>": "MSStyleColorControls",
-                                    "brightness": 0,
-                                    "contrast": 1,
-                                    "isEnabled": 0,
-                                    "saturation": 1
-                                },
-                                "fills": [
-                                    {
-                                        "contextSettings": {
-                                            "<class>": "MSGraphicsContextSettings",
-                                            "opacity": 1,
-                                            "blendMode": 0
-                                        },
-                                        "color": {
-                                            "<class>": "MSColor",
-                                            "value": "#000000"
-                                        },
-                                        "<class>": "MSStyleFill",
-                                        "gradient": {
-                                            "from": {
-                                                "x": 0.5,
-                                                "y": 0
-                                            },
-                                            "shouldSmoothenOpacity": 0,
-                                            "gradientType": 0,
-                                            "<class>": "MSGradient",
-                                            "stops": [
-                                                {
-                                                    "<class>": "MSGradientStop",
-                                                    "color": {
-                                                        "<class>": "MSColor",
-                                                        "value": "#FFFFFF"
-                                                    },
-                                                    "position": 0
-                                                },
-                                                {
-                                                    "<class>": "MSGradientStop",
-                                                    "color": {
-                                                        "<class>": "MSColor",
-                                                        "value": "#000000"
-                                                    },
-                                                    "position": 1
-                                                }
-                                            ],
-                                            "to": {
-                                                "x": 0.5,
-                                                "y": 1
-                                            },
-                                            "elipseLength": 0
-                                        },
-                                        "fillType": 0,
-                                        "noiseIntensity": 0,
-                                        "patternFillType": 0,
-                                        "patternTileScale": 1,
-                                        "noiseIndex": 0,
-                                        "isEnabled": 1
-                                    }
-                                ],
-                                "borders": [],
-                                "innerShadows": [],
-                                "shadows": []
-                            },
-                            "rotation": 0,
-                            "frame": {
-                                "y": 1.999899999999798,
-                                "<class>": "MSRect",
-                                "constrainProportions": 0,
-                                "height": 20,
-                                "width": 18,
-                                "x": 3
-                            },
-                            "hasClickThrough": 0,
-                            "objectID": "2DC35B5F-D18C-4497-80B3-E7E69D8CB2A8",
-                            "exportOptions": {
-                                "shouldTrim": 0,
-                                "<class>": "MSExportOptions",
-                                "includedLayerIds": [],
-                                "layerOptions": 0,
-                                "exportFormats": []
-                            },
-                            "layerListExpandedType": 0,
-                            "windingRule": 1,
-                            "isFlippedVertical": 0,
-                            "clippingMaskMode": 0,
-                            "resizingType": 3,
-                            "layers": [
-                                {
-                                    "shouldBreakMaskChain": 0,
-                                    "rotation": 0,
-                                    "objectID": "7ACB389D-A0F1-4998-B4EC-7B629C65BC3E",
-                                    "edited": 1,
-                                    "frame": {
-                                        "y": 1.783490802610694e-15,
-                                        "<class>": "MSRect",
-                                        "constrainProportions": 0,
-                                        "height": 20,
-                                        "width": 18,
-                                        "x": 0
-                                    },
-                                    "isFlippedVertical": 0,
-                                    "exportOptions": {
-                                        "shouldTrim": 0,
-                                        "<class>": "MSExportOptions",
-                                        "includedLayerIds": [],
-                                        "layerOptions": 0,
-                                        "exportFormats": []
-                                    },
-                                    "isVisible": 1,
-                                    "booleanOperation": -1,
-                                    "path": {
-                                        "points": [
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.791111111111111,
-                                                    "y": 0.706827309236948
-                                                },
-                                                "point": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 0.706827309236948
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 0.706827309236948
-                                                },
-                                                "hasCurveTo": 0
-                                            },
-                                            {
-                                                "hasCurveFrom": 0,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.7244444444444444,
-                                                    "y": 0.7454819277108435
-                                                },
-                                                "point": {
-                                                    "x": 0.7244444444444444,
-                                                    "y": 0.7454819277108435
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.7533333333333333,
-                                                    "y": 0.7218875502008034
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.3311111111111112,
-                                                    "y": 0.5256024096385543
-                                                },
-                                                "point": {
-                                                    "x": 0.3283333333333334,
-                                                    "y": 0.5371485943775102
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.3283333333333334,
-                                                    "y": 0.5371485943775102
-                                                },
-                                                "hasCurveTo": 0
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 2,
-                                                "curveFrom": {
-                                                    "x": 0.3333333333333334,
-                                                    "y": 0.4899598393574299
-                                                },
-                                                "point": {
-                                                    "x": 0.3333333333333334,
-                                                    "y": 0.5020080321285142
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.3333333333333334,
-                                                    "y": 0.5140562248995985
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 0,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.3283333333333334,
-                                                    "y": 0.4668674698795182
-                                                },
-                                                "point": {
-                                                    "x": 0.3283333333333334,
-                                                    "y": 0.4668674698795182
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.3311111111111112,
-                                                    "y": 0.478413654618474
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.75,
-                                                    "y": 0.2856425702811246
-                                                },
-                                                "point": {
-                                                    "x": 0.7200000000000001,
-                                                    "y": 0.2605421686746989
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.7200000000000001,
-                                                    "y": 0.2605421686746989
-                                                },
-                                                "hasCurveTo": 0
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 3,
-                                                "curveFrom": {
-                                                    "x": 0.9255555555555556,
-                                                    "y": 0.3012048192771085
-                                                },
-                                                "point": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 0.3012048192771085
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.7894444444444445,
-                                                    "y": 0.3012048192771085
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 2,
-                                                "curveFrom": {
-                                                    "x": 1,
-                                                    "y": 0.0672690763052209
-                                                },
-                                                "point": {
-                                                    "x": 1,
-                                                    "y": 0.1506024096385543
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 1,
-                                                    "y": 0.2339357429718876
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 2,
-                                                "curveFrom": {
-                                                    "x": 0.741111111111111,
-                                                    "y": 0
-                                                },
-                                                "point": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 0
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.9255555555555556,
-                                                    "y": 0
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 3,
-                                                "curveFrom": {
-                                                    "x": 0.6666666666666666,
-                                                    "y": 0.1626506024096386
-                                                },
-                                                "point": {
-                                                    "x": 0.6666666666666666,
-                                                    "y": 0.1506024096385543
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.6666666666666666,
-                                                    "y": 0.0672690763052209
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 0,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.6716666666666666,
-                                                    "y": 0.1857429718875503
-                                                },
-                                                "point": {
-                                                    "x": 0.6716666666666666,
-                                                    "y": 0.1857429718875503
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.6688888888888889,
-                                                    "y": 0.1741967871485944
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.25,
-                                                    "y": 0.3669678714859439
-                                                },
-                                                "point": {
-                                                    "x": 0.28,
-                                                    "y": 0.3920682730923696
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.28,
-                                                    "y": 0.3920682730923696
-                                                },
-                                                "hasCurveTo": 0
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 3,
-                                                "curveFrom": {
-                                                    "x": 0.07444444444444444,
-                                                    "y": 0.3514056224899599
-                                                },
-                                                "point": {
-                                                    "x": 0.1666666666666667,
-                                                    "y": 0.3514056224899599
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.2105555555555556,
-                                                    "y": 0.3514056224899599
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 2,
-                                                "curveFrom": {
-                                                    "x": 0,
-                                                    "y": 0.5853413654618476
-                                                },
-                                                "point": {
-                                                    "x": 0,
-                                                    "y": 0.5020080321285142
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0,
-                                                    "y": 0.4186746987951808
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 3,
-                                                "curveFrom": {
-                                                    "x": 0.2105555555555556,
-                                                    "y": 0.6526104417670685
-                                                },
-                                                "point": {
-                                                    "x": 0.1666666666666667,
-                                                    "y": 0.6526104417670685
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.07444444444444444,
-                                                    "y": 0.6526104417670685
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 0,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.28,
-                                                    "y": 0.6119477911646588
-                                                },
-                                                "point": {
-                                                    "x": 0.28,
-                                                    "y": 0.6119477911646588
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.25,
-                                                    "y": 0.6370481927710845
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.6727777777777777,
-                                                    "y": 0.8313253012048196
-                                                },
-                                                "point": {
-                                                    "x": 0.6755555555555556,
-                                                    "y": 0.8207831325301208
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.6755555555555556,
-                                                    "y": 0.8207831325301208
-                                                },
-                                                "hasCurveTo": 0
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 3,
-                                                "curveFrom": {
-                                                    "x": 0.6711111111111112,
-                                                    "y": 0.9342369477911648
-                                                },
-                                                "point": {
-                                                    "x": 0.6711111111111112,
-                                                    "y": 0.8534136546184742
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.6711111111111112,
-                                                    "y": 0.8423694779116468
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 2,
-                                                "curveFrom": {
-                                                    "x": 0.9227777777777777,
-                                                    "y": 1
-                                                },
-                                                "point": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 1
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.7438888888888889,
-                                                    "y": 1
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 1,
-                                                "curveMode": 2,
-                                                "curveFrom": {
-                                                    "x": 0.9955555555555556,
-                                                    "y": 0.772590361445783
-                                                },
-                                                "point": {
-                                                    "x": 0.9955555555555556,
-                                                    "y": 0.8534136546184737
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.9955555555555556,
-                                                    "y": 0.9342369477911648
-                                                },
-                                                "hasCurveTo": 1
-                                            },
-                                            {
-                                                "hasCurveFrom": 0,
-                                                "curveMode": 4,
-                                                "curveFrom": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 0.7068273092369476
-                                                },
-                                                "point": {
-                                                    "x": 0.8333333333333334,
-                                                    "y": 0.7068273092369476
-                                                },
-                                                "<class>": "MSCurvePoint",
-                                                "cornerRadius": 0,
-                                                "curveTo": {
-                                                    "x": 0.9227777777777779,
-                                                    "y": 0.7068273092369476
-                                                },
-                                                "hasCurveTo": 1
-                                            }
-                                        ],
-                                        "<class>": "MSShapePath",
-                                        "pointRadiusBehaviour": 0,
-                                        "isClosed": 1
-                                    },
-                                    "isFlippedHorizontal": 0,
-                                    "resizingConstraint": 63,
-                                    "resizingType": 0,
-                                    "<class>": "MSShapePathLayer",
-                                    "isLocked": 0,
-                                    "layerListExpandedType": 0,
-                                    "nameIsFixed": 0,
-                                    "name": "Path"
-                                }
-                            ],
-                            "isVisible": 1,
-                            "hasClippingMask": 0,
-                            "<class>": "MSShapeGroup",
-                            "nameIsFixed": 0,
-                            "name": "Shape",
-                            "isLocked": 0,
-                            "shouldBreakMaskChain": 0,
-                            "resizingConstraint": 45
-                        }
-                    ],
-                    "isVisible": 1,
-                    "name": "Material/Icons black/share",
-                    "resizingType": 0,
-                    "isLocked": 0,
-                    "shouldBreakMaskChain": 0,
-                    "resizingConstraint": 63,
-                    "includeBackgroundColorInExport": 1
-                }
-            ],
-            "isVisible": 1,
-            "nameIsFixed": 0,
-            "name": "Symbols",
             "isLocked": 0,
             "shouldBreakMaskChain": 0,
             "resizingConstraint": 63
