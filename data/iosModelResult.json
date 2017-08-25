@@ -314,17 +314,6 @@
         "Table View/Elements/Slider": [
             {
                 "width": 280,
-                "height": 28,
-                "left": 0,
-                "top": 0,
-                "bs": 0,
-                "title": "Table View/Elements/Slider",
-                "name": "rounded_rect",
-                "z": 16,
-                "resizingType": 0
-            },
-            {
-                "width": 280,
                 "height": 1,
                 "left": 0,
                 "top": 13.5,
@@ -332,7 +321,7 @@
                 "bg": "#B7B7B7",
                 "title": "Track",
                 "name": "rounded_rect",
-                "z": 17,
+                "z": 16,
                 "resizingType": 3
             },
             {
@@ -344,7 +333,7 @@
                 "bg": "#0076FF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 18,
+                "z": 17,
                 "resizingType": 2
             },
             {
@@ -364,7 +353,7 @@
                 "br": 14,
                 "title": "Knob",
                 "name": "rounded_rect",
-                "z": 19,
+                "z": 18,
                 "resizingType": 1
             }
         ]
@@ -387,7 +376,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "Bar",
                 "name": "rounded_rect",
-                "z": 20,
+                "z": 19,
                 "resizingType": 0
             },
             {
@@ -398,7 +387,7 @@
                 "bs": 0,
                 "title": "Container",
                 "name": "rounded_rect",
-                "z": 21,
+                "z": 20,
                 "resizingType": 0
             },
             {
@@ -416,7 +405,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 22,
+                "z": 21,
                 "resizingType": 1
             },
             {
@@ -434,7 +423,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 23,
+                "z": 22,
                 "resizingType": 1
             },
             {
@@ -457,7 +446,7 @@
                 "bs": 0,
                 "title": "Container",
                 "name": "rounded_rect",
-                "z": 24,
+                "z": 23,
                 "resizingType": 0
             },
             {
@@ -475,7 +464,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 25,
+                "z": 24,
                 "resizingType": 0
             },
             {
@@ -493,7 +482,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 26,
+                "z": 25,
                 "resizingType": 0
             }
         ]
@@ -516,7 +505,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 27,
+                "z": 26,
                 "resizingType": 0
             },
             {
@@ -527,28 +516,48 @@
                 "bs": 0,
                 "title": "Container",
                 "name": "rounded_rect",
+                "z": 27,
+                "resizingType": 0
+            },
+            {
+                "width": 22,
+                "height": 22,
+                "left": 290,
+                "top": 11,
+                "bc": "#717788",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
                 "z": 28,
                 "resizingType": 0
             },
             {
-                "icon": "md-message",
-                "is": 28,
-                "width": 28,
-                "height": 28,
-                "left": 335,
-                "top": 8,
-                "z": 1000,
-                "name": "icon_button"
-            },
-            {
-                "icon": "md-message",
-                "is": 28,
-                "width": 28,
-                "height": 28,
-                "left": 287,
-                "top": 8,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 22,
+                "height": 22,
+                "left": 338,
+                "top": 11,
+                "bc": "#717788",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 29,
+                "resizingType": 0
             },
             {
                 "width": 38,
@@ -565,7 +574,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 29,
+                "z": 30,
                 "resizingType": 1
             },
             {
@@ -595,7 +604,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 30,
+                "z": 31,
                 "resizingType": 3
             }
         ]
@@ -612,7 +621,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 31,
+                "z": 32,
                 "resizingType": 0
             },
             {
@@ -625,7 +634,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 32,
+                "z": 33,
                 "resizingType": 0
             },
             {
@@ -643,18 +652,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 33,
+                "z": 34,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 313.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 325,
+                "top": 6.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 35,
+                "resizingType": 0
             },
             {
                 "width": 75,
@@ -666,7 +685,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 34,
+                "z": 36,
                 "resizingType": 0
             },
             {
@@ -684,18 +703,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 35,
+                "z": 37,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 238.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 250,
+                "top": 6.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 38,
+                "resizingType": 0
             },
             {
                 "width": 75,
@@ -707,7 +736,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 36,
+                "z": 39,
                 "resizingType": 0
             },
             {
@@ -725,18 +754,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 37,
+                "z": 40,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 163.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 175,
+                "top": 6.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 41,
+                "resizingType": 0
             },
             {
                 "width": 75,
@@ -748,7 +787,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 38,
+                "z": 42,
                 "resizingType": 0
             },
             {
@@ -766,18 +805,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 39,
+                "z": 43,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 88.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 100,
+                "top": 6.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 44,
+                "resizingType": 0
             },
             {
                 "width": 75,
@@ -789,7 +838,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 40,
+                "z": 45,
                 "resizingType": 0
             },
             {
@@ -807,18 +856,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 41,
+                "z": 46,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 13.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 25,
+                "top": 6.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 47,
+                "resizingType": 0
             }
         ]
     },
@@ -834,7 +893,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 42,
+                "z": 48,
                 "resizingType": 0
             },
             {
@@ -847,7 +906,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 43,
+                "z": 49,
                 "resizingType": 0
             },
             {
@@ -865,18 +924,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 44,
+                "z": 50,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 304.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 316,
+                "top": 6,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 51,
+                "resizingType": 0
             },
             {
                 "width": 93,
@@ -888,7 +957,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 45,
+                "z": 52,
                 "resizingType": 0
             },
             {
@@ -906,18 +975,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 46,
+                "z": 53,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 210.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 222,
+                "top": 6,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 54,
+                "resizingType": 0
             },
             {
                 "width": 93,
@@ -929,7 +1008,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 47,
+                "z": 55,
                 "resizingType": 0
             },
             {
@@ -947,18 +1026,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 48,
+                "z": 56,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 116.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 128,
+                "top": 6,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 57,
+                "resizingType": 0
             },
             {
                 "width": 93,
@@ -970,7 +1059,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 49,
+                "z": 58,
                 "resizingType": 0
             },
             {
@@ -988,18 +1077,28 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 50,
+                "z": 59,
                 "resizingType": 3
             },
             {
-                "icon": "md-message",
-                "is": 48,
-                "width": 48,
-                "height": 32,
-                "left": 22.5,
-                "top": 3,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 25,
+                "height": 25,
+                "left": 34,
+                "top": 6,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 60,
+                "resizingType": 0
             }
         ]
     },
@@ -1015,7 +1114,7 @@
                 "bg": "rgb(38,39,40)",
                 "title": "Popover",
                 "name": "rounded_rect",
-                "z": 51,
+                "z": 61,
                 "resizingType": 0
             },
             {
@@ -1025,7 +1124,7 @@
                 "top": 9,
                 "title": "Left",
                 "name": "rounded_rect",
-                "z": 52,
+                "z": 62,
                 "resizingType": 3
             },
             {
@@ -1035,7 +1134,7 @@
                 "top": 9,
                 "title": "Right",
                 "name": "rounded_rect",
-                "z": 53,
+                "z": 63,
                 "resizingType": 3
             },
             {
@@ -1049,14 +1148,14 @@
                 "o": "80",
                 "bg": "rgb(38,39,40)",
                 "title": "Point",
-                "z": 54,
+                "z": 64,
                 "resizingType": 0
             },
             {
                 "width": 38,
                 "height": 16,
                 "left": 187,
-                "top": 20,
+                "top": 18,
                 "bs": 0,
                 "title": "Paste",
                 "tc": "rgba(255,255,255,1.00)",
@@ -1067,14 +1166,14 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 55,
+                "z": 65,
                 "resizingType": 0
             },
             {
                 "width": 62,
                 "height": 16,
                 "left": 92,
-                "top": 20,
+                "top": 18,
                 "bs": 0,
                 "title": "Select All",
                 "tc": "rgba(255,255,255,1.00)",
@@ -1085,14 +1184,14 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 56,
+                "z": 66,
                 "resizingType": 0
             },
             {
                 "width": 42,
                 "height": 16,
                 "left": 16,
-                "top": 20,
+                "top": 18,
                 "bs": 0,
                 "title": "Select",
                 "tc": "rgba(255,255,255,1.00)",
@@ -1103,7 +1202,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 57,
+                "z": 67,
                 "resizingType": 0
             }
         ]
@@ -1126,7 +1225,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 58,
+                "z": 68,
                 "resizingType": 0
             },
             {
@@ -1138,7 +1237,7 @@
                 "bg": "#C8C7CC",
                 "title": "Divider",
                 "name": "rounded_rect",
-                "z": 59,
+                "z": 69,
                 "resizingType": 2
             },
             {
@@ -1150,19 +1249,8 @@
                 "bg": "#FFFFFF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 60,
+                "z": 70,
                 "resizingType": 2
-            },
-            {
-                "width": 277,
-                "height": 75,
-                "left": 83,
-                "top": 0,
-                "bs": 0,
-                "title": "Container",
-                "name": "rounded_rect",
-                "z": 61,
-                "resizingType": 0
             },
             {
                 "width": 39,
@@ -1179,7 +1267,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 62,
+                "z": 71,
                 "resizingType": 1
             },
             {
@@ -1197,7 +1285,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "text_view",
-                "z": 63,
+                "z": 72,
                 "resizingType": 2
             },
             {
@@ -1215,13 +1303,13 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 64,
+                "z": 73,
                 "resizingType": 1
             },
             {
                 "icon": "fa-angle-right",
-                "is": 22,
-                "width": 22,
+                "is": 13,
+                "width": 8,
                 "height": 13,
                 "left": 348,
                 "top": 10.5,
@@ -1247,7 +1335,7 @@
                 "br": 6,
                 "title": "Unread",
                 "name": "rounded_rect",
-                "z": 65,
+                "z": 74,
                 "resizingType": 1
             }
         ]
@@ -1271,14 +1359,14 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 66,
+                "z": 75,
                 "resizingType": 0
             },
             {
                 "width": 55,
                 "height": 22,
                 "left": 41,
-                "top": 131.52173913043475,
+                "top": 131.5217391304348,
                 "bs": 0,
                 "title": "Dismiss Btn",
                 "tc": "rgba(0,118,255,1.00)",
@@ -1289,14 +1377,14 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 67,
+                "z": 76,
                 "resizingType": 3
             },
             {
                 "width": 24,
                 "height": 22,
-                "left": 190.00446428571377,
-                "top": 131.52173913043475,
+                "left": 190.0044642857138,
+                "top": 131.5217391304348,
                 "bs": 0,
                 "title": "Primary Btn",
                 "tc": "rgba(0,118,255,1.00)",
@@ -1307,7 +1395,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 68,
+                "z": 77,
                 "resizingType": 3
             },
             {
@@ -1338,7 +1426,7 @@
                 "bg": "#FFFFFF",
                 "title": "Textfield",
                 "name": "rounded_rect",
-                "z": 69,
+                "z": 78,
                 "resizingType": 0
             },
             {
@@ -1356,7 +1444,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 70,
+                "z": 79,
                 "resizingType": 0
             },
             {
@@ -1374,7 +1462,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 71,
+                "z": 80,
                 "resizingType": 1
             },
             {
@@ -1392,7 +1480,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 72,
+                "z": 81,
                 "resizingType": 1
             }
         ]
@@ -1416,7 +1504,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 73,
+                "z": 82,
                 "resizingType": 0
             },
             {
@@ -1434,7 +1522,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 74,
+                "z": 83,
                 "resizingType": 3
             },
             {
@@ -1452,7 +1540,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 75,
+                "z": 84,
                 "resizingType": 3
             },
             {
@@ -1479,7 +1567,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 76,
+                "z": 85,
                 "resizingType": 1
             },
             {
@@ -1497,7 +1585,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 77,
+                "z": 86,
                 "resizingType": 1
             },
             {
@@ -1519,9 +1607,11 @@
                 "left": 0,
                 "top": 0,
                 "bs": 0,
+                "o": "50",
+                "bg": "rgb(255,255,255)",
                 "title": "Bound",
                 "name": "rounded_rect",
-                "z": 78,
+                "z": 87,
                 "resizingType": 0
             },
             {
@@ -1529,13 +1619,12 @@
                 "height": 75,
                 "left": 0,
                 "top": 36,
-                "bc": "rgba(255,255,255,0.66)",
-                "bs": 36,
-                "o": "55",
+                "bs": 0,
+                "o": "50",
                 "bg": "rgb(255,255,255)",
                 "title": "Body",
                 "name": "rounded_rect",
-                "z": 79,
+                "z": 88,
                 "resizingType": 2
             },
             {
@@ -1553,19 +1642,8 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 80,
+                "z": 89,
                 "resizingType": 1
-            },
-            {
-                "width": 359,
-                "height": 48,
-                "left": 0,
-                "top": 36,
-                "bs": 0,
-                "title": "Bound",
-                "name": "rounded_rect",
-                "z": 81,
-                "resizingType": 0
             },
             {
                 "width": 329,
@@ -1582,7 +1660,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 82,
+                "z": 90,
                 "resizingType": 2
             },
             {
@@ -1600,7 +1678,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 83,
+                "z": 91,
                 "resizingType": 1
             },
             {
@@ -1618,7 +1696,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 84,
+                "z": 92,
                 "resizingType": 1
             },
             {
@@ -1636,7 +1714,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 85,
+                "z": 93,
                 "resizingType": 1
             },
             {
@@ -1649,7 +1727,7 @@
                 "br": 4,
                 "title": "App Icon",
                 "name": "image_view",
-                "z": 86,
+                "z": 94,
                 "resizingType": 1
             }
         ]
@@ -1673,7 +1751,7 @@
                 ],
                 "title": "Mask",
                 "name": "rounded_rect",
-                "z": 87,
+                "z": 95,
                 "resizingType": 0
             },
             {
@@ -1691,18 +1769,28 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 88,
+                "z": 96,
                 "resizingType": 1
             },
             {
-                "icon": "md-message",
-                "is": 30,
-                "width": 30,
-                "height": 30,
-                "left": 14,
-                "top": 203.5,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 26,
+                "height": 26,
+                "left": 16,
+                "top": 205.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 97,
+                "resizingType": 0
             },
             {
                 "width": 71,
@@ -1719,18 +1807,28 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 89,
+                "z": 98,
                 "resizingType": 1
             },
             {
-                "icon": "md-message",
-                "is": 30,
-                "width": 30,
-                "height": 30,
-                "left": 14,
-                "top": 141,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 26,
+                "height": 26,
+                "left": 16,
+                "top": 143,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 99,
+                "resizingType": 0
             },
             {
                 "width": 71,
@@ -1747,18 +1845,28 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 90,
+                "z": 100,
                 "resizingType": 1
             },
             {
-                "icon": "md-message",
-                "is": 30,
-                "width": 30,
-                "height": 30,
-                "left": 14,
-                "top": 78.5,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 26,
+                "height": 26,
+                "left": 16,
+                "top": 80.5,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 101,
+                "resizingType": 0
             },
             {
                 "width": 68,
@@ -1775,18 +1883,28 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 91,
+                "z": 102,
                 "resizingType": 1
             },
             {
-                "icon": "md-message",
-                "is": 30,
-                "width": 30,
-                "height": 30,
-                "left": 14,
-                "top": 16,
-                "z": 1000,
-                "name": "icon_button"
+                "width": 26,
+                "height": 26,
+                "left": 16,
+                "top": 18,
+                "bc": "#525E71",
+                "bs": 1,
+                "bg": "#D8D8D8",
+                "br": 0,
+                "allborder": [
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 103,
+                "resizingType": 0
             },
             {
                 "name": "rounded_rect",
@@ -1825,10 +1943,11 @@
                 "left": 0,
                 "top": 0,
                 "bs": 0,
-                "bg": "#C9C9CE",
-                "title": "Bar",
+                "o": "80",
+                "bg": "rgb(201,201,206)",
+                "title": "BG",
                 "name": "rounded_rect",
-                "z": 92,
+                "z": 104,
                 "resizingType": 0
             },
             {
@@ -1846,7 +1965,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 93,
+                "z": 105,
                 "resizingType": 1
             },
             {
@@ -1865,7 +1984,7 @@
                 ],
                 "title": "Search Bar",
                 "name": "rounded_rect",
-                "z": 94,
+                "z": 106,
                 "resizingType": 2
             },
             {
@@ -1883,7 +2002,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 95,
+                "z": 107,
                 "resizingType": 1
             },
             {
@@ -1920,17 +2039,11 @@
                 "left": 0,
                 "top": 0,
                 "bs": 0,
-                "sc": "rgba(0,0,0,0.30)",
-                "shadowOffsetX": 0,
-                "shadowOffsetY": 0.5,
-                "blurRadius": 0,
-                "spread": 0,
-                "ds": 2,
                 "o": "80",
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 96,
+                "z": 108,
                 "resizingType": 0
             },
             {
@@ -1950,7 +2063,7 @@
                 ],
                 "title": "Rectangle 22",
                 "name": "rounded_rect",
-                "z": 97,
+                "z": 109,
                 "resizingType": 2
             },
             {
@@ -1968,7 +2081,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 98,
+                "z": 110,
                 "resizingType": 3
             },
             {
@@ -1980,84 +2093,6 @@
                 "top": 31,
                 "z": 1000,
                 "name": "icon_button"
-            }
-        ]
-    },
-    {
-        "Widget Base": [
-            {
-                "width": 359,
-                "height": 146,
-                "left": 0,
-                "top": 0,
-                "bs": 0,
-                "title": "Bound",
-                "name": "rounded_rect",
-                "z": 99,
-                "resizingType": 0
-            },
-            {
-                "width": 359,
-                "height": 110,
-                "left": 0,
-                "top": 36,
-                "bc": "rgba(255,255,255,0.66)",
-                "bs": 36,
-                "o": "55",
-                "bg": "rgb(255,255,255)",
-                "title": "Body",
-                "name": "rounded_rect",
-                "z": 100,
-                "resizingType": 2
-            },
-            {
-                "width": 68,
-                "height": 18,
-                "left": 276,
-                "top": 9,
-                "bs": 0,
-                "title": "CTA",
-                "tc": "rgba(51,54,64,1.00)",
-                "text": "Show more",
-                "fs": 13,
-                "lh": 18,
-                "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
-                "ha": "right",
-                "name": "label",
-                "z": 101,
-                "resizingType": 1
-            },
-            {
-                "width": 92,
-                "height": 18,
-                "left": 36,
-                "top": 9,
-                "bs": 0,
-                "title": "Widget Name",
-                "tc": "rgba(51,54,64,1.00)",
-                "text": "WIDGET NAME",
-                "fs": 13,
-                "lh": 18,
-                "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
-                "ha": "justify",
-                "name": "label",
-                "z": 102,
-                "resizingType": 1
-            },
-            {
-                "width": 20,
-                "height": 20,
-                "left": 8,
-                "top": 8,
-                "bs": 0,
-                "bg": "#8F8E94",
-                "br": 4,
-                "title": "App Icon",
-                "name": "image_view",
-                "z": 103,
-                "resizingType": 1
             }
         ]
     },
@@ -2080,7 +2115,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 104,
+                "z": 111,
                 "resizingType": 0
             },
             {
@@ -2098,7 +2133,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 105,
+                "z": 112,
                 "resizingType": 3
             },
             {
@@ -2116,7 +2151,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 106,
+                "z": 113,
                 "resizingType": 3
             },
             {
@@ -2134,7 +2169,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 107,
+                "z": 114,
                 "resizingType": 3
             },
             {
@@ -2179,7 +2214,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 108,
+                "z": 115,
                 "resizingType": 1
             },
             {
@@ -2197,32 +2232,13 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "label",
-                "z": 109,
+                "z": 116,
                 "resizingType": 1
             }
         ]
     },
     {
         "Table View/Thumbnail/Value 1 Nested": [
-            {
-                "width": 374,
-                "height": 45,
-                "left": 0,
-                "top": 0,
-                "bs": 0,
-                "bg": "#FFFFFF",
-                "br": 0,
-                "allborder": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "title": "Base",
-                "name": "rounded_rect",
-                "z": 110,
-                "resizingType": 0
-            },
             {
                 "width": 316,
                 "height": 45,
@@ -2232,7 +2248,7 @@
                 "bg": "#C8C7CC",
                 "title": "Divider",
                 "name": "rounded_rect",
-                "z": 111,
+                "z": 117,
                 "resizingType": 2
             },
             {
@@ -2244,19 +2260,8 @@
                 "bg": "#FFFFFF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 112,
+                "z": 118,
                 "resizingType": 2
-            },
-            {
-                "width": 281,
-                "height": 44,
-                "left": 59,
-                "top": 0,
-                "bs": 0,
-                "title": "Container",
-                "name": "rounded_rect",
-                "z": 113,
-                "resizingType": 0
             },
             {
                 "width": 43,
@@ -2273,7 +2278,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 114,
+                "z": 119,
                 "resizingType": 3
             },
             {
@@ -2291,13 +2296,13 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 115,
+                "z": 120,
                 "resizingType": 3
             },
             {
                 "icon": "fa-angle-right",
-                "is": 23,
-                "width": 23,
+                "is": 13,
+                "width": 8,
                 "height": 13,
                 "left": 347,
                 "top": 14,
@@ -2315,32 +2320,13 @@
                 "br": 4,
                 "title": "App Icon",
                 "name": "image_view",
-                "z": 116,
+                "z": 121,
                 "resizingType": 1
             }
         ]
     },
     {
-        "Table View/Normal/Value 1 Nested": [
-            {
-                "width": 374,
-                "height": 45,
-                "left": 0,
-                "top": 0,
-                "bs": 0,
-                "bg": "#FFFFFF",
-                "br": 0,
-                "allborder": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "title": "Base",
-                "name": "rounded_rect",
-                "z": 117,
-                "resizingType": 0
-            },
+        "Table View": [
             {
                 "width": 360,
                 "height": 45,
@@ -2350,7 +2336,7 @@
                 "bg": "#C8C7CC",
                 "title": "Divider",
                 "name": "rounded_rect",
-                "z": 118,
+                "z": 122,
                 "resizingType": 2
             },
             {
@@ -2362,19 +2348,8 @@
                 "bg": "#FFFFFF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 119,
+                "z": 123,
                 "resizingType": 2
-            },
-            {
-                "width": 325,
-                "height": 44,
-                "left": 15,
-                "top": 0,
-                "bs": 0,
-                "title": "Container",
-                "name": "rounded_rect",
-                "z": 120,
-                "resizingType": 0
             },
             {
                 "width": 43,
@@ -2391,7 +2366,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 121,
+                "z": 124,
                 "resizingType": 3
             },
             {
@@ -2409,19 +2384,105 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 122,
+                "z": 125,
                 "resizingType": 3
             },
             {
                 "icon": "fa-angle-right",
-                "is": 23,
-                "width": 23,
+                "is": 13,
+                "width": 8,
                 "height": 13,
                 "left": 347,
                 "top": 14,
                 "tc": "#C7C7CC",
                 "z": 1000,
                 "name": "icon_button"
+            }
+        ]
+    },
+    {
+        "Widget Base": [
+            {
+                "width": 359,
+                "height": 146,
+                "left": 0,
+                "top": 0,
+                "bs": 0,
+                "o": "50",
+                "bg": "rgb(255,255,255)",
+                "br": 13,
+                "allborder": [
+                    13,
+                    13,
+                    13,
+                    13
+                ],
+                "title": "Rectangle",
+                "name": "rounded_rect",
+                "z": 126,
+                "resizingType": 0
+            },
+            {
+                "width": 359,
+                "height": 110,
+                "left": 0,
+                "top": 36,
+                "bs": 0,
+                "o": "50",
+                "bg": "rgb(255,255,255)",
+                "title": "Body",
+                "name": "rounded_rect",
+                "z": 127,
+                "resizingType": 2
+            },
+            {
+                "width": 68,
+                "height": 18,
+                "left": 280,
+                "top": 10,
+                "bs": 0,
+                "title": "CTA",
+                "tc": "rgba(51,54,64,1.00)",
+                "text": "Show more",
+                "fs": 13,
+                "lh": 18,
+                "wordSpcing": -0.07999999821186066,
+                "va": "baseline",
+                "ha": "right",
+                "name": "label",
+                "z": 128,
+                "resizingType": 1
+            },
+            {
+                "width": 92,
+                "height": 18,
+                "left": 40,
+                "top": 10,
+                "bs": 0,
+                "title": "Widget Name",
+                "tc": "rgba(51,54,64,1.00)",
+                "text": "WIDGET NAME",
+                "fs": 13,
+                "lh": 18,
+                "wordSpcing": -0.07999999821186066,
+                "va": "baseline",
+                "ha": "justify",
+                "name": "label",
+                "z": 129,
+                "resizingType": 1
+            },
+            {
+                "width": 20,
+                "height": 20,
+                "left": 12,
+                "top": 9,
+                "bs": 0,
+                "bg": "#8F8E94",
+                "br": 4,
+                "title": "App Icon",
+                "name": "image_view",
+                "z": 130,
+                "resizingType": 1
             }
         ]
     }
