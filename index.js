@@ -2,16 +2,16 @@ import sketch from 'sketchjs'
 import fs from 'fs'
 import handleData from './lib/handleData'
 
-// const Androidtest = "sketch/android.sketch"
-// const AndroidtestModel = "data/androidtestModel.json"
-// const AndroidtestModelResult = "data/androidtestModelResult.json"
+const Androidtest = "sketch/android_1.sketch"
+const AndroidtestModel = "data/androidtestModel.json"
+const AndroidtestModelResult = "data/androidtestModelResult.json"
 
-const ios = "sketch/ios1.sketch"
-const iosModel = "data/iosModel.json"
-const iosModelResult = "data/iosModelResult.json"
+// const ios = "sketch/ios1.sketch"
+// const iosModel = "data/iosModel.json"
+// const iosModelResult = "data/iosModelResult.json"
 
-sketch.dump(ios, (json) => {
-    fs.writeFile(iosModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(Androidtest, (json) => {
+    fs.writeFile(AndroidtestModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
         if(err) console.log(err)
     })
     let data = JSON.parse(json)
@@ -22,7 +22,7 @@ sketch.dump(ios, (json) => {
         return { [name] : depthFirstSearch(symbol, handleData)}
     })
 
-    fs.writeFile(iosModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
+    fs.writeFile(AndroidtestModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
     
 })
 

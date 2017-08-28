@@ -348,7 +348,7 @@
                 "resizingType": 0
             },
             {
-                "width": 41,
+                "width": 42,
                 "height": 24,
                 "left": 72.9998999999998,
                 "top": 21,
@@ -1167,16 +1167,12 @@
             },
             {
                 "width": 280,
-                "height": 2,
+                "height": 10,
                 "left": 64.5,
-                "top": 103,
+                "top": 99,
                 "bc": "rgba(0,0,0,0.16)",
-                "bs": 0.5,
-                "bg": "#EEEEEE",
-                "title": "divider",
-                "name": "rounded_rect",
-                "z": 55,
-                "resizingType": 0
+                "bs": 0,
+                "name": "hr"
             },
             {
                 "width": 264,
@@ -1192,7 +1188,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "text_view",
-                "z": 56,
+                "z": 55,
                 "resizingType": 0
             },
             {
@@ -1209,7 +1205,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 57,
+                "z": 56,
                 "resizingType": 0
             },
             {
@@ -1226,7 +1222,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 58,
+                "z": 57,
                 "resizingType": 0
             },
             {
@@ -1258,7 +1254,7 @@
                 "bg": "#FAFAFA",
                 "title": "sheet bg",
                 "name": "rounded_rect",
-                "z": 59,
+                "z": 58,
                 "resizingType": 0
             },
             {
@@ -1285,7 +1281,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 60,
+                "z": 59,
                 "resizingType": 0
             },
             {
@@ -1300,7 +1296,7 @@
             },
             {
                 "width": 24,
-                "height": 28,
+                "height": 14,
                 "left": 36,
                 "top": 176,
                 "bs": 0,
@@ -1312,7 +1308,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 61,
+                "z": 60,
                 "resizingType": 0
             },
             {
@@ -1329,7 +1325,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 62,
+                "z": 61,
                 "resizingType": 0
             },
             {
@@ -1354,9 +1350,9 @@
                 "fs": 12,
                 "lh": "auto",
                 "va": "baseline",
-                "ha": "right",
+                "ha": "center",
                 "name": "text_view",
-                "z": 63,
+                "z": 62,
                 "resizingType": 0
             },
             {
@@ -1383,7 +1379,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 64,
+                "z": 63,
                 "resizingType": 0
             },
             {
@@ -1398,7 +1394,7 @@
             },
             {
                 "width": 47,
-                "height": 28,
+                "height": 14,
                 "left": 156.5,
                 "top": 80,
                 "bs": 0,
@@ -1410,7 +1406,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 65,
+                "z": 64,
                 "resizingType": 0
             },
             {
@@ -1442,7 +1438,7 @@
                 "bg": "#FAFAFA",
                 "title": "card",
                 "name": "rounded_rect",
-                "z": 66,
+                "z": 65,
                 "resizingType": 0
             },
             {
@@ -1451,7 +1447,7 @@
                 "left": 64,
                 "top": 31,
                 "bs": 0,
-                "title": "Can’t wait to see you!",
+                "title": "Can’t wait to see yo",
                 "tc": "rgba(0,0,0,0.54)",
                 "text": "Can’t wait to see you!",
                 "fs": 14,
@@ -1459,7 +1455,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 67,
+                "z": 66,
                 "resizingType": 0
             },
             {
@@ -1476,7 +1472,7 @@
                 "va": "baseline",
                 "ha": "right",
                 "name": "label",
-                "z": 68,
+                "z": 67,
                 "resizingType": 0
             },
             {
@@ -1493,7 +1489,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 69,
+                "z": 68,
                 "resizingType": 0
             },
             {
@@ -1525,7 +1521,7 @@
                 ],
                 "title": "Rectangle",
                 "name": "rounded_rect",
-                "z": 70,
+                "z": 69,
                 "resizingType": 0
             },
             {
@@ -1542,7 +1538,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 71,
+                "z": 70,
                 "resizingType": 0
             },
             {
@@ -1559,7 +1555,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 72,
+                "z": 71,
                 "resizingType": 0
             },
             {
@@ -1596,7 +1592,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 73,
+                "z": 72,
                 "resizingType": 0
             },
             {
@@ -1613,7 +1609,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 74,
+                "z": 73,
                 "resizingType": 0
             },
             {
@@ -1650,7 +1646,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 75,
+                "z": 74,
                 "resizingType": 0
             },
             {
@@ -1667,7 +1663,7 @@
                 "va": "baseline",
                 "ha": "justify",
                 "name": "label",
-                "z": 76,
+                "z": 75,
                 "resizingType": 0
             },
             {
@@ -1709,13 +1705,13 @@
                 "bg": "#009688",
                 "title": "button bg",
                 "name": "rounded_rect",
-                "z": 77,
+                "z": 76,
                 "resizingType": 0
             },
             {
-                "width": 61,
+                "width": 60,
                 "height": 16,
-                "left": 16.5,
+                "left": 17,
                 "top": 10,
                 "bs": 0,
                 "title": "NORMAL",
@@ -1727,7 +1723,7 @@
                 "va": "baseline",
                 "ha": "center",
                 "name": "text_view",
-                "z": 78,
+                "z": 77,
                 "resizingType": 0
             }
         ]
@@ -1750,7 +1746,7 @@
                 "br": 28,
                 "title": "icon-add bg",
                 "name": "rounded_rect",
-                "z": 79,
+                "z": 78,
                 "resizingType": 0
             },
             {
