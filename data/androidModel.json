@@ -232,7 +232,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -293,7 +293,7 @@
                     },
                     "isFlippedVertical": 0,
                     "<class>": "MSSymbolMaster",
-                    "nameIsFixed": 0,
+                    "nameIsFixed": 1,
                     "layers": [
                         {
                             "shouldBreakMaskChain": 0,
@@ -528,7 +528,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 184,
-                                                "width": 360,
+                                                "width": 359.9999999999998,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -644,7 +644,7 @@
                                     "name": "Rectangle",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -757,7 +757,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 24,
-                                                        "width": 110,
+                                                        "width": 110.0000000000001,
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
@@ -945,7 +945,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -1105,7 +1105,7 @@
                                                         "constrainProportions": 0,
                                                         "height": 24,
                                                         "width": 24,
-                                                        "x": 304
+                                                        "x": 303.9999999999999
                                                     },
                                                     "hasClickThrough": 0,
                                                     "objectID": "9E1124DA-1135-4CD3-B16A-109FDB668396",
@@ -1247,7 +1247,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -1546,7 +1546,7 @@
                                                     "name": "Avatar",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -1561,14 +1561,14 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 40,
-                                                "width": 328,
+                                                "width": 327.9999999999999,
                                                 "x": 0
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "37E54C85-DD45-4A93-90B8-1A4DFBC2897D",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -1637,7 +1637,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 24,
-                                                        "width": 110,
+                                                        "width": 110.0000000000001,
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
@@ -1825,7 +1825,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -1985,7 +1985,7 @@
                                                         "constrainProportions": 0,
                                                         "height": 24,
                                                         "width": 24,
-                                                        "x": 304
+                                                        "x": 303.9999999999999
                                                     },
                                                     "hasClickThrough": 0,
                                                     "objectID": "71A9CD90-655A-4AF1-A60F-C587A341D745",
@@ -2127,7 +2127,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -2426,7 +2426,7 @@
                                                     "name": "Avatar",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -2441,19 +2441,19 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 40,
-                                                "width": 328,
+                                                "width": 327.9999999999999,
                                                 "x": 0
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "501C9F67-CA59-4185-BCF9-19834251A0C6",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
                                             "isLocked": 0,
-                                            "layerListExpandedType": 0,
+                                            "layerListExpandedType": 2,
                                             "nameIsFixed": 1,
                                             "name": "row"
                                         },
@@ -2517,7 +2517,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 24,
-                                                        "width": 110,
+                                                        "width": 110.0000000000001,
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
@@ -2705,7 +2705,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -2865,7 +2865,7 @@
                                                         "constrainProportions": 0,
                                                         "height": 24,
                                                         "width": 24,
-                                                        "x": 304
+                                                        "x": 303.9999999999999
                                                     },
                                                     "hasClickThrough": 0,
                                                     "objectID": "AFC68468-0B7F-4724-BE7D-1DF2A3BC41BD",
@@ -3007,7 +3007,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -3306,7 +3306,7 @@
                                                     "name": "Avatar",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -3321,19 +3321,19 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 40,
-                                                "width": 328,
+                                                "width": 327.9999999999999,
                                                 "x": 0
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "78BFC900-3AB6-4E6E-BBA8-1403C2AF7030",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
                                             "isLocked": 0,
-                                            "layerListExpandedType": 0,
+                                            "layerListExpandedType": 2,
                                             "nameIsFixed": 1,
                                             "name": "row"
                                         }
@@ -3357,7 +3357,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "1564925B-0875-4155-B9BB-04E57BA54541",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 43,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -3386,7 +3386,7 @@
                             "hasClickThrough": 1,
                             "isVisible": 1,
                             "objectID": "4F022674-15E3-4E35-97F2-B8C427E77FB9",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -3397,7 +3397,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "single line with avatar and icon",
+                    "name": "list_with_icons",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -3432,7 +3432,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -3836,7 +3836,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 284,
-                                                "width": 280,
+                                                "width": 280.0000000000004,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -3952,7 +3952,7 @@
                                     "name": "dialog bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 18
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -4116,7 +4116,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 16,
-                                                        "width": 58,
+                                                        "width": 57.99999999999999,
                                                         "x": 0
                                                     },
                                                     "glyphBounds": {
@@ -4305,7 +4305,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 46,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 }
                                             ],
@@ -4321,14 +4321,14 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 16,
-                                                "width": 58,
-                                                "x": 82
+                                                "width": 57.99999999999999,
+                                                "x": 82.00000000000001
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "42CE8351-18EA-40BC-B5B8-62DD61B564F2",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 46,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -4637,7 +4637,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 46,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 }
                                             ],
@@ -4660,7 +4660,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "4C2FD5EF-50B6-4FA8-BC90-03FD7CAE3002",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 44,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -4689,7 +4689,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "E3D9669B-3413-4563-B030-5B39867A25A9",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 14,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -4711,10 +4711,10 @@
                                         "x": 24
                                     },
                                     "glyphBounds": {
-                                        "y": 4,
+                                        "y": 3,
                                         "x": 1,
                                         "width": 110,
-                                        "height": 16
+                                        "height": 17
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -4895,7 +4895,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 9,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -4911,10 +4911,10 @@
                                         "x": 24
                                     },
                                     "glyphBounds": {
-                                        "y": 8,
+                                        "y": 7,
                                         "x": 0,
-                                        "width": 231,
-                                        "height": 136
+                                        "width": 227,
+                                        "height": 137
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -5095,7 +5095,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 19,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 }
                             ],
@@ -5118,7 +5118,7 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "C8D20A33-A9AA-4ABB-959F-3A58C38466A5",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 18,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -5129,7 +5129,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "Dialog with title",
+                    "name": "dialog_with_title",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -5164,7 +5164,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -5600,7 +5600,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 208,
-                                                "width": 360,
+                                                "width": 360.0000000000004,
                                                 "x": 0
                                             },
                                             "hasClickThrough": 0,
@@ -5627,7 +5627,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 208,
-                                                        "width": 360,
+                                                        "width": 360.0000000000004,
                                                         "x": 0
                                                     },
                                                     "layerListExpandedType": 0,
@@ -5942,7 +5942,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -6142,7 +6142,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -6342,7 +6342,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 47,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -6542,7 +6542,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 47,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -7650,7 +7650,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "E9334574-B362-4A04-B2DC-93BECAFA597B",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -9989,7 +9989,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "28863588-625F-4F2A-BF9D-513DE951ACDF",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -10835,7 +10835,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "A94929DC-8A44-46DE-8CEE-2ABED8B435A1",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -11248,7 +11248,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "74EF000E-A801-473D-85B9-35E14F12078B",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -11277,7 +11277,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "7FB8243B-5FD8-47BE-ACF2-8CF6CE8F6EFF",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 47,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -11306,18 +11306,18 @@
                             "hasClickThrough": 1,
                             "isVisible": 1,
                             "objectID": "8405BA36-3C0E-4EBE-BE0E-0E1C98E2DC06",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
                             "isLocked": 0,
-                            "layerListExpandedType": 2,
+                            "layerListExpandedType": 1,
                             "nameIsFixed": 1,
                             "name": "list sheet"
                         }
                     ],
                     "isVisible": 1,
-                    "name": "List sheet",
+                    "name": "list_sheet",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -11352,7 +11352,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -11721,7 +11721,7 @@
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 48.00000000000004,
-                                        "width": 343.0000000000001,
+                                        "width": 342.9999999999993,
                                         "x": 0
                                     },
                                     "hasClickThrough": 1,
@@ -11748,7 +11748,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 48.00000000000004,
-                                                "width": 343.0000000000001,
+                                                "width": 342.9999999999993,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -11864,7 +11864,7 @@
                                     "name": "search bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -12690,7 +12690,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "96CBEAEE-7A0C-4E39-9FB4-8DD9AB062572",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 41,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -13487,7 +13487,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "68EC03FE-F5DE-46D2-A006-5A875966402D",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 44,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -13516,7 +13516,7 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "49752379-9183-4349-9393-481468F921BC",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -13527,7 +13527,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "Search",
+                    "name": "search",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -13562,7 +13562,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -13623,7 +13623,7 @@
                     },
                     "isFlippedVertical": 0,
                     "<class>": "MSSymbolMaster",
-                    "nameIsFixed": 0,
+                    "nameIsFixed": 1,
                     "layers": [
                         {
                             "shouldBreakMaskChain": 0,
@@ -13858,7 +13858,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 280,
-                                                "width": 360,
+                                                "width": 359.9999999999987,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -13974,7 +13974,7 @@
                                     "name": "Rectangle 2",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -14093,7 +14093,7 @@
                                                     "glyphBounds": {
                                                         "y": 6,
                                                         "x": 0,
-                                                        "width": 211,
+                                                        "width": 214,
                                                         "height": 34
                                                     },
                                                     "layerListExpandedType": 0,
@@ -14275,7 +14275,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 43,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -14287,7 +14287,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 24,
-                                                        "width": 107,
+                                                        "width": 107.0000000000001,
                                                         "x": 56
                                                     },
                                                     "glyphBounds": {
@@ -14475,7 +14475,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -14777,7 +14777,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -15076,7 +15076,7 @@
                                                     "name": "Oval",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -15098,12 +15098,12 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "59DBA223-8AB3-45D8-AD53-93C00956DE51",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
                                             "isLocked": 0,
-                                            "layerListExpandedType": 0,
+                                            "layerListExpandedType": 2,
                                             "nameIsFixed": 1,
                                             "name": "row"
                                         },
@@ -15173,7 +15173,7 @@
                                                     "glyphBounds": {
                                                         "y": 6,
                                                         "x": 0,
-                                                        "width": 211,
+                                                        "width": 214,
                                                         "height": 34
                                                     },
                                                     "layerListExpandedType": 0,
@@ -15355,7 +15355,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 43,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -15555,7 +15555,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -15857,7 +15857,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -16156,7 +16156,7 @@
                                                     "name": "Oval",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -16178,7 +16178,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "FFF2C53D-68B2-4860-AA2A-A48E50C96388",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -16435,7 +16435,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -16453,7 +16453,7 @@
                                                     "glyphBounds": {
                                                         "y": 6,
                                                         "x": 0,
-                                                        "width": 211,
+                                                        "width": 214,
                                                         "height": 34
                                                     },
                                                     "layerListExpandedType": 0,
@@ -16635,7 +16635,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 43,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -16937,7 +16937,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -17236,7 +17236,7 @@
                                                     "name": "Oval",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -17258,7 +17258,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "5A28ED3C-56E9-41FB-AD90-40ED82DA04E0",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -17287,7 +17287,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "6FEC31DC-EAD5-4FAA-8A6D-1433FC7EDE3F",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 42,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -17316,7 +17316,7 @@
                             "hasClickThrough": 1,
                             "isVisible": 1,
                             "objectID": "1FE4D593-3F4D-4AC8-A73A-67A2AFC0412B",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -17327,7 +17327,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "three lines with avatar and icon",
+                    "name": "list_with_icons_3",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -17362,7 +17362,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -17423,7 +17423,7 @@
                     },
                     "isFlippedVertical": 0,
                     "<class>": "MSSymbolMaster",
-                    "nameIsFixed": 0,
+                    "nameIsFixed": 1,
                     "layers": [
                         {
                             "shouldBreakMaskChain": 0,
@@ -17617,7 +17617,7 @@
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 48,
-                                        "width": 360,
+                                        "width": 359.9999999999991,
                                         "x": 0
                                     },
                                     "hasClickThrough": 0,
@@ -17645,7 +17645,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 48.00000000000001,
-                                                "width": 360,
+                                                "width": 359.9999999999991,
                                                 "x": 0
                                             },
                                             "isFlippedVertical": 0,
@@ -17758,7 +17758,7 @@
                                     "name": "app bar bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -17966,7 +17966,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 48.00000000000001,
-                                                "width": 360,
+                                                "width": 359.9999999999991,
                                                 "x": 0
                                             },
                                             "hasClickThrough": 1,
@@ -17993,7 +17993,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 48.00000000000001,
-                                                        "width": 360,
+                                                        "width": 359.9999999999991,
                                                         "x": 0
                                                     },
                                                     "layerListExpandedType": 0,
@@ -18109,7 +18109,7 @@
                                             "name": "bounds",
                                             "isLocked": 0,
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63
+                                            "resizingConstraint": 47
                                         },
                                         {
                                             "isFlippedHorizontal": 0,
@@ -18121,13 +18121,13 @@
                                                 "constrainProportions": 0,
                                                 "height": 16,
                                                 "width": 120,
-                                                "x": 240
+                                                "x": 239.9999999999989
                                             },
                                             "glyphBounds": {
-                                                "y": 0,
-                                                "x": 0,
-                                                "width": 69,
-                                                "height": 13
+                                                "y": 3,
+                                                "x": 25,
+                                                "width": 70,
+                                                "height": 10
                                             },
                                             "layerListExpandedType": 0,
                                             "exportOptions": {
@@ -18306,7 +18306,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 45,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -18319,13 +18319,13 @@
                                                 "constrainProportions": 0,
                                                 "height": 16,
                                                 "width": 120,
-                                                "x": 120
+                                                "x": 119.9999999999997
                                             },
                                             "glyphBounds": {
-                                                "y": 0,
-                                                "x": 0,
+                                                "y": 2,
+                                                "x": 28,
                                                 "width": 65,
-                                                "height": 14
+                                                "height": 12
                                             },
                                             "layerListExpandedType": 0,
                                             "exportOptions": {
@@ -18504,7 +18504,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 45,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -18517,13 +18517,13 @@
                                                 "constrainProportions": 0,
                                                 "height": 16,
                                                 "width": 120,
-                                                "x": 0
+                                                "x": -1.06581410364015e-13
                                             },
                                             "glyphBounds": {
-                                                "y": 0,
-                                                "x": 0,
+                                                "y": 2,
+                                                "x": 34,
                                                 "width": 53,
-                                                "height": 14
+                                                "height": 12
                                             },
                                             "layerListExpandedType": 0,
                                             "exportOptions": {
@@ -18702,7 +18702,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 45,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -18896,7 +18896,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 2.000000000000014,
-                                                "width": 120,
+                                                "width": 119.9999999999997,
                                                 "x": 0
                                             },
                                             "hasClickThrough": 1,
@@ -18923,7 +18923,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 2.000000000000014,
-                                                        "width": 120,
+                                                        "width": 119.9999999999997,
                                                         "x": 0
                                                     },
                                                     "layerListExpandedType": 0,
@@ -19039,7 +19039,7 @@
                                             "name": "indicator",
                                             "isLocked": 0,
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63
+                                            "resizingConstraint": 47
                                         }
                                     ],
                                     "exportOptions": {
@@ -19054,19 +19054,19 @@
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 48,
-                                        "width": 360,
+                                        "width": 359.9999999999991,
                                         "x": 0
                                     },
                                     "isFlippedVertical": 0,
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "6F9670AD-8CC5-4379-8C8C-26DC48464476",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 47,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
                                     "isLocked": 0,
-                                    "layerListExpandedType": 0,
+                                    "layerListExpandedType": 2,
                                     "nameIsFixed": 1,
                                     "name": "tabs"
                                 }
@@ -19090,18 +19090,18 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "265F8F11-A1F0-48C5-B3ED-B7D78CD69E71",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
                             "isLocked": 0,
-                            "layerListExpandedType": 0,
+                            "layerListExpandedType": 2,
                             "nameIsFixed": 1,
                             "name": "app bar"
                         }
                     ],
                     "isVisible": 1,
-                    "name": "app bar",
+                    "name": "app_bar",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -19136,7 +19136,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -19540,7 +19540,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 264,
-                                                "width": 280,
+                                                "width": 279.9999999999987,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -19656,7 +19656,7 @@
                                     "name": "dialog bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 18
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -20009,7 +20009,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 44,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 }
                                             ],
@@ -20032,7 +20032,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "0CD84228-2394-4092-8A6A-FECE4B773934",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 36,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -20341,7 +20341,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 44,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 }
                                             ],
@@ -20364,7 +20364,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "FD4794F2-D412-4540-A5AF-D03F5413EEA9",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 36,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -20393,7 +20393,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "E235F62A-40A2-470A-A6AD-2C2DDA8CC1D1",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 38,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -20415,10 +20415,10 @@
                                         "x": 24
                                     },
                                     "glyphBounds": {
-                                        "y": 8,
+                                        "y": 7,
                                         "x": 0,
-                                        "width": 231,
-                                        "height": 181
+                                        "width": 226,
+                                        "height": 182
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -20599,7 +20599,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 18,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 }
                             ],
@@ -20622,7 +20622,7 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "CD4EC21E-0278-4B50-B927-BD4CFD1F353C",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 18,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -20633,7 +20633,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "Dialog without title",
+                    "name": "dialog",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -20668,7 +20668,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -20922,7 +20922,7 @@
                                         "y": 0,
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
-                                        "height": 104.0000000000001,
+                                        "height": 104,
                                         "width": 360,
                                         "x": 0
                                     },
@@ -20951,7 +20951,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 104.0000000000001,
-                                                "width": 360,
+                                                "width": 359.9999999999995,
                                                 "x": 0
                                             },
                                             "isFlippedVertical": 0,
@@ -21064,7 +21064,7 @@
                                     "name": "app bar bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -21272,7 +21272,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 48.00000000000004,
-                                                "width": 360,
+                                                "width": 359.9999999999995,
                                                 "x": 0
                                             },
                                             "hasClickThrough": 1,
@@ -21299,7 +21299,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 48.00000000000004,
-                                                        "width": 360,
+                                                        "width": 359.9999999999995,
                                                         "x": 0
                                                     },
                                                     "layerListExpandedType": 0,
@@ -21415,7 +21415,7 @@
                                             "name": "bounds",
                                             "isLocked": 0,
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63
+                                            "resizingConstraint": 47
                                         },
                                         {
                                             "isFlippedHorizontal": 0,
@@ -21426,14 +21426,14 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 16,
-                                                "width": 120,
-                                                "x": 240
+                                                "width": 119.9999999999992,
+                                                "x": 240.0000000000004
                                             },
                                             "glyphBounds": {
-                                                "y": 0,
-                                                "x": 0,
-                                                "width": 69,
-                                                "height": 13
+                                                "y": 3,
+                                                "x": 25,
+                                                "width": 70,
+                                                "height": 10
                                             },
                                             "layerListExpandedType": 0,
                                             "exportOptions": {
@@ -21611,7 +21611,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 47,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -21623,8 +21623,8 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 16,
-                                                "width": 120,
-                                                "x": 120
+                                                "width": 120.0000000000002,
+                                                "x": 120.0000000000002
                                             },
                                             "glyphBounds": {
                                                 "y": 2,
@@ -21808,7 +21808,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 47,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -21820,14 +21820,14 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 16,
-                                                "width": 120,
+                                                "width": 120.0000000000002,
                                                 "x": 0
                                             },
                                             "glyphBounds": {
-                                                "y": 0,
-                                                "x": 0,
+                                                "y": 2,
+                                                "x": 34,
                                                 "width": 53,
-                                                "height": 14
+                                                "height": 12
                                             },
                                             "layerListExpandedType": 0,
                                             "exportOptions": {
@@ -22005,7 +22005,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 47,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -22199,7 +22199,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 2.000000000000036,
-                                                "width": 120,
+                                                "width": 120.0000000000002,
                                                 "x": 0
                                             },
                                             "hasClickThrough": 1,
@@ -22226,7 +22226,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 2.000000000000036,
-                                                        "width": 120,
+                                                        "width": 120.0000000000002,
                                                         "x": 0
                                                     },
                                                     "layerListExpandedType": 0,
@@ -22342,7 +22342,7 @@
                                             "name": "indicator",
                                             "isLocked": 0,
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63
+                                            "resizingConstraint": 47
                                         }
                                     ],
                                     "exportOptions": {
@@ -22353,10 +22353,10 @@
                                         "exportFormats": []
                                     },
                                     "frame": {
-                                        "y": 56.00000000000004,
+                                        "y": 56,
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
-                                        "height": 48.00000000000004,
+                                        "height": 48,
                                         "width": 360,
                                         "x": 0
                                     },
@@ -22364,12 +22364,12 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "62FFCAB7-1E23-4423-B31D-DEF79B43C44B",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 47,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
                                     "isLocked": 0,
-                                    "layerListExpandedType": 0,
+                                    "layerListExpandedType": 2,
                                     "nameIsFixed": 1,
                                     "name": "tabs"
                                 },
@@ -23281,7 +23281,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "617F5F52-9F82-4AD4-9089-5A7DCE8987CC",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 44,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -23299,14 +23299,14 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 24,
-                                                "width": 90,
+                                                "width": 90.00000000000026,
                                                 "x": 56
                                             },
                                             "glyphBounds": {
-                                                "y": 0,
-                                                "x": 0,
-                                                "width": 90,
-                                                "height": 24
+                                                "y": 3,
+                                                "x": 1,
+                                                "width": 89,
+                                                "height": 21
                                             },
                                             "layerListExpandedType": 0,
                                             "exportOptions": {
@@ -23487,7 +23487,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -24349,7 +24349,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "0A8D3E73-3D7C-498F-9A4C-EBE4776481A2",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -24378,7 +24378,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "54054C86-D627-40FD-A35D-CC233918A0D8",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 42,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -24407,7 +24407,7 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "A47D8450-DBBA-41E0-B700-0FB8E6878B62",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -24418,7 +24418,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "App bar",
+                    "name": "app_bar_2",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -24453,7 +24453,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -24852,7 +24852,7 @@
                                     "name": "menu bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "isFlippedHorizontal": 0,
@@ -25152,7 +25152,7 @@
                                     "name": "highlight",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "isFlippedHorizontal": 0,
@@ -25351,7 +25351,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 41,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -25551,7 +25551,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 41,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -25751,7 +25751,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 41,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -26253,12 +26253,12 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "E41D741E-1568-4096-A9A7-CD1B3959D65B",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 12,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
                                     "isLocked": 0,
-                                    "layerListExpandedType": 0,
+                                    "layerListExpandedType": 1,
                                     "nameIsFixed": 1,
                                     "name": "icon-arrow"
                                 },
@@ -26459,7 +26459,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 9,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 }
                             ],
@@ -26482,18 +26482,18 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "353A95BE-A2A8-4928-97B8-5173BAC18C51",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
                             "isLocked": 0,
-                            "layerListExpandedType": 0,
+                            "layerListExpandedType": 2,
                             "nameIsFixed": 1,
                             "name": "menu"
                         }
                     ],
                     "isVisible": 1,
-                    "name": "Menu",
+                    "name": "menu",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -26528,7 +26528,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -26589,7 +26589,7 @@
                     },
                     "isFlippedVertical": 0,
                     "<class>": "MSSymbolMaster",
-                    "nameIsFixed": 0,
+                    "nameIsFixed": 1,
                     "layers": [
                         {
                             "shouldBreakMaskChain": 0,
@@ -27024,7 +27024,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 152,
-                                                "width": 344,
+                                                "width": 343.9999999999985,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -27140,7 +27140,7 @@
                                     "name": "card",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -27444,7 +27444,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -28000,13 +28000,13 @@
                                                 "constrainProportions": 0,
                                                 "height": 24,
                                                 "width": 24,
-                                                "x": 0
+                                                "x": -3.375077994860477e-14
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "276FB310-4632-4BAC-91F7-F0DB3975F9F1",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 33,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -28035,7 +28035,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "5BBBFE20-D547-4B8A-BB46-E5F2F66DBEB4",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 39,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -28346,7 +28346,7 @@
                                                 }
                                             },
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 41,
                                             "automaticallyDrawOnUnderlyingPath": 0
                                         },
                                         {
@@ -29366,7 +29366,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "9D2965D6-0940-4013-BA05-3609604A303A",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 33,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -29395,7 +29395,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "07F58410-CC90-4F2D-836C-F4C68D591261",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 39,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -29560,7 +29560,7 @@
                                         "constrainProportions": 0,
                                         "height": 2,
                                         "width": 280,
-                                        "x": 64.5
+                                        "x": 65
                                     },
                                     "hasClickThrough": 1,
                                     "objectID": "2BCA6185-A978-4000-8467-325565E41190",
@@ -29583,12 +29583,12 @@
                                             "objectID": "DDB92BF4-6AF5-405D-92E9-A660AEB052BB",
                                             "edited": 1,
                                             "frame": {
-                                                "y": -0.5,
+                                                "y": 0,
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 2,
                                                 "width": 280,
-                                                "x": -0.5
+                                                "x": 0
                                             },
                                             "isFlippedVertical": 0,
                                             "exportOptions": {
@@ -29659,10 +29659,10 @@
                                     "hasClippingMask": 0,
                                     "<class>": "MSShapeGroup",
                                     "nameIsFixed": 1,
-                                    "name": "mb-line-ha",
+                                    "name": "divider",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 43
                                 },
                                 {
                                     "isFlippedHorizontal": 0,
@@ -29677,10 +29677,10 @@
                                         "x": 64
                                     },
                                     "glyphBounds": {
-                                        "y": 0,
+                                        "y": 6,
                                         "x": 0,
-                                        "width": 264,
-                                        "height": 60
+                                        "width": 248,
+                                        "height": 54
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -29861,7 +29861,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 42,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -29869,7 +29869,7 @@
                                     "objectID": "92170F43-EECC-4B87-B87C-5FC10FD1102F",
                                     "rotation": 0,
                                     "frame": {
-                                        "y": 15.9994999999999,
+                                        "y": 16,
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 16,
@@ -30060,7 +30060,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 47,
+                                    "resizingConstraint": 12,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -30068,12 +30068,12 @@
                                     "objectID": "3C5C3308-CC0A-4F05-B597-F2CE5BD9F16C",
                                     "rotation": 0,
                                     "frame": {
-                                        "y": 8.999499999999898,
+                                        "y": 9,
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 24,
                                         "width": 89,
-                                        "x": 64.14840000000004
+                                        "x": 64
                                     },
                                     "glyphBounds": {
                                         "y": 7,
@@ -30260,7 +30260,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 9,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -30612,7 +30612,7 @@
                                             "name": "mask",
                                             "isLocked": 0,
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63
+                                            "resizingConstraint": 9
                                         },
                                         {
                                             "isFlippedHorizontal": 0,
@@ -30732,7 +30732,7 @@
                                                 "layerOptions": 0,
                                                 "exportFormats": []
                                             },
-                                            "layerListExpandedType": 0,
+                                            "layerListExpandedType": 1,
                                             "windingRule": 1,
                                             "isFlippedVertical": 0,
                                             "clippingMaskMode": 0,
@@ -31264,12 +31264,12 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "5634CA6C-5299-4037-AC0B-1B89803D07A9",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 9,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
                                     "isLocked": 0,
-                                    "layerListExpandedType": 1,
+                                    "layerListExpandedType": 2,
                                     "nameIsFixed": 1,
                                     "name": "icon-avatar"
                                 }
@@ -31293,18 +31293,18 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "A0060AEE-E00C-4944-85E0-25E771D482BC",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
                             "isLocked": 0,
-                            "layerListExpandedType": 0,
+                            "layerListExpandedType": 2,
                             "nameIsFixed": 1,
                             "name": "interactive notification"
                         }
                     ],
                     "isVisible": 1,
-                    "name": "interactive notification",
+                    "name": "interactive_notification",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -31339,7 +31339,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -31400,7 +31400,7 @@
                     },
                     "isFlippedVertical": 0,
                     "<class>": "MSSymbolMaster",
-                    "nameIsFixed": 0,
+                    "nameIsFixed": 1,
                     "layers": [
                         {
                             "shouldBreakMaskChain": 0,
@@ -31775,7 +31775,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 216,
-                                                "width": 360,
+                                                "width": 359.9999999999994,
                                                 "x": 0
                                             },
                                             "hasClickThrough": 0,
@@ -31802,7 +31802,7 @@
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 216,
-                                                        "width": 360,
+                                                        "width": 359.9999999999994,
                                                         "x": 0
                                                     },
                                                     "layerListExpandedType": 0,
@@ -31918,7 +31918,7 @@
                                             "name": "sheet bg",
                                             "isLocked": 0,
                                             "shouldBreakMaskChain": 0,
-                                            "resizingConstraint": 63
+                                            "resizingConstraint": 47
                                         },
                                         {
                                             "shouldBreakMaskChain": 0,
@@ -32073,7 +32073,7 @@
                                                             },
                                                             "rotation": 0,
                                                             "frame": {
-                                                                "y": -0.1127000000001317,
+                                                                "y": 0.8872999999998683,
                                                                 "<class>": "MSRect",
                                                                 "constrainProportions": 0,
                                                                 "height": 48,
@@ -32323,7 +32323,7 @@
                                                             },
                                                             "rotation": 0,
                                                             "frame": {
-                                                                "y": 19.88729999999987,
+                                                                "y": 20.88729999999987,
                                                                 "<class>": "MSRect",
                                                                 "constrainProportions": 0,
                                                                 "height": 8,
@@ -32769,7 +32769,7 @@
                                                         "y": 0,
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
-                                                        "height": 48,
+                                                        "height": 49,
                                                         "width": 48,
                                                         "x": 0
                                                     },
@@ -32777,7 +32777,7 @@
                                                     "hasClickThrough": 0,
                                                     "isVisible": 1,
                                                     "objectID": "D3F30810-F934-407F-96E7-5B5A1F471DF5",
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 39,
                                                     "isFlippedHorizontal": 0,
                                                     "resizingType": 0,
                                                     "<class>": "MSLayerGroup",
@@ -32791,7 +32791,7 @@
                                                     "objectID": "116365FD-8563-4197-BC58-BEE939018418",
                                                     "rotation": 0,
                                                     "frame": {
-                                                        "y": 56,
+                                                        "y": 57,
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 14,
@@ -32982,7 +32982,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 39,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 }
                                             ],
@@ -32994,18 +32994,18 @@
                                                 "exportFormats": []
                                             },
                                             "frame": {
-                                                "y": 120,
+                                                "y": 119,
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
-                                                "height": 70,
+                                                "height": 71,
                                                 "width": 48,
-                                                "x": 288
+                                                "x": 287.9999999999994
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "64B19168-535A-47DD-AEA5-CA3C70D49E7B",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 36,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -33167,7 +33167,7 @@
                                                             },
                                                             "rotation": 0,
                                                             "frame": {
-                                                                "y": -0.1127000000001317,
+                                                                "y": 0.8872999999998683,
                                                                 "<class>": "MSRect",
                                                                 "constrainProportions": 0,
                                                                 "height": 48,
@@ -33417,7 +33417,7 @@
                                                             },
                                                             "rotation": 0,
                                                             "frame": {
-                                                                "y": 7.887299999999868,
+                                                                "y": 8.887299999999868,
                                                                 "<class>": "MSRect",
                                                                 "constrainProportions": 0,
                                                                 "height": 32,
@@ -33843,7 +33843,7 @@
                                                         "y": 0,
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
-                                                        "height": 48,
+                                                        "height": 49,
                                                         "width": 48,
                                                         "x": 0
                                                     },
@@ -33851,7 +33851,7 @@
                                                     "hasClickThrough": 0,
                                                     "isVisible": 1,
                                                     "objectID": "45560019-C39D-4458-9A07-54ACA3821532",
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 37,
                                                     "isFlippedHorizontal": 0,
                                                     "resizingType": 0,
                                                     "<class>": "MSLayerGroup",
@@ -33865,7 +33865,7 @@
                                                     "objectID": "B1629416-5FE0-42CF-B42C-79C30C8D3173",
                                                     "rotation": 0,
                                                     "frame": {
-                                                        "y": 56,
+                                                        "y": 57,
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 14,
@@ -34056,7 +34056,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 37,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 }
                                             ],
@@ -34068,10 +34068,10 @@
                                                 "exportFormats": []
                                             },
                                             "frame": {
-                                                "y": 120,
+                                                "y": 119,
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
-                                                "height": 70,
+                                                "height": 71,
                                                 "width": 48,
                                                 "x": 24
                                             },
@@ -34079,7 +34079,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "3D94354F-0314-4714-ABCC-02A111FF0720",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 33,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -34144,7 +34144,7 @@
                                                     "objectID": "E9438CD7-73A4-4D79-B69F-18C16778B7A6",
                                                     "rotation": 0,
                                                     "frame": {
-                                                        "y": 56,
+                                                        "y": 57,
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
                                                         "height": 14,
@@ -34335,7 +34335,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 37,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -34440,7 +34440,7 @@
                                                             },
                                                             "rotation": 0,
                                                             "frame": {
-                                                                "y": -0.1125000000001819,
+                                                                "y": 0.8874999999998181,
                                                                 "<class>": "MSRect",
                                                                 "constrainProportions": 0,
                                                                 "height": 48,
@@ -34690,7 +34690,7 @@
                                                             },
                                                             "rotation": 0,
                                                             "frame": {
-                                                                "y": 3.887499999999818,
+                                                                "y": 4.887499999999818,
                                                                 "<class>": "MSRect",
                                                                 "constrainProportions": 0,
                                                                 "height": 40,
@@ -34944,7 +34944,7 @@
                                                         "y": 0,
                                                         "<class>": "MSRect",
                                                         "constrainProportions": 0,
-                                                        "height": 48,
+                                                        "height": 49,
                                                         "width": 48,
                                                         "x": 1
                                                     },
@@ -34952,7 +34952,7 @@
                                                     "hasClickThrough": 0,
                                                     "isVisible": 1,
                                                     "objectID": "ADDA01D2-F238-4B05-A2B6-2479DCD92599",
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 37,
                                                     "isFlippedHorizontal": 0,
                                                     "resizingType": 0,
                                                     "<class>": "MSLayerGroup",
@@ -34970,23 +34970,23 @@
                                                 "exportFormats": []
                                             },
                                             "frame": {
-                                                "y": 120,
+                                                "y": 119,
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
-                                                "height": 70,
+                                                "height": 71,
                                                 "width": 50,
-                                                "x": 155
+                                                "x": 154.9999999999998
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "891DAFA2-3D46-4AA7-A829-BFEBF047D81D",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 37,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
                                             "isLocked": 0,
-                                            "layerListExpandedType": 0,
+                                            "layerListExpandedType": 2,
                                             "nameIsFixed": 1,
                                             "name": "message"
                                         },
@@ -35237,7 +35237,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 13,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -37144,7 +37144,7 @@
                                                     "hasClickThrough": 0,
                                                     "isVisible": 1,
                                                     "objectID": "B310A789-5408-43EC-A2CE-7B17A8219387",
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 13,
                                                     "isFlippedHorizontal": 0,
                                                     "resizingType": 0,
                                                     "<class>": "MSLayerGroup",
@@ -37167,18 +37167,18 @@
                                                 "constrainProportions": 0,
                                                 "height": 70,
                                                 "width": 48,
-                                                "x": 288
+                                                "x": 287.9999999999994
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "CE69666A-2C7B-4C0B-B000-68FC77F96F98",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 12,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
                                             "isLocked": 0,
-                                            "layerListExpandedType": 0,
+                                            "layerListExpandedType": 2,
                                             "nameIsFixed": 1,
                                             "name": "google+"
                                         },
@@ -37429,7 +37429,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 13,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -40282,7 +40282,7 @@
                                                     "hasClickThrough": 0,
                                                     "isVisible": 1,
                                                     "objectID": "D43CD0BB-7CCA-4AE9-B454-EBD4FDD7DBE1",
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 13,
                                                     "isFlippedHorizontal": 0,
                                                     "resizingType": 0,
                                                     "<class>": "MSLayerGroup",
@@ -40311,7 +40311,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "9B304085-1C2C-4FD6-8936-FBA04C6147C2",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 11,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -40567,7 +40567,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 13,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -41982,7 +41982,7 @@
                                                     "hasClickThrough": 0,
                                                     "isVisible": 1,
                                                     "objectID": "A0AC2166-8FB1-4D24-804B-F9CAE2FF0558",
-                                                    "resizingConstraint": 63,
+                                                    "resizingConstraint": 13,
                                                     "isFlippedHorizontal": 0,
                                                     "resizingType": 0,
                                                     "<class>": "MSLayerGroup",
@@ -42005,13 +42005,13 @@
                                                 "constrainProportions": 0,
                                                 "height": 71,
                                                 "width": 48,
-                                                "x": 156
+                                                "x": 155.9999999999999
                                             },
                                             "isFlippedVertical": 0,
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "10D439F4-766A-464E-9814-7FE708D904E5",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 15,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -42040,12 +42040,12 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "168E0B17-ECF6-465D-BF27-B596E45EFA2E",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 47,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
                                     "isLocked": 0,
-                                    "layerListExpandedType": 0,
+                                    "layerListExpandedType": 2,
                                     "nameIsFixed": 1,
                                     "name": "sheet"
                                 }
@@ -42069,18 +42069,18 @@
                             "hasClickThrough": 1,
                             "isVisible": 1,
                             "objectID": "78E37BE2-EEED-4E79-8FD9-D3E887E91773",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
                             "isLocked": 0,
-                            "layerListExpandedType": 0,
+                            "layerListExpandedType": 2,
                             "nameIsFixed": 1,
                             "name": "grid sheet"
                         }
                     ],
                     "isVisible": 1,
-                    "name": "grid sheet",
+                    "name": "grid_sheet",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -42115,7 +42115,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -42584,7 +42584,7 @@
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 63.99999999999999,
-                                        "width": 344,
+                                        "width": 343.9999999999997,
                                         "x": 0
                                     },
                                     "hasClickThrough": 1,
@@ -42611,7 +42611,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 63.99999999999999,
-                                                "width": 344,
+                                                "width": 343.9999999999997,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -42727,7 +42727,7 @@
                                     "name": "card",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "isFlippedHorizontal": 0,
@@ -42738,7 +42738,7 @@
                                         "<class>": "MSRect",
                                         "constrainProportions": 0,
                                         "height": 20,
-                                        "width": 264,
+                                        "width": 263.9999999999999,
                                         "x": 64
                                     },
                                     "glyphBounds": {
@@ -42926,7 +42926,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 43,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -42942,10 +42942,10 @@
                                         "x": 290
                                     },
                                     "glyphBounds": {
-                                        "y": 0,
-                                        "x": 0,
-                                        "width": 44,
-                                        "height": 14
+                                        "y": 4,
+                                        "x": 1,
+                                        "width": 43,
+                                        "height": 10
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -43125,7 +43125,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 12,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -43141,10 +43141,10 @@
                                         "x": 64
                                     },
                                     "glyphBounds": {
-                                        "y": 0,
-                                        "x": 0,
-                                        "width": 104,
-                                        "height": 24
+                                        "y": 7,
+                                        "x": 1,
+                                        "width": 103,
+                                        "height": 17
                                     },
                                     "layerListExpandedType": 0,
                                     "exportOptions": {
@@ -43325,7 +43325,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 41,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 },
                                 {
@@ -43485,7 +43485,7 @@
                                         "constrainProportions": 0,
                                         "height": 40,
                                         "width": 40,
-                                        "x": 12
+                                        "x": 11.99999999999998
                                     },
                                     "hasClickThrough": 0,
                                     "objectID": "15D1765E-887D-4347-8D0E-33624BB28A00",
@@ -43625,7 +43625,7 @@
                                     "name": "Oval",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 41
                                 }
                             ],
                             "exportOptions": {
@@ -43647,7 +43647,7 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "79255EA5-B77E-4ADC-83A8-E5A1F44FD58B",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -43658,7 +43658,7 @@
                         }
                     ],
                     "isVisible": 1,
-                    "name": "Notification",
+                    "name": "notification",
                     "resizingType": 0,
                     "isLocked": 0,
                     "shouldBreakMaskChain": 0,
@@ -43693,7 +43693,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 2,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -43989,7 +43989,7 @@
                                                 "<class>": "MSRect",
                                                 "constrainProportions": 0,
                                                 "height": 232,
-                                                "width": 360,
+                                                "width": 359.999999999999,
                                                 "x": 0
                                             },
                                             "layerListExpandedType": 0,
@@ -44105,7 +44105,7 @@
                                     "name": "Rectangle",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -44406,7 +44406,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -44606,7 +44606,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -44908,7 +44908,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -45207,7 +45207,7 @@
                                                     "name": "Oval",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -45229,7 +45229,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "D55F6E5D-4485-4242-9FE8-FF18F04CAF42",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -45486,7 +45486,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -45686,7 +45686,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -45988,7 +45988,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -46287,7 +46287,7 @@
                                                     "name": "Oval",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -46309,7 +46309,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "5D83C4F5-1AA2-4BD9-9512-DF177EEE1E45",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -46566,7 +46566,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -46766,7 +46766,7 @@
                                                         }
                                                     },
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 47,
+                                                    "resizingConstraint": 41,
                                                     "automaticallyDrawOnUnderlyingPath": 0
                                                 },
                                                 {
@@ -47068,7 +47068,7 @@
                                                     "name": "Rectangle-path",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 44
                                                 },
                                                 {
                                                     "isFlippedHorizontal": 0,
@@ -47367,7 +47367,7 @@
                                                     "name": "Oval",
                                                     "isLocked": 0,
                                                     "shouldBreakMaskChain": 0,
-                                                    "resizingConstraint": 63
+                                                    "resizingConstraint": 41
                                                 }
                                             ],
                                             "exportOptions": {
@@ -47389,7 +47389,7 @@
                                             "hasClickThrough": 0,
                                             "isVisible": 1,
                                             "objectID": "C39053E6-3377-4534-AD48-22AA1C395169",
-                                            "resizingConstraint": 63,
+                                            "resizingConstraint": 42,
                                             "isFlippedHorizontal": 0,
                                             "resizingType": 0,
                                             "<class>": "MSLayerGroup",
@@ -47418,7 +47418,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "A300C8D1-A73B-4BD6-BB8C-60F9964F4688",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 18,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -47447,7 +47447,7 @@
                             "hasClickThrough": 1,
                             "isVisible": 1,
                             "objectID": "49E7C664-4EDE-48C2-9A83-58FE7D32B0E3",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 47,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
@@ -48075,7 +48075,7 @@
                                     "name": "button bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 47
                                 },
                                 {
                                     "isFlippedHorizontal": 0,
@@ -48328,7 +48328,7 @@
                                         }
                                     },
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 45,
                                     "automaticallyDrawOnUnderlyingPath": 0
                                 }
                             ],
@@ -48356,7 +48356,7 @@
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",
                             "isLocked": 0,
-                            "layerListExpandedType": 0,
+                            "layerListExpandedType": 2,
                             "nameIsFixed": 1,
                             "name": "button"
                         }
@@ -48397,7 +48397,7 @@
                     },
                     "hasBackgroundColor": 0,
                     "layerListExpandedType": 0,
-                    "resizesContent": 0,
+                    "resizesContent": 1,
                     "backgroundColor": {
                         "<class>": "MSColor",
                         "value": "#FFFFFF"
@@ -48940,7 +48940,7 @@
                                     "name": "icon-add bg",
                                     "isLocked": 0,
                                     "shouldBreakMaskChain": 0,
-                                    "resizingConstraint": 63
+                                    "resizingConstraint": 45
                                 },
                                 {
                                     "shouldBreakMaskChain": 0,
@@ -49683,7 +49683,7 @@
                                     "hasClickThrough": 0,
                                     "isVisible": 1,
                                     "objectID": "253612AD-3C8D-4491-A32C-B3660E67F753",
-                                    "resizingConstraint": 63,
+                                    "resizingConstraint": 45,
                                     "isFlippedHorizontal": 0,
                                     "resizingType": 0,
                                     "<class>": "MSLayerGroup",
@@ -49712,7 +49712,7 @@
                             "hasClickThrough": 0,
                             "isVisible": 1,
                             "objectID": "2A9B36DB-BFAB-4AF3-A38D-1756A2DF03B4",
-                            "resizingConstraint": 63,
+                            "resizingConstraint": 45,
                             "isFlippedHorizontal": 0,
                             "resizingType": 0,
                             "<class>": "MSLayerGroup",

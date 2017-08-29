@@ -2,19 +2,16 @@ import sketch from 'sketchjs'
 import fs from 'fs'
 import handleData from './lib/handleData'
 
-const Androidtest = "sketch/android_1.sketch"
-const AndroidtestModel = "data/androidtestModel.json"
-const AndroidtestModelResult = "data/androidtestModelResult.json"
+const Android = "../sketchfile/android.sketch"
+const AndroidModel = "data/androidModel.json"
+const AndroidModelResult = "data/androidModelResult.json"
 
-const iosTestSaf = "sketch/test-fix.sketch"
-const iosTestSafModel = "data/iosTestSaf.json"
-const iosTestSafModelResult = "data/iosTestSafModelResult.json"
-// const ios = "sketch/ios1.sketch"
-// const iosModel = "data/iosModel.json"
-// const iosModelResult = "data/iosModelResult.json"
+const IOS = "../sketchfile/ios.sketch"
+const IOSModel = "data/iosModel.json"
+const IOSModelResult = "data/iosModelResult.json"
 
-sketch.dump(iosTestSaf, (json) => {
-    fs.writeFile(iosTestSafModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(IOS, (json) => {
+    fs.writeFile(IOSModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
         if(err) console.log(err)
     })
     let data = JSON.parse(json)
@@ -25,17 +22,16 @@ sketch.dump(iosTestSaf, (json) => {
         return { [name] : depthFirstSearch(symbol, handleData)}
     })
 
-    fs.writeFile(iosTestSafModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
-    
+    fs.writeFile(IOSModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
 })
 
 /**
- * 
+ *
  * @param {json} 读取sketch json 文件
  * @param {function} 处理逻辑
  */
 function depthFirstSearch(treeData, callback) {
-    let resultArr = new Set() 
+    let resultArr = new Set()
     let keyLevelStack = (treeData.layers || []).map((node) => {
         let {x, y} = node && node.frame
         return [node, 0, x, y]

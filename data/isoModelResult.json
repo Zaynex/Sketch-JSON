@@ -1,8 +1,8 @@
 [
     {
-        "Modal/Action Sheet": [
+        "action_sheet": [
             {
-                "width": 355,
+                "width": 354,
                 "height": 57,
                 "left": 0,
                 "top": 183,
@@ -18,13 +18,14 @@
                 "title": "Base",
                 "name": "rounded_rect",
                 "z": 0,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 39
             },
             {
-                "width": 65,
+                "width": 64,
                 "height": 24,
                 "left": 145,
-                "top": 199.5,
+                "top": 200,
                 "bs": 0,
                 "title": "Primary Btn",
                 "tc": "rgba(0,118,255,1.00)",
@@ -32,14 +33,15 @@
                 "fs": 20,
                 "lh": 24,
                 "wordSpcing": 0.3799999952316284,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 1,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
-                "width": 355,
+                "width": 354,
                 "height": 175,
                 "left": 0,
                 "top": 0,
@@ -56,12 +58,13 @@
                 "title": "Base",
                 "name": "rounded_rect",
                 "z": 2,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 39
             },
             {
                 "width": 60,
                 "height": 24,
-                "left": 147.5,
+                "left": 147.0014044943822,
                 "top": 135,
                 "bs": 0,
                 "title": "Delete Btn",
@@ -70,16 +73,17 @@
                 "fs": 20,
                 "lh": 24,
                 "wordSpcing": 0.3799999952316284,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 3,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
-                "width": 136,
+                "width": 144,
                 "height": 24,
-                "left": 109.5,
+                "left": 105.0014044943822,
                 "top": 78.5,
                 "bs": 0,
                 "title": "Primary Btn",
@@ -88,14 +92,15 @@
                 "fs": 20,
                 "lh": 24,
                 "wordSpcing": 0.3799999952316284,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 4,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
-                "width": 356,
+                "width": 355,
                 "height": 10,
                 "left": 0,
                 "top": 57,
@@ -104,7 +109,7 @@
                 "name": "hr"
             },
             {
-                "width": 356,
+                "width": 355,
                 "height": 10,
                 "left": 0,
                 "top": 113,
@@ -115,7 +120,7 @@
             {
                 "width": 325,
                 "height": 18,
-                "left": 15,
+                "left": 14.50140449438217,
                 "top": 30.5,
                 "bs": 0,
                 "title": "Description",
@@ -124,16 +129,17 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 5,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 5
             },
             {
-                "width": 325,
+                "width": 324,
                 "height": 18,
-                "left": 15,
+                "left": 14.95786516853933,
                 "top": 13,
                 "bs": 0,
                 "title": "Title",
@@ -142,16 +148,17 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 6,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 15
             }
         ]
     },
     {
-        "Basic Elements/Controls/Segmented Control/2-1": [
+        "segmented_control_2": [
             {
                 "width": 200,
                 "height": 29,
@@ -169,7 +176,8 @@
                 "title": "Mask",
                 "name": "rounded_rect",
                 "z": 7,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 25,
@@ -183,11 +191,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 8,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 100,
@@ -199,7 +208,8 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 9,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
                 "width": 25,
@@ -213,16 +223,17 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 10,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             }
         ]
     },
     {
-        "Basic Elements/Controls/Segmented Control/3-1": [
+        "segmented_control_3": [
             {
                 "width": 300,
                 "height": 29,
@@ -240,7 +251,8 @@
                 "title": "Mask",
                 "name": "rounded_rect",
                 "z": 11,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 36,
@@ -254,11 +266,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 12,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 25,
@@ -272,11 +285,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 13,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 100,
@@ -288,7 +302,8 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 14,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
                 "width": 25,
@@ -302,36 +317,37 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 15,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             }
         ]
     },
     {
-        "Table View/Elements/Slider": [
+        "slider": [
             {
                 "width": 280,
                 "height": 10,
                 "left": 0,
-                "top": 9.5,
+                "top": 10,
                 "bs": 0,
                 "name": "hr"
             },
             {
-                "width": 140,
+                "width": 141,
                 "height": 10,
                 "left": 0,
-                "top": 9.5,
+                "top": 10,
                 "bs": 0,
                 "name": "hr"
             },
             {
                 "width": 28,
                 "height": 28,
-                "left": 126,
+                "left": 127,
                 "top": 0,
                 "bc": "rgba(0,0,0,0.10)",
                 "bs": 1,
@@ -346,12 +362,13 @@
                 "title": "Knob",
                 "name": "rounded_rect",
                 "z": 16,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 45
             }
         ]
     },
     {
-        "Bars/Navigation Bar/Subtitle": [
+        "navbar_with_subtitle": [
             {
                 "width": 375,
                 "height": 44,
@@ -369,7 +386,8 @@
                 "title": "Bar",
                 "name": "rounded_rect",
                 "z": 17,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 375,
@@ -380,12 +398,13 @@
                 "title": "Container",
                 "name": "rounded_rect",
                 "z": 18,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 39,
+                "width": 41,
                 "height": 22,
-                "left": 328,
+                "left": 326,
                 "top": 11,
                 "bs": 0,
                 "title": "Right Text Btn",
@@ -394,11 +413,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 19,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 44
             },
             {
                 "width": 38,
@@ -412,11 +432,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 20,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             },
             {
                 "icon": "fa-angle-left",
@@ -439,12 +460,13 @@
                 "title": "Container",
                 "name": "rounded_rect",
                 "z": 21,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 42,
+                "width": 39,
                 "height": 13,
-                "left": 166.5,
+                "left": 168,
                 "top": 25,
                 "bs": 0,
                 "title": "Subtitle",
@@ -453,11 +475,12 @@
                 "fs": 11,
                 "lh": 13,
                 "wordSpcing": 0.07000000029802322,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 22,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
                 "width": 30,
@@ -471,21 +494,22 @@
                 "fs": 15,
                 "lh": 20,
                 "wordSpcing": -0.239999994635582,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 23,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 13
             }
         ]
     },
     {
-        "Bars/Navigation Bar/Back + Icons": [
+        "navbar_with_icons": [
             {
                 "width": 375,
                 "height": 44,
                 "left": 0,
-                "top": -5.684341886080801e-14,
+                "top": 0,
                 "bs": 0,
                 "sc": "#BBBBBE",
                 "shadowOffsetX": 0.5,
@@ -498,7 +522,8 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 24,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 375,
@@ -509,12 +534,13 @@
                 "title": "Container",
                 "name": "rounded_rect",
                 "z": 25,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 22,
                 "height": 22,
-                "left": 290,
+                "left": 289.9999999999995,
                 "top": 11,
                 "bc": "#717788",
                 "bs": 1,
@@ -529,12 +555,13 @@
                 "title": "Rectangle",
                 "name": "rounded_rect",
                 "z": 26,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 44
             },
             {
                 "width": 22,
                 "height": 22,
-                "left": 338,
+                "left": 338.0000000000001,
                 "top": 11,
                 "bc": "#717788",
                 "bs": 1,
@@ -549,7 +576,8 @@
                 "title": "Rectangle",
                 "name": "rounded_rect",
                 "z": 27,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 44
             },
             {
                 "width": 38,
@@ -563,11 +591,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 28,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             },
             {
                 "icon": "fa-angle-left",
@@ -582,9 +611,9 @@
                 "o": 100
             },
             {
-                "width": 36,
+                "width": 32,
                 "height": 22,
-                "left": 170,
+                "left": 172.0000000000008,
                 "top": 11,
                 "bs": 0,
                 "title": "Title",
@@ -593,16 +622,17 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 29,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             }
         ]
     },
     {
-        "Bars/Tab Bar/Compact/5 Tabs": [
+        "tabs_5": [
             {
                 "width": 375,
                 "height": 49,
@@ -614,7 +644,8 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 30,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 75,
@@ -627,12 +658,13 @@
                 "title": "Touch Area",
                 "name": "rounded_rect",
                 "z": 31,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 319,
+                "left": 320.4999999999989,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 5",
@@ -641,26 +673,27 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 32,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 325,
+                "left": 324.9999999999992,
                 "top": 6.5,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 244,
+                "left": 245.49999999999977,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 4",
@@ -669,26 +702,27 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 33,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 250,
+                "left": 249.9999999999998,
                 "top": 6.5,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 169,
+                "left": 170.50000000000006,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 3",
@@ -697,26 +731,27 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 34,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 175,
+                "left": 174.99999999999994,
                 "top": 6.5,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 94,
+                "left": 95.4999999999999,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 2",
@@ -725,26 +760,27 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 35,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 100,
+                "left": 99.99999999999993,
                 "top": 6.5,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
-                "width": 35,
+                "width": 34,
                 "height": 12,
-                "left": 20,
+                "left": 20.499999999999897,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 1",
@@ -753,18 +789,19 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 36,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 25,
+                "left": 24.999999999999925,
                 "top": 6.5,
                 "z": 1000,
                 "name": "icon_button"
@@ -772,7 +809,7 @@
         ]
     },
     {
-        "Bars/Tab Bar/Compact/4 Tabs": [
+        "tabs_4": [
             {
                 "width": 375,
                 "height": 49,
@@ -784,12 +821,13 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 37,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 310,
+                "left": 311.5,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 4",
@@ -798,11 +836,12 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 38,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
@@ -815,9 +854,9 @@
                 "name": "icon_button"
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 216,
+                "left": 217.49999999999991,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 3",
@@ -826,26 +865,27 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 39,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 222,
+                "left": 221.99999999999991,
                 "top": 6,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
-                "width": 37,
+                "width": 34,
                 "height": 12,
-                "left": 122,
+                "left": 123.50000000000006,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 2",
@@ -854,26 +894,27 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 40,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 128,
+                "left": 128.00000000000006,
                 "top": 6,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
-                "width": 35,
+                "width": 34,
                 "height": 12,
-                "left": 29,
+                "left": 29.49999999999993,
                 "top": 35.5,
                 "bs": 0,
                 "title": "Label 1",
@@ -882,18 +923,19 @@
                 "fs": 10,
                 "lh": 12,
                 "wordSpcing": 0.119999997317791,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 41,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "icon": "md-message",
                 "is": 25,
                 "width": 25,
                 "height": 25,
-                "left": 34,
+                "left": 33.99999999999993,
                 "top": 6,
                 "z": 1000,
                 "name": "icon_button"
@@ -901,20 +943,7 @@
         ]
     },
     {
-        "Basic Elements/Controls/Edit Menu": [
-            {
-                "width": 241,
-                "height": 36,
-                "left": 0,
-                "top": 9,
-                "bs": 0,
-                "o": "80",
-                "bg": "rgb(38,39,40)",
-                "title": "Popover",
-                "name": "rounded_rect",
-                "z": 42,
-                "resizingType": 0
-            },
+        "control_popover": [
             {
                 "width": 19,
                 "height": 10,
@@ -926,8 +955,23 @@
                 "o": "80",
                 "bg": "rgb(38,39,40)",
                 "title": "Point",
+                "z": 42,
+                "resizingType": 0,
+                "resizingConstraint": 63
+            },
+            {
+                "width": 241,
+                "height": 36,
+                "left": 0,
+                "top": 9,
+                "bs": 0,
+                "o": "80",
+                "bg": "rgb(38,39,40)",
+                "title": "Popover",
+                "name": "rounded_rect",
                 "z": 43,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 34
             },
             {
                 "width": 10,
@@ -959,16 +1003,17 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 44,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
-                "width": 58,
+                "width": 59,
                 "height": 16,
-                "left": 94,
+                "left": 93.5,
                 "top": 19,
                 "bs": 0,
                 "title": "Select All",
@@ -977,11 +1022,12 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 45,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
                 "width": 39,
@@ -995,16 +1041,17 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 46,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             }
         ]
     },
     {
-        "Table View/Thumbnail/Message": [
+        "message": [
             {
                 "width": 374,
                 "height": 76,
@@ -1022,7 +1069,8 @@
                 "title": "Base",
                 "name": "rounded_rect",
                 "z": 47,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 349,
@@ -1034,7 +1082,8 @@
                 "title": "Divider",
                 "name": "rounded_rect",
                 "z": 48,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 375,
@@ -1046,12 +1095,13 @@
                 "title": "Fill",
                 "name": "rounded_rect",
                 "z": 49,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 39,
                 "height": 20,
-                "left": 304,
+                "left": 303.9999999999996,
                 "top": 9.5,
                 "bs": 0,
                 "title": "Timestamp",
@@ -1060,11 +1110,12 @@
                 "fs": 15,
                 "lh": 20,
                 "wordSpcing": -0.239999994635582,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 50,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 12
             },
             {
                 "width": 277,
@@ -1078,14 +1129,15 @@
                 "fs": 15,
                 "lh": 20,
                 "wordSpcing": -0.239999994635582,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 51,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 2
             },
             {
-                "width": 149,
+                "width": 134,
                 "height": 22,
                 "left": 83,
                 "top": 7,
@@ -1096,11 +1148,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 52,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 9
             },
             {
                 "icon": "fa-angle-right",
@@ -1108,7 +1161,7 @@
                 "width": 8,
                 "height": 13,
                 "left": 348,
-                "top": 10.5,
+                "top": 11,
                 "tc": "#C7C7CC",
                 "z": 1000,
                 "name": "icon_button"
@@ -1119,7 +1172,9 @@
                 "left": 26,
                 "top": 15,
                 "br": 23,
-                "name": "image_view"
+                "resizingConstraint": 36,
+                "name": "image_view",
+                "z": 1000
             },
             {
                 "width": 12,
@@ -1132,12 +1187,13 @@
                 "title": "Unread",
                 "name": "rounded_rect",
                 "z": 53,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 33
             }
         ]
     },
     {
-        "Modal/Alert/Prompt": [
+        "prompt": [
             {
                 "width": 270,
                 "height": 165,
@@ -1156,13 +1212,14 @@
                 "title": "Base",
                 "name": "rounded_rect",
                 "z": 54,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 55,
+                "width": 53,
                 "height": 22,
-                "left": 41,
-                "top": 131.5217391304348,
+                "left": 42,
+                "top": 132,
                 "bs": 0,
                 "title": "Dismiss Btn",
                 "tc": "rgba(0,118,255,1.00)",
@@ -1170,17 +1227,18 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 55,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 24,
                 "height": 22,
-                "left": 190.0044642857138,
-                "top": 131.5217391304348,
+                "left": 190,
+                "top": 132,
                 "bs": 0,
                 "title": "Primary Btn",
                 "tc": "rgba(0,118,255,1.00)",
@@ -1188,11 +1246,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 56,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 270,
@@ -1223,12 +1282,13 @@
                 "title": "Textfield",
                 "name": "rounded_rect",
                 "z": 57,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
                 "width": 59,
                 "height": 18,
-                "left": 21,
+                "left": 21.000000000000036,
                 "top": 86,
                 "bs": 0,
                 "title": "Input",
@@ -1237,11 +1297,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 58,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 240,
@@ -1255,11 +1316,12 @@
                 "fs": 13,
                 "lh": 16,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 59,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 13
             },
             {
                 "width": 240,
@@ -1273,16 +1335,17 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 60,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 13
             }
         ]
     },
     {
-        "Modal/Alert/Title + Body - Two Btns": [
+        "alert": [
             {
                 "width": 270,
                 "height": 144,
@@ -1301,12 +1364,13 @@
                 "title": "Base",
                 "name": "rounded_rect",
                 "z": 61,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 55,
+                "width": 50,
                 "height": 22,
-                "left": 41,
+                "left": 43.5,
                 "top": 110.52173913043475,
                 "bs": 0,
                 "title": "Dismiss Btn",
@@ -1315,11 +1379,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 62,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 24,
@@ -1333,11 +1398,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 63,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 270,
@@ -1360,11 +1426,12 @@
                 "fs": 13,
                 "lh": 16,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 64,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 15
             },
             {
                 "width": 240,
@@ -1378,11 +1445,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 65,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 15
             },
             {
                 "width": 10,
@@ -1396,7 +1464,7 @@
         ]
     },
     {
-        "Notification": [
+        "notification": [
             {
                 "width": 359,
                 "height": 111,
@@ -1408,7 +1476,8 @@
                 "title": "Bound",
                 "name": "rounded_rect",
                 "z": 66,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 359,
@@ -1421,7 +1490,8 @@
                 "title": "Body",
                 "name": "rounded_rect",
                 "z": 67,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 80,
@@ -1435,11 +1505,12 @@
                 "fs": 12,
                 "lh": 16,
                 "wordSpcing": 0,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 68,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 33
             },
             {
                 "width": 329,
@@ -1453,14 +1524,15 @@
                 "fs": 15,
                 "lh": 20,
                 "wordSpcing": -0.239999994635582,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 69,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 18
             },
             {
-                "width": 32,
+                "width": 29,
                 "height": 20,
                 "left": 15,
                 "top": 44,
@@ -1471,11 +1543,12 @@
                 "fs": 15,
                 "lh": 20,
                 "wordSpcing": -0.239999994635582,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 70,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 9
             },
             {
                 "width": 46,
@@ -1489,11 +1562,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 71,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 12
             },
             {
                 "width": 66,
@@ -1507,11 +1581,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 72,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 9
             },
             {
                 "width": 20,
@@ -1524,14 +1599,15 @@
                 "title": "App Icon",
                 "name": "image_view",
                 "z": 73,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 9
             }
         ]
     },
     {
-        "Quick Actions": [
+        "quick_actions": [
             {
-                "width": 248,
+                "width": 250,
                 "height": 249,
                 "left": 0,
                 "top": 0,
@@ -1548,10 +1624,11 @@
                 "title": "Mask",
                 "name": "rounded_rect",
                 "z": 74,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 71,
+                "width": 72,
                 "height": 22,
                 "left": 59,
                 "top": 207.5,
@@ -1562,11 +1639,12 @@
                 "fs": 19,
                 "lh": 22,
                 "wordSpcing": -0.475,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 75,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1579,7 +1657,7 @@
                 "name": "icon_button"
             },
             {
-                "width": 71,
+                "width": 72,
                 "height": 22,
                 "left": 59,
                 "top": 145,
@@ -1590,11 +1668,12 @@
                 "fs": 19,
                 "lh": 22,
                 "wordSpcing": -0.475,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 76,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1607,7 +1686,7 @@
                 "name": "icon_button"
             },
             {
-                "width": 71,
+                "width": 72,
                 "height": 22,
                 "left": 59,
                 "top": 82.5,
@@ -1618,11 +1697,12 @@
                 "fs": 19,
                 "lh": 22,
                 "wordSpcing": -0.475,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 77,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1635,7 +1715,7 @@
                 "name": "icon_button"
             },
             {
-                "width": 68,
+                "width": 69,
                 "height": 22,
                 "left": 59,
                 "top": 20,
@@ -1646,11 +1726,12 @@
                 "fs": 19,
                 "lh": 22,
                 "wordSpcing": -0.475,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 78,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1663,7 +1744,7 @@
                 "name": "icon_button"
             },
             {
-                "width": 248,
+                "width": 250,
                 "height": 10,
                 "left": 0,
                 "top": 57,
@@ -1672,7 +1753,7 @@
                 "name": "hr"
             },
             {
-                "width": 248,
+                "width": 250,
                 "height": 10,
                 "left": 0,
                 "top": 119,
@@ -1681,7 +1762,7 @@
                 "name": "hr"
             },
             {
-                "width": 248,
+                "width": 250,
                 "height": 10,
                 "left": 0,
                 "top": 182,
@@ -1692,7 +1773,7 @@
         ]
     },
     {
-        "Bars/Navigation Bar/Search - Grey Active": [
+        "search_bar": [
             {
                 "width": 375,
                 "height": 64,
@@ -1704,7 +1785,8 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 79,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 53,
@@ -1718,11 +1800,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 80,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 36
             },
             {
                 "width": 295,
@@ -1741,13 +1824,14 @@
                 "title": "Search Bar",
                 "name": "rounded_rect",
                 "z": 81,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 34
             },
             {
                 "width": 46,
                 "height": 19,
                 "left": 37,
-                "top": 30.5,
+                "top": 31,
                 "bs": 0,
                 "title": "Search",
                 "tc": "rgba(3,3,3,1.00)",
@@ -1755,11 +1839,12 @@
                 "fs": 14,
                 "lh": 19,
                 "wordSpcing": -0.1500000059604645,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 82,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 35
             },
             {
                 "icon": "mb-times-circle-filled",
@@ -1779,7 +1864,7 @@
                 "width": 13,
                 "height": 13,
                 "left": 16,
-                "top": 35.5,
+                "top": 36,
                 "z": 1000,
                 "name": "icon_button",
                 "tc": "#8E8E93",
@@ -1788,7 +1873,7 @@
         ]
     },
     {
-        "Bars/Navigation Bar/Safari": [
+        "safari": [
             {
                 "width": 375,
                 "height": 64,
@@ -1800,13 +1885,14 @@
                 "title": "BG",
                 "name": "rounded_rect",
                 "z": 83,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 356,
                 "height": 29,
-                "left": 9.5,
-                "top": 24.5,
+                "left": 10,
+                "top": 25,
                 "bs": 0,
                 "o": "8",
                 "bg": "rgb(0,0,0)",
@@ -1820,25 +1906,27 @@
                 "title": "Rectangle 22",
                 "name": "rounded_rect",
                 "z": 84,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 34
             },
             {
                 "width": 80,
                 "height": 22,
-                "left": 147.5,
-                "top": 27.5,
+                "left": 148,
+                "top": 28,
                 "bs": 0,
                 "title": "Title",
                 "tc": "rgba(3,3,3,1.00)",
-                "text": "apple.com",
+                "text": "modao.cc",
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 85,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 37
             },
             {
                 "icon": "fa-repeat",
@@ -1853,7 +1941,7 @@
         ]
     },
     {
-        "Modal/Alert/Title + Body - Multiple Btns": [
+        "vertical_alert": [
             {
                 "width": 270,
                 "height": 234,
@@ -1872,12 +1960,13 @@
                 "title": "Base",
                 "name": "rounded_rect",
                 "z": 86,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
-                "width": 55,
+                "width": 50,
                 "height": 22,
-                "left": 107.5,
+                "left": 110,
                 "top": 200.5,
                 "bs": 0,
                 "title": "Dismiss Btn",
@@ -1886,11 +1975,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 87,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 40,
@@ -1904,11 +1994,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 88,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 24,
@@ -1922,11 +2013,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 89,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 45
             },
             {
                 "width": 270,
@@ -1967,11 +2059,12 @@
                 "fs": 13,
                 "lh": 16,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 90,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 13
             },
             {
                 "width": 240,
@@ -1985,16 +2078,17 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 91,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 13
             }
         ]
     },
     {
-        "Table View/Thumbnail/Value 1 Nested": [
+        "list_with_thumb": [
             {
                 "width": 316,
                 "height": 45,
@@ -2005,7 +2099,8 @@
                 "title": "Divider",
                 "name": "rounded_rect",
                 "z": 92,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 375,
@@ -2017,7 +2112,8 @@
                 "title": "Fill",
                 "name": "rounded_rect",
                 "z": 93,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 43,
@@ -2031,11 +2127,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 94,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 44
             },
             {
                 "width": 42,
@@ -2049,11 +2146,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 95,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 41
             },
             {
                 "icon": "fa-angle-right",
@@ -2077,12 +2175,13 @@
                 "title": "App Icon",
                 "name": "image_view",
                 "z": 96,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 41
             }
         ]
     },
     {
-        "Table View": [
+        "list_with_value": [
             {
                 "width": 360,
                 "height": 45,
@@ -2093,7 +2192,8 @@
                 "title": "Divider",
                 "name": "rounded_rect",
                 "z": 97,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 375,
@@ -2105,7 +2205,8 @@
                 "title": "Fill",
                 "name": "rounded_rect",
                 "z": 98,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 43,
@@ -2119,11 +2220,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 99,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 44
             },
             {
                 "width": 42,
@@ -2137,11 +2239,12 @@
                 "fs": 17,
                 "lh": 22,
                 "wordSpcing": -0.4099999964237213,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 100,
-                "resizingType": 3
+                "resizingType": 3,
+                "resizingConstraint": 41
             },
             {
                 "icon": "fa-angle-right",
@@ -2157,9 +2260,9 @@
         ]
     },
     {
-        "Widget Base": [
+        "widget_base": [
             {
-                "width": 359,
+                "width": 360,
                 "height": 146,
                 "left": 0,
                 "top": 0,
@@ -2176,10 +2279,11 @@
                 "title": "Rectangle",
                 "name": "rounded_rect",
                 "z": 101,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
-                "width": 359,
+                "width": 360,
                 "height": 110,
                 "left": 0,
                 "top": 36,
@@ -2189,12 +2293,13 @@
                 "title": "Body",
                 "name": "rounded_rect",
                 "z": 102,
-                "resizingType": 2
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 68,
                 "height": 18,
-                "left": 280,
+                "left": 281,
                 "top": 10,
                 "bs": 0,
                 "title": "CTA",
@@ -2203,11 +2308,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 103,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 12
             },
             {
                 "width": 92,
@@ -2221,11 +2327,12 @@
                 "fs": 13,
                 "lh": 18,
                 "wordSpcing": -0.07999999821186066,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 104,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 9
             },
             {
                 "width": 20,
@@ -2238,7 +2345,8 @@
                 "title": "App Icon",
                 "name": "image_view",
                 "z": 105,
-                "resizingType": 1
+                "resizingType": 1,
+                "resizingConstraint": 9
             }
         ]
     }

@@ -1,6 +1,6 @@
 [
     {
-        "single line with avatar and icon": [
+        "list_with_icons": [
             {
                 "width": 360,
                 "height": 184,
@@ -19,7 +19,8 @@
                 "title": "Rectangle",
                 "name": "rounded_rect",
                 "z": 0,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 110,
@@ -32,18 +33,19 @@
                 "text": "Single line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 1,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
                 "is": 24,
                 "width": 24,
                 "height": 24,
-                "left": 320,
+                "left": 319.9999999999999,
                 "top": 136,
                 "z": 1000,
                 "name": "icon_button",
@@ -62,7 +64,8 @@
                 "title": "Avatar",
                 "name": "rounded_rect",
                 "z": 2,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 40,
@@ -72,7 +75,8 @@
                 "title": "Oval-path",
                 "name": "image_view",
                 "z": 3,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
                 "width": 110,
@@ -85,18 +89,19 @@
                 "text": "Single line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 4,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
                 "is": 24,
                 "width": 24,
                 "height": 24,
-                "left": 320,
+                "left": 319.9999999999999,
                 "top": 80,
                 "z": 1000,
                 "name": "icon_button",
@@ -115,7 +120,8 @@
                 "title": "Avatar",
                 "name": "rounded_rect",
                 "z": 5,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 40,
@@ -125,7 +131,8 @@
                 "title": "Oval-path",
                 "name": "image_view",
                 "z": 6,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
                 "width": 110,
@@ -138,18 +145,19 @@
                 "text": "Single line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 7,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
                 "is": 24,
                 "width": 24,
                 "height": 24,
-                "left": 320,
+                "left": 319.9999999999999,
                 "top": 24,
                 "z": 1000,
                 "name": "icon_button",
@@ -168,7 +176,8 @@
                 "title": "Avatar",
                 "name": "rounded_rect",
                 "z": 8,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 40,
@@ -178,12 +187,13 @@
                 "title": "Oval-path",
                 "name": "image_view",
                 "z": 9,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             }
         ]
     },
     {
-        "Dialog with title": [
+        "dialog_with_title": [
             {
                 "width": 280,
                 "height": 284,
@@ -201,7 +211,8 @@
                 "title": "dialog bg",
                 "name": "rounded_rect",
                 "z": 10,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 18
             },
             {
                 "width": 58,
@@ -215,11 +226,12 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0.5,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 11,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 46
             },
             {
                 "width": 58,
@@ -233,11 +245,12 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0.5,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 12,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 46
             },
             {
                 "width": 112,
@@ -250,11 +263,12 @@
                 "text": "Permissions",
                 "fs": 20,
                 "lh": "auto",
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 13,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 9
             },
             {
                 "width": 232,
@@ -267,16 +281,17 @@
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna wirl aliqua. Up exlaborum incididunt quis nostrud exercitatn.",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 14,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 19
             }
         ]
     },
     {
-        "List sheet": [
+        "list_sheet": [
             {
                 "width": 360,
                 "height": 208,
@@ -294,7 +309,8 @@
                 "title": "sheet bg",
                 "name": "rounded_rect",
                 "z": 15,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 63
             },
             {
                 "width": 105,
@@ -307,11 +323,12 @@
                 "text": "Print this page",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 16,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 37,
@@ -324,11 +341,12 @@
                 "text": "Copy",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 17,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 51,
@@ -341,14 +359,15 @@
                 "text": "Upload",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 18,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
-                "width": 41,
+                "width": 42,
                 "height": 24,
                 "left": 72.9998999999998,
                 "top": 21,
@@ -358,11 +377,12 @@
                 "text": "Share",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 19,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-print",
@@ -407,7 +427,7 @@
         ]
     },
     {
-        "Search": [
+        "search": [
             {
                 "width": 343,
                 "height": 48,
@@ -417,7 +437,8 @@
                 "title": "search",
                 "name": "rounded_rect",
                 "z": 20,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 343,
@@ -436,7 +457,8 @@
                 "title": "search bg",
                 "name": "rounded_rect",
                 "z": 21,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "icon": "md-search",
@@ -461,7 +483,7 @@
         ]
     },
     {
-        "three lines with avatar and icon": [
+        "list_with_icons_3": [
             {
                 "width": 360,
                 "height": 280,
@@ -480,7 +502,8 @@
                 "title": "Rectangle 2",
                 "name": "rounded_rect",
                 "z": 22,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 232,
@@ -493,11 +516,12 @@
                 "text": "Secondary line text lorem ipsum dapibus, neque id cursus faucibus",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 23,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 43
             },
             {
                 "width": 107,
@@ -510,11 +534,12 @@
                 "text": "Three line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 24,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -534,7 +559,9 @@
                 "left": 16,
                 "top": 200,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             },
             {
                 "width": 232,
@@ -542,16 +569,17 @@
                 "left": 72,
                 "top": 128,
                 "bs": 0,
-                "title": "Secondary line text ",
+                "title": "Secondary line text",
                 "tc": "rgba(0,0,0,0.54)",
                 "text": "Secondary line text lorem ipsum dapibus, neque id cursus faucibus",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 25,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 43
             },
             {
                 "width": 107,
@@ -564,11 +592,12 @@
                 "text": "Three line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 26,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -588,7 +617,9 @@
                 "left": 16,
                 "top": 112,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             },
             {
                 "width": 107,
@@ -601,11 +632,12 @@
                 "text": "Three line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 27,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 232,
@@ -618,11 +650,12 @@
                 "text": "Secondary line text lorem ipsum dapibus, neque id cursus faucibus",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 28,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 43
             },
             {
                 "icon": "md-message",
@@ -642,12 +675,14 @@
                 "left": 16,
                 "top": 24,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             }
         ]
     },
     {
-        "app bar": [
+        "app_bar": [
             {
                 "width": 360,
                 "height": 48,
@@ -664,7 +699,8 @@
                 "title": "app bar bg",
                 "name": "rounded_rect",
                 "z": 29,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 360,
@@ -678,12 +714,13 @@
                 "title": "bounds",
                 "name": "rounded_rect",
                 "z": 30,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 120,
                 "height": 16,
-                "left": 240,
+                "left": 239.9999999999989,
                 "top": 15,
                 "bs": 0,
                 "title": "THE THIRD",
@@ -691,16 +728,17 @@
                 "text": "THE THIRD",
                 "fs": 14,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 31,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
                 "width": 120,
                 "height": 16,
-                "left": 120,
+                "left": 119.9999999999997,
                 "top": 15,
                 "bs": 0,
                 "title": "ITEM TWO",
@@ -708,16 +746,17 @@
                 "text": "ITEM TWO",
                 "fs": 14,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 32,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
                 "width": 120,
                 "height": 16,
-                "left": 0,
+                "left": -1.06581410364015e-13,
                 "top": 15,
                 "bs": 0,
                 "title": "NO. ONE",
@@ -725,11 +764,12 @@
                 "text": "NO. ONE",
                 "fs": 14,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 33,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
                 "width": 120,
@@ -747,12 +787,13 @@
                 "title": "indicator",
                 "name": "rounded_rect",
                 "z": 34,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             }
         ]
     },
     {
-        "Dialog without title": [
+        "dialog": [
             {
                 "width": 280,
                 "height": 264,
@@ -770,7 +811,8 @@
                 "title": "dialog bg",
                 "name": "rounded_rect",
                 "z": 35,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 18
             },
             {
                 "width": 58,
@@ -784,11 +826,12 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0.5,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 36,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 44
             },
             {
                 "width": 58,
@@ -802,11 +845,12 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0.5,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 37,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 44
             },
             {
                 "width": 232,
@@ -819,16 +863,17 @@
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna wirl aliqua. Ut enim ad minim ikad veniam, quis nostrud exercitatn ullamco laboris nisi ut aliquip exlaborum incididunt.",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 38,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 18
             }
         ]
     },
     {
-        "App bar": [
+        "app_bar_2": [
             {
                 "width": 360,
                 "height": 104,
@@ -845,13 +890,14 @@
                 "title": "app bar bg",
                 "name": "rounded_rect",
                 "z": 39,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 360,
                 "height": 48,
                 "left": 0,
-                "top": 56.00000000000004,
+                "top": 56,
                 "bc": "#FFF",
                 "bs": 1,
                 "o": "0",
@@ -859,64 +905,68 @@
                 "title": "bounds",
                 "name": "rounded_rect",
                 "z": 40,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 120,
                 "height": 16,
-                "left": 240,
-                "top": 71.00000000000006,
+                "left": 240.0000000000004,
+                "top": 71.00000000000001,
                 "bs": 0,
                 "title": "THE THIRD",
                 "tc": "rgba(255,255,255,0.70)",
                 "text": "THE THIRD",
                 "fs": 14,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 41,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 120,
                 "height": 16,
-                "left": 120,
-                "top": 71.00000000000006,
+                "left": 120.0000000000002,
+                "top": 71.00000000000001,
                 "bs": 0,
                 "title": "ITEM TWO",
                 "tc": "rgba(255,255,255,0.70)",
                 "text": "ITEM TWO",
                 "fs": 14,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 42,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 120,
                 "height": 16,
                 "left": 0,
-                "top": 71.00000000000006,
+                "top": 71.00000000000001,
                 "bs": 0,
                 "title": "NO. ONE",
                 "tc": "rgba(255,255,255,1.00)",
                 "text": "NO. ONE",
                 "fs": 14,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "label",
                 "z": 43,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 120,
                 "height": 2,
                 "left": 0,
-                "top": 102.00000000000006,
+                "top": 102,
                 "bs": 0,
                 "sc": "rgba(0,0,0,0.12)",
                 "shadowOffsetX": 0,
@@ -928,7 +978,8 @@
                 "title": "indicator",
                 "name": "rounded_rect",
                 "z": 44,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "icon": "md-more_vert",
@@ -953,11 +1004,12 @@
                 "text": "Page Title",
                 "fs": 20,
                 "lh": "auto",
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 45,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-menu",
@@ -974,7 +1026,7 @@
         ]
     },
     {
-        "Menu": [
+        "menu": [
             {
                 "width": 128,
                 "height": 176,
@@ -991,7 +1043,8 @@
                 "title": "menu bg",
                 "name": "rounded_rect",
                 "z": 46,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 128,
@@ -1003,7 +1056,8 @@
                 "title": "highlight",
                 "name": "rounded_rect",
                 "z": 47,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 43,
@@ -1016,11 +1070,12 @@
                 "text": "Calibri",
                 "fs": 15,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 48,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 49,
@@ -1033,11 +1088,12 @@
                 "text": "Courier",
                 "fs": 15,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 49,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 56,
@@ -1050,11 +1106,12 @@
                 "text": "Verdana",
                 "fs": 15,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 50,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-arrow_drop_up",
@@ -1077,16 +1134,17 @@
                 "text": "Arial",
                 "fs": 15,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 51,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 9
             }
         ]
     },
     {
-        "interactive notification": [
+        "interactive_notification": [
             {
                 "width": 344,
                 "height": 152,
@@ -1103,7 +1161,8 @@
                 "title": "card",
                 "name": "rounded_rect",
                 "z": 52,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 42,
@@ -1117,18 +1176,19 @@
                 "fs": 13,
                 "lh": 16,
                 "wordSpcing": 0.5,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 53,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-reply",
                 "is": 24,
                 "width": 24,
                 "height": 24,
-                "left": 200,
+                "left": 199.99999999999997,
                 "top": 116,
                 "z": 1000,
                 "name": "icon_button",
@@ -1147,11 +1207,12 @@
                 "fs": 13,
                 "lh": 16,
                 "wordSpcing": 0.5,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 54,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-archive",
@@ -1168,7 +1229,7 @@
             {
                 "width": 280,
                 "height": 2,
-                "left": 64.5,
+                "left": 65,
                 "top": 103,
                 "bc": "rgba(0,0,0,0.16)",
                 "bs": 0.5,
@@ -1176,7 +1237,8 @@
                 "title": "divider",
                 "name": "rounded_rect",
                 "z": 55,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 43
             },
             {
                 "width": 264,
@@ -1189,45 +1251,48 @@
                 "text": "Hey let’s catch up soon. Do you want to grab lunch sometime this weekend?\nLet me know when you’re free!",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "text_view",
                 "z": 56,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 42
             },
             {
                 "width": 45,
                 "height": 16,
                 "left": 290,
-                "top": 15.9994999999999,
+                "top": 16,
                 "bs": 0,
                 "title": "4:09 PM",
                 "tc": "rgba(0,0,0,0.54)",
                 "text": "4:09 PM",
                 "fs": 12,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 57,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 12
             },
             {
                 "width": 89,
                 "height": 24,
-                "left": 64.14840000000004,
-                "top": 8.999499999999898,
+                "left": 64,
+                "top": 9,
                 "bs": 0,
                 "title": "Hannah Cho",
                 "tc": "rgba(0,0,0,0.87)",
                 "text": "Hannah Cho",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 58,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 9
             },
             {
                 "width": 40,
@@ -1235,13 +1300,14 @@
                 "left": 12,
                 "top": 12,
                 "br": 20,
+                "resizingConstraint": 9,
                 "name": "image_view",
                 "z": 1000
             }
         ]
     },
     {
-        "grid sheet": [
+        "grid_sheet": [
             {
                 "width": 360,
                 "height": 216,
@@ -1259,22 +1325,23 @@
                 "title": "sheet bg",
                 "name": "rounded_rect",
                 "z": 59,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "icon": "md-message",
-                "is": 48,
+                "is": 49,
                 "width": 48,
-                "height": 48,
-                "left": 288,
-                "top": 120,
+                "height": 49,
+                "left": 287.9999999999994,
+                "top": 119,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
                 "width": 28,
                 "height": 14,
-                "left": 298,
+                "left": 297.9999999999994,
                 "top": 176,
                 "bs": 0,
                 "title": "More",
@@ -1282,25 +1349,26 @@
                 "text": "More",
                 "fs": 12,
                 "lh": "auto",
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 60,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 39
             },
             {
                 "icon": "md-message",
-                "is": 48,
+                "is": 49,
                 "width": 48,
-                "height": 48,
+                "height": 49,
                 "left": 24,
-                "top": 120,
+                "top": 119,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
                 "width": 24,
-                "height": 28,
+                "height": 14,
                 "left": 36,
                 "top": 176,
                 "bs": 0,
@@ -1309,16 +1377,17 @@
                 "text": "Mail",
                 "fs": 12,
                 "lh": "auto",
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 61,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 37
             },
             {
                 "width": 49,
                 "height": 14,
-                "left": 155.5,
+                "left": 155.4999999999998,
                 "top": 176,
                 "bs": 0,
                 "title": "Message",
@@ -1326,26 +1395,27 @@
                 "text": "Message",
                 "fs": 12,
                 "lh": "auto",
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 62,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 37
             },
             {
                 "icon": "md-message",
-                "is": 48,
+                "is": 49,
                 "width": 48,
-                "height": 48,
-                "left": 156,
-                "top": 120,
+                "height": 49,
+                "left": 155.9999999999998,
+                "top": 119,
                 "z": 1000,
                 "name": "icon_button"
             },
             {
                 "width": 45,
                 "height": 14,
-                "left": 289,
+                "left": 288.9999999999994,
                 "top": 80,
                 "bs": 0,
                 "title": "Google+",
@@ -1353,18 +1423,19 @@
                 "text": "Google+",
                 "fs": 12,
                 "lh": "auto",
-                "va": "baseline",
-                "ha": "right",
+                "va": "top",
+                "ha": "center",
                 "name": "text_view",
                 "z": 63,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 13
             },
             {
                 "icon": "md-message",
                 "is": 48,
                 "width": 48,
                 "height": 48,
-                "left": 288,
+                "left": 287.9999999999994,
                 "top": 24,
                 "z": 1000,
                 "name": "icon_button"
@@ -1380,11 +1451,12 @@
                 "text": "Gmail",
                 "fs": 12,
                 "lh": "auto",
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 64,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 13
             },
             {
                 "icon": "md-message",
@@ -1398,8 +1470,8 @@
             },
             {
                 "width": 47,
-                "height": 28,
-                "left": 156.5,
+                "height": 14,
+                "left": 156.4999999999999,
                 "top": 80,
                 "bs": 0,
                 "title": "Hangout",
@@ -1407,18 +1479,19 @@
                 "text": "Hangout",
                 "fs": 12,
                 "lh": "auto",
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 65,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 13
             },
             {
                 "icon": "md-message",
                 "is": 49,
                 "width": 48,
                 "height": 49,
-                "left": 156,
+                "left": 155.9999999999999,
                 "top": 23,
                 "z": 1000,
                 "name": "icon_button"
@@ -1426,7 +1499,7 @@
         ]
     },
     {
-        "Notification": [
+        "notification": [
             {
                 "width": 344,
                 "height": 64,
@@ -1443,7 +1516,8 @@
                 "title": "card",
                 "name": "rounded_rect",
                 "z": 66,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 264,
@@ -1451,16 +1525,17 @@
                 "left": 64,
                 "top": 31,
                 "bs": 0,
-                "title": "Can’t wait to see you!",
+                "title": "Can’t wait to see yo",
                 "tc": "rgba(0,0,0,0.54)",
                 "text": "Can’t wait to see you!",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 67,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 43
             },
             {
                 "width": 45,
@@ -1473,11 +1548,12 @@
                 "text": "5:09 PM",
                 "fs": 12,
                 "lh": 16,
-                "va": "baseline",
+                "va": "top",
                 "ha": "right",
                 "name": "label",
                 "z": 68,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 12
             },
             {
                 "width": 105,
@@ -1490,19 +1566,22 @@
                 "text": "Rachel Jayson",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 69,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 40,
                 "height": 40,
-                "left": 12,
+                "left": 11.99999999999998,
                 "top": 12,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             }
         ]
     },
@@ -1526,7 +1605,8 @@
                 "title": "Rectangle",
                 "name": "rounded_rect",
                 "z": 70,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
                 "width": 96,
@@ -1539,11 +1619,12 @@
                 "text": "Two line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 71,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 95,
@@ -1556,11 +1637,12 @@
                 "text": "Secondary text",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 72,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1580,7 +1662,9 @@
                 "left": 16,
                 "top": 168,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             },
             {
                 "width": 96,
@@ -1593,11 +1677,12 @@
                 "text": "Two line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 73,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 95,
@@ -1610,11 +1695,12 @@
                 "text": "Secondary text",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 74,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1634,7 +1720,9 @@
                 "left": 16,
                 "top": 96,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             },
             {
                 "width": 96,
@@ -1647,11 +1735,12 @@
                 "text": "Two line item",
                 "fs": 16,
                 "lh": 24,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 75,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "width": 95,
@@ -1664,11 +1753,12 @@
                 "text": "Secondary text",
                 "fs": 14,
                 "lh": 20,
-                "va": "baseline",
-                "ha": "justify",
+                "va": "top",
+                "ha": "left",
                 "name": "label",
                 "z": 76,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 41
             },
             {
                 "icon": "md-message",
@@ -1688,7 +1778,9 @@
                 "left": 16,
                 "top": 24,
                 "br": 20,
-                "name": "image_view"
+                "resizingConstraint": 41,
+                "name": "image_view",
+                "z": 1000
             }
         ]
     },
@@ -1710,12 +1802,13 @@
                 "title": "button bg",
                 "name": "rounded_rect",
                 "z": 77,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 47
             },
             {
-                "width": 61,
+                "width": 60,
                 "height": 16,
-                "left": 16.5,
+                "left": 17,
                 "top": 10,
                 "bs": 0,
                 "title": "NORMAL",
@@ -1724,11 +1817,12 @@
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0.5,
-                "va": "baseline",
+                "va": "top",
                 "ha": "center",
                 "name": "text_view",
                 "z": 78,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             }
         ]
     },
@@ -1751,7 +1845,8 @@
                 "title": "icon-add bg",
                 "name": "rounded_rect",
                 "z": 79,
-                "resizingType": 0
+                "resizingType": 0,
+                "resizingConstraint": 45
             },
             {
                 "icon": "mb-plus",
