@@ -6,12 +6,15 @@ const Androidtest = "sketch/android_1.sketch"
 const AndroidtestModel = "data/androidtestModel.json"
 const AndroidtestModelResult = "data/androidtestModelResult.json"
 
+const iosTestSaf = "sketch/test-fix.sketch"
+const iosTestSafModel = "data/iosTestSaf.json"
+const iosTestSafModelResult = "data/iosTestSafModelResult.json"
 // const ios = "sketch/ios1.sketch"
 // const iosModel = "data/iosModel.json"
 // const iosModelResult = "data/iosModelResult.json"
 
-sketch.dump(Androidtest, (json) => {
-    fs.writeFile(AndroidtestModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(iosTestSaf, (json) => {
+    fs.writeFile(iosTestSafModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
         if(err) console.log(err)
     })
     let data = JSON.parse(json)
@@ -22,7 +25,7 @@ sketch.dump(Androidtest, (json) => {
         return { [name] : depthFirstSearch(symbol, handleData)}
     })
 
-    fs.writeFile(AndroidtestModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
+    fs.writeFile(iosTestSafModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
     
 })
 
