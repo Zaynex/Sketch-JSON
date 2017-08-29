@@ -10,8 +10,8 @@ const IOS = "../sketchfile/ios.sketch"
 const IOSModel = "data/iosModel.json"
 const IOSModelResult = "data/iosModelResult.json"
 
-sketch.dump(IOS, (json) => {
-    fs.writeFile(IOSModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
+sketch.dump(Android, (json) => {
+    fs.writeFile(AndroidModel, JSON.stringify(JSON.parse(json), null, 4), (err) => {
         if(err) console.log(err)
     })
     let data = JSON.parse(json)
@@ -22,7 +22,7 @@ sketch.dump(IOS, (json) => {
         return { [name] : depthFirstSearch(symbol, handleData)}
     })
 
-    fs.writeFile(IOSModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
+    fs.writeFile(AndroidModelResult, JSON.stringify(AllResult, null, 4), 'utf8', err => { if (err) console.log(err) })
 })
 
 /**

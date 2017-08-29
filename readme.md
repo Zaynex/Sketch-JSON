@@ -8,3 +8,8 @@ npm i
 npm run build
 npm run start
 ```
+
+if you use `babel-node`
+```
+babel-node index
+```
