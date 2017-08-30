@@ -6,8 +6,7 @@
                 "height": 184,
                 "left": 0,
                 "top": 0,
-                "bc": "#FFF",
-                "bs": 1,
+                "bs": 0,
                 "bg": "#FFFFFF",
                 "br": 0,
                 "allborder": [
@@ -68,17 +67,6 @@
                 "resizingConstraint": 41
             },
             {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 128,
-                "title": "Oval-path",
-                "name": "image_view",
-                "z": 3,
-                "resizingType": 0,
-                "resizingConstraint": 63
-            },
-            {
                 "width": 110,
                 "height": 24,
                 "left": 72,
@@ -92,7 +80,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 4,
+                "z": 3,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -119,20 +107,9 @@
                 "br": 20,
                 "title": "Avatar",
                 "name": "rounded_rect",
-                "z": 5,
+                "z": 4,
                 "resizingType": 0,
                 "resizingConstraint": 41
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 72,
-                "title": "Oval-path",
-                "name": "image_view",
-                "z": 6,
-                "resizingType": 0,
-                "resizingConstraint": 63
             },
             {
                 "width": 110,
@@ -148,7 +125,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 7,
+                "z": 5,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -157,7 +134,7 @@
                 "is": 24,
                 "width": 24,
                 "height": 24,
-                "left": 319.9999999999999,
+                "left": 320,
                 "top": 24,
                 "z": 1000,
                 "name": "icon_button",
@@ -175,20 +152,9 @@
                 "br": 20,
                 "title": "Avatar",
                 "name": "rounded_rect",
-                "z": 8,
+                "z": 6,
                 "resizingType": 0,
                 "resizingConstraint": 41
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 16,
-                "title": "Oval-path",
-                "name": "image_view",
-                "z": 9,
-                "resizingType": 0,
-                "resizingConstraint": 63
             }
         ]
     },
@@ -210,7 +176,7 @@
                 "bg": "#FAFAFA",
                 "title": "dialog bg",
                 "name": "rounded_rect",
-                "z": 10,
+                "z": 7,
                 "resizingType": 0,
                 "resizingConstraint": 18
             },
@@ -229,7 +195,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 11,
+                "z": 8,
                 "resizingType": 0,
                 "resizingConstraint": 46
             },
@@ -248,7 +214,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 12,
+                "z": 9,
                 "resizingType": 0,
                 "resizingConstraint": 46
             },
@@ -266,7 +232,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "text_view",
-                "z": 13,
+                "z": 10,
                 "resizingType": 0,
                 "resizingConstraint": 9
             },
@@ -284,7 +250,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "text_view",
-                "z": 14,
+                "z": 11,
                 "resizingType": 0,
                 "resizingConstraint": 19
             }
@@ -308,7 +274,7 @@
                 "bg": "#FAFAFA",
                 "title": "sheet bg",
                 "name": "rounded_rect",
-                "z": 15,
+                "z": 12,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -326,7 +292,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 16,
+                "z": 13,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -344,7 +310,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 17,
+                "z": 14,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -362,7 +328,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 18,
+                "z": 15,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -380,7 +346,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 19,
+                "z": 16,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -436,7 +402,7 @@
                 "bs": 0,
                 "title": "search",
                 "name": "rounded_rect",
-                "z": 20,
+                "z": 17,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -456,7 +422,7 @@
                 "bg": "#FAFAFA",
                 "title": "search bg",
                 "name": "rounded_rect",
-                "z": 21,
+                "z": 18,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -483,205 +449,6 @@
         ]
     },
     {
-        "list_with_icons_3": [
-            {
-                "width": 360,
-                "height": 280,
-                "left": 0,
-                "top": 0,
-                "bc": "#FFF",
-                "bs": 1,
-                "bg": "#FFFFFF",
-                "br": 0,
-                "allborder": [
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "title": "Rectangle 2",
-                "name": "rounded_rect",
-                "z": 22,
-                "resizingType": 0,
-                "resizingConstraint": 47
-            },
-            {
-                "width": 232,
-                "height": 40,
-                "left": 72,
-                "top": 216,
-                "bs": 0,
-                "title": "Secondary line text ",
-                "tc": "rgba(0,0,0,0.54)",
-                "text": "Secondary line text lorem ipsum dapibus, neque id cursus faucibus",
-                "fs": 14,
-                "lh": 20,
-                "va": "top",
-                "ha": "left",
-                "name": "text_view",
-                "z": 23,
-                "resizingType": 0,
-                "resizingConstraint": 43
-            },
-            {
-                "width": 107,
-                "height": 24,
-                "left": 72,
-                "top": 192,
-                "bs": 0,
-                "title": "Three line item",
-                "tc": "rgba(0,0,0,0.87)",
-                "text": "Three line item",
-                "fs": 16,
-                "lh": 24,
-                "va": "top",
-                "ha": "left",
-                "name": "label",
-                "z": 24,
-                "resizingType": 0,
-                "resizingConstraint": 41
-            },
-            {
-                "icon": "md-message",
-                "is": 24,
-                "width": 24,
-                "height": 24,
-                "left": 320,
-                "top": 200,
-                "z": 1000,
-                "name": "icon_button",
-                "tc": "rgb(0,0,0)",
-                "o": "26"
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 200,
-                "br": 20,
-                "resizingConstraint": 41,
-                "name": "image_view",
-                "z": 1000
-            },
-            {
-                "width": 232,
-                "height": 40,
-                "left": 72,
-                "top": 128,
-                "bs": 0,
-                "title": "Secondary line text",
-                "tc": "rgba(0,0,0,0.54)",
-                "text": "Secondary line text lorem ipsum dapibus, neque id cursus faucibus",
-                "fs": 14,
-                "lh": 20,
-                "va": "top",
-                "ha": "left",
-                "name": "text_view",
-                "z": 25,
-                "resizingType": 0,
-                "resizingConstraint": 43
-            },
-            {
-                "width": 107,
-                "height": 24,
-                "left": 72,
-                "top": 104,
-                "bs": 0,
-                "title": "Three line item",
-                "tc": "rgba(0,0,0,0.87)",
-                "text": "Three line item",
-                "fs": 16,
-                "lh": 24,
-                "va": "top",
-                "ha": "left",
-                "name": "label",
-                "z": 26,
-                "resizingType": 0,
-                "resizingConstraint": 41
-            },
-            {
-                "icon": "md-message",
-                "is": 24,
-                "width": 24,
-                "height": 24,
-                "left": 320,
-                "top": 112,
-                "z": 1000,
-                "name": "icon_button",
-                "tc": "rgb(0,0,0)",
-                "o": "26"
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 112,
-                "br": 20,
-                "resizingConstraint": 41,
-                "name": "image_view",
-                "z": 1000
-            },
-            {
-                "width": 107,
-                "height": 24,
-                "left": 72,
-                "top": 16,
-                "bs": 0,
-                "title": "Three line item",
-                "tc": "rgba(0,0,0,0.87)",
-                "text": "Three line item",
-                "fs": 16,
-                "lh": 24,
-                "va": "top",
-                "ha": "left",
-                "name": "label",
-                "z": 27,
-                "resizingType": 0,
-                "resizingConstraint": 41
-            },
-            {
-                "width": 232,
-                "height": 40,
-                "left": 72,
-                "top": 40,
-                "bs": 0,
-                "title": "Secondary line text ",
-                "tc": "rgba(0,0,0,0.54)",
-                "text": "Secondary line text lorem ipsum dapibus, neque id cursus faucibus",
-                "fs": 14,
-                "lh": 20,
-                "va": "top",
-                "ha": "left",
-                "name": "text_view",
-                "z": 28,
-                "resizingType": 0,
-                "resizingConstraint": 43
-            },
-            {
-                "icon": "md-message",
-                "is": 24,
-                "width": 24,
-                "height": 24,
-                "left": 320,
-                "top": 24,
-                "z": 1000,
-                "name": "icon_button",
-                "tc": "rgb(0,0,0)",
-                "o": "26"
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 24,
-                "br": 20,
-                "resizingConstraint": 41,
-                "name": "image_view",
-                "z": 1000
-            }
-        ]
-    },
-    {
         "app_bar": [
             {
                 "width": 360,
@@ -698,22 +465,7 @@
                 "bg": "#5677FC",
                 "title": "app bar bg",
                 "name": "rounded_rect",
-                "z": 29,
-                "resizingType": 0,
-                "resizingConstraint": 47
-            },
-            {
-                "width": 360,
-                "height": 48,
-                "left": 0,
-                "top": 0,
-                "bc": "#FFF",
-                "bs": 1,
-                "o": "0",
-                "bg": "rgb(255,255,255)",
-                "title": "bounds",
-                "name": "rounded_rect",
-                "z": 30,
+                "z": 19,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -731,7 +483,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 31,
+                "z": 20,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -749,7 +501,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 32,
+                "z": 21,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -767,7 +519,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 33,
+                "z": 22,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -786,7 +538,7 @@
                 "bg": "#FFFF8C",
                 "title": "indicator",
                 "name": "rounded_rect",
-                "z": 34,
+                "z": 23,
                 "resizingType": 0,
                 "resizingConstraint": 47
             }
@@ -810,7 +562,7 @@
                 "bg": "#FAFAFA",
                 "title": "dialog bg",
                 "name": "rounded_rect",
-                "z": 35,
+                "z": 24,
                 "resizingType": 0,
                 "resizingConstraint": 18
             },
@@ -829,7 +581,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 36,
+                "z": 25,
                 "resizingType": 0,
                 "resizingConstraint": 44
             },
@@ -848,7 +600,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 37,
+                "z": 26,
                 "resizingType": 0,
                 "resizingConstraint": 44
             },
@@ -866,7 +618,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "text_view",
-                "z": 38,
+                "z": 27,
                 "resizingType": 0,
                 "resizingConstraint": 18
             }
@@ -889,7 +641,7 @@
                 "bg": "#5677FC",
                 "title": "app bar bg",
                 "name": "rounded_rect",
-                "z": 39,
+                "z": 28,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -904,7 +656,7 @@
                 "bg": "rgb(255,255,255)",
                 "title": "bounds",
                 "name": "rounded_rect",
-                "z": 40,
+                "z": 29,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -922,7 +674,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 41,
+                "z": 30,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -940,7 +692,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 42,
+                "z": 31,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -958,7 +710,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 43,
+                "z": 32,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -977,7 +729,7 @@
                 "bg": "#FFFF8C",
                 "title": "indicator",
                 "name": "rounded_rect",
-                "z": 44,
+                "z": 33,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1007,7 +759,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "text_view",
-                "z": 45,
+                "z": 34,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1042,7 +794,7 @@
                 "bg": "#FAFAFA",
                 "title": "menu bg",
                 "name": "rounded_rect",
-                "z": 46,
+                "z": 35,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1055,7 +807,7 @@
                 "bg": "#EEEEEE",
                 "title": "highlight",
                 "name": "rounded_rect",
-                "z": 47,
+                "z": 36,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1073,7 +825,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 48,
+                "z": 37,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1091,7 +843,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 49,
+                "z": 38,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1109,7 +861,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 50,
+                "z": 39,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1137,7 +889,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 51,
+                "z": 40,
                 "resizingType": 0,
                 "resizingConstraint": 9
             }
@@ -1160,7 +912,7 @@
                 "bg": "#FAFAFA",
                 "title": "card",
                 "name": "rounded_rect",
-                "z": 52,
+                "z": 41,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1170,7 +922,7 @@
                 "left": 232.26170000000002,
                 "top": 119.9994999999999,
                 "bs": 0,
-                "title": "reply",
+                "title": "REPLY",
                 "tc": "rgba(0,0,0,0.54)",
                 "text": "REPLY",
                 "fs": 13,
@@ -1179,7 +931,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 53,
+                "z": 42,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1201,7 +953,7 @@
                 "left": 96.26170000000002,
                 "top": 119.9994999999999,
                 "bs": 0,
-                "title": "Archive",
+                "title": "ARCHIVE",
                 "tc": "rgba(0,0,0,0.54)",
                 "text": "ARCHIVE",
                 "fs": 13,
@@ -1210,7 +962,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 54,
+                "z": 43,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1236,7 +988,7 @@
                 "bg": "#EEEEEE",
                 "title": "divider",
                 "name": "rounded_rect",
-                "z": 55,
+                "z": 44,
                 "resizingType": 0,
                 "resizingConstraint": 43
             },
@@ -1254,7 +1006,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "text_view",
-                "z": 56,
+                "z": 45,
                 "resizingType": 0,
                 "resizingConstraint": 42
             },
@@ -1272,7 +1024,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 57,
+                "z": 46,
                 "resizingType": 0,
                 "resizingConstraint": 12
             },
@@ -1290,7 +1042,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 58,
+                "z": 47,
                 "resizingType": 0,
                 "resizingConstraint": 9
             },
@@ -1324,7 +1076,7 @@
                 "bg": "#FAFAFA",
                 "title": "sheet bg",
                 "name": "rounded_rect",
-                "z": 59,
+                "z": 48,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1352,7 +1104,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 60,
+                "z": 49,
                 "resizingType": 0,
                 "resizingConstraint": 39
             },
@@ -1380,7 +1132,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 61,
+                "z": 50,
                 "resizingType": 0,
                 "resizingConstraint": 37
             },
@@ -1398,7 +1150,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 62,
+                "z": 51,
                 "resizingType": 0,
                 "resizingConstraint": 37
             },
@@ -1426,7 +1178,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 63,
+                "z": 52,
                 "resizingType": 0,
                 "resizingConstraint": 13
             },
@@ -1454,7 +1206,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 64,
+                "z": 53,
                 "resizingType": 0,
                 "resizingConstraint": 13
             },
@@ -1482,7 +1234,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 65,
+                "z": 54,
                 "resizingType": 0,
                 "resizingConstraint": 13
             },
@@ -1515,7 +1267,7 @@
                 "bg": "#FAFAFA",
                 "title": "card",
                 "name": "rounded_rect",
-                "z": 66,
+                "z": 55,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1533,7 +1285,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 67,
+                "z": 56,
                 "resizingType": 0,
                 "resizingConstraint": 43
             },
@@ -1551,7 +1303,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 68,
+                "z": 57,
                 "resizingType": 0,
                 "resizingConstraint": 12
             },
@@ -1569,7 +1321,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 69,
+                "z": 58,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1586,7 +1338,7 @@
         ]
     },
     {
-        "list_with_icons_2": [
+        "list": [
             {
                 "width": 360,
                 "height": 232,
@@ -1604,14 +1356,14 @@
                 ],
                 "title": "Rectangle",
                 "name": "rounded_rect",
-                "z": 70,
+                "z": 59,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
             {
                 "width": 96,
                 "height": 24,
-                "left": 73,
+                "left": 16,
                 "top": 164,
                 "bs": 0,
                 "title": "Two line item",
@@ -1622,14 +1374,14 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 71,
+                "z": 60,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
             {
                 "width": 95,
                 "height": 20,
-                "left": 73,
+                "left": 16,
                 "top": 187,
                 "bs": 0,
                 "title": "Secondary text",
@@ -1640,36 +1392,14 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 72,
+                "z": 61,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
             {
-                "icon": "md-message",
-                "is": 24,
-                "width": 24,
-                "height": 24,
-                "left": 320,
-                "top": 176,
-                "z": 1000,
-                "name": "icon_button",
-                "tc": "rgb(0,0,0)",
-                "o": "26"
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 168,
-                "br": 20,
-                "resizingConstraint": 41,
-                "name": "image_view",
-                "z": 1000
-            },
-            {
                 "width": 96,
                 "height": 24,
-                "left": 73,
+                "left": 16,
                 "top": 92,
                 "bs": 0,
                 "title": "Two line item",
@@ -1680,14 +1410,14 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 73,
+                "z": 62,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
             {
                 "width": 95,
                 "height": 20,
-                "left": 73,
+                "left": 16,
                 "top": 115,
                 "bs": 0,
                 "title": "Secondary text",
@@ -1698,36 +1428,14 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 74,
+                "z": 63,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
             {
-                "icon": "md-message",
-                "is": 24,
-                "width": 24,
-                "height": 24,
-                "left": 320,
-                "top": 104,
-                "z": 1000,
-                "name": "icon_button",
-                "tc": "rgb(0,0,0)",
-                "o": "26"
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 96,
-                "br": 20,
-                "resizingConstraint": 41,
-                "name": "image_view",
-                "z": 1000
-            },
-            {
                 "width": 96,
                 "height": 24,
-                "left": 73,
+                "left": 16,
                 "top": 20,
                 "bs": 0,
                 "title": "Two line item",
@@ -1738,14 +1446,14 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 75,
+                "z": 64,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
             {
                 "width": 95,
                 "height": 20,
-                "left": 73,
+                "left": 16,
                 "top": 43,
                 "bs": 0,
                 "title": "Secondary text",
@@ -1756,31 +1464,9 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 76,
+                "z": 65,
                 "resizingType": 0,
                 "resizingConstraint": 41
-            },
-            {
-                "icon": "md-message",
-                "is": 24,
-                "width": 24,
-                "height": 24,
-                "left": 320,
-                "top": 32,
-                "z": 1000,
-                "name": "icon_button",
-                "tc": "rgb(0,0,0)",
-                "o": "26"
-            },
-            {
-                "width": 40,
-                "height": 40,
-                "left": 16,
-                "top": 24,
-                "br": 20,
-                "resizingConstraint": 41,
-                "name": "image_view",
-                "z": 1000
             }
         ]
     },
@@ -1798,10 +1484,10 @@
                 "blurRadius": 8,
                 "spread": 0,
                 "ds": 2,
-                "bg": "#009688",
+                "bg": "#5677FC",
                 "title": "button bg",
                 "name": "rounded_rect",
-                "z": 77,
+                "z": 66,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1811,16 +1497,16 @@
                 "left": 17,
                 "top": 10,
                 "bs": 0,
-                "title": "NORMAL",
+                "title": "BUTTON",
                 "tc": "rgba(255,255,255,1.00)",
-                "text": "NORMAL",
+                "text": "BUTTON",
                 "fs": 14,
                 "lh": "auto",
                 "wordSpcing": 0.5,
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 78,
+                "z": 67,
                 "resizingType": 0,
                 "resizingConstraint": 45
             }
@@ -1840,11 +1526,11 @@
                 "blurRadius": 14,
                 "spread": 0,
                 "ds": 2,
-                "bg": "#009688",
+                "bg": "#5677FC",
                 "br": 28,
                 "title": "icon-add bg",
                 "name": "rounded_rect",
-                "z": 79,
+                "z": 68,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -1859,6 +1545,179 @@
                 "name": "icon_button",
                 "tc": "#FFF",
                 "o": 100
+            }
+        ]
+    },
+    {
+        "switch": [
+            {
+                "width": 34,
+                "height": 14,
+                "left": 3,
+                "top": 5,
+                "bs": 0,
+                "o": "50",
+                "bg": "rgb(86,119,252)",
+                "title": "track",
+                "name": "rounded_rect",
+                "z": 69,
+                "resizingType": 1,
+                "resizingConstraint": 45
+            },
+            {
+                "width": 20,
+                "height": 20,
+                "left": 20,
+                "top": 2,
+                "bc": "#000000",
+                "bs": 0.5,
+                "sc": "rgba(0,0,0,0.24)",
+                "shadowOffsetX": 0,
+                "shadowOffsetY": 1,
+                "blurRadius": 1,
+                "spread": 0,
+                "ds": 2,
+                "bg": "#5677FC",
+                "title": "knob",
+                "name": "rounded_rect",
+                "z": 70,
+                "resizingType": 1,
+                "resizingConstraint": 44
+            }
+        ]
+    },
+    {
+        "checkbox": [
+            {
+                "width": 18,
+                "height": 18,
+                "left": 3,
+                "top": 3,
+                "bs": 0,
+                "bg": "#5677FC",
+                "title": "Shape",
+                "name": "rounded_rect",
+                "z": 71,
+                "resizingType": 3,
+                "resizingConstraint": 45
+            }
+        ]
+    },
+    {
+        "radio": [
+            {
+                "width": 20,
+                "height": 20,
+                "left": 2,
+                "top": 2,
+                "bs": 0,
+                "bg": "#5677FC",
+                "title": "Shape",
+                "name": "rounded_rect",
+                "z": 72,
+                "resizingType": 3,
+                "resizingConstraint": 45
+            }
+        ]
+    },
+    {
+        "navbar": [
+            {
+                "width": 360,
+                "height": 48,
+                "left": 0,
+                "top": 0,
+                "bs": 0,
+                "bg": "#000000",
+                "title": "navbar bg",
+                "name": "rounded_rect",
+                "z": 73,
+                "resizingType": 0,
+                "resizingConstraint": 47
+            },
+            {
+                "width": 16,
+                "height": 16,
+                "left": 273,
+                "top": 16,
+                "bc": "#FFFFFF",
+                "bs": 2,
+                "title": "recent",
+                "name": "rounded_rect",
+                "z": 74,
+                "resizingType": 3,
+                "resizingConstraint": 45
+            },
+            {
+                "width": 16,
+                "height": 16,
+                "left": 172,
+                "top": 16,
+                "bc": "#FFFFFF",
+                "bs": 2,
+                "title": "home",
+                "name": "rounded_rect",
+                "z": 75,
+                "resizingType": 3,
+                "resizingConstraint": 45
+            },
+            {
+                "width": 15,
+                "height": 17,
+                "left": 72,
+                "top": 15,
+                "bc": "#FFFFFF",
+                "bs": 2,
+                "title": "back",
+                "name": "rounded_rect",
+                "z": 76,
+                "resizingType": 3,
+                "resizingConstraint": 45
+            }
+        ]
+    },
+    {
+        "slider": [
+            {
+                "width": 144,
+                "height": 2,
+                "left": 0,
+                "top": 5,
+                "bs": 0,
+                "o": "26",
+                "bg": "rgb(0,0,0)",
+                "title": "high",
+                "name": "rounded_rect",
+                "z": 77,
+                "resizingType": 0,
+                "resizingConstraint": 47
+            },
+            {
+                "width": 86,
+                "height": 2,
+                "left": 0,
+                "top": 5,
+                "bs": 0,
+                "bg": "#5677FC",
+                "title": "highlight",
+                "name": "rounded_rect",
+                "z": 78,
+                "resizingType": 0,
+                "resizingConstraint": 47
+            },
+            {
+                "width": 12,
+                "height": 12,
+                "left": 80,
+                "top": 0,
+                "bs": 0,
+                "bg": "#5677FC",
+                "br": 6,
+                "title": "Knob",
+                "name": "rounded_rect",
+                "z": 79,
+                "resizingType": 0,
+                "resizingConstraint": 45
             }
         ]
     }

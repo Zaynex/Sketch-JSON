@@ -330,19 +330,29 @@
         "slider": [
             {
                 "width": 280,
-                "height": 10,
+                "height": 1,
                 "left": 0,
-                "top": 10,
+                "top": 14,
                 "bs": 0,
-                "name": "hr"
+                "bg": "#B7B7B7",
+                "title": "highbase",
+                "name": "rounded_rect",
+                "z": 16,
+                "resizingType": 3,
+                "resizingConstraint": 47
             },
             {
                 "width": 141,
-                "height": 10,
+                "height": 1,
                 "left": 0,
-                "top": 10,
+                "top": 14,
                 "bs": 0,
-                "name": "hr"
+                "bg": "#0076FF",
+                "title": "highlight",
+                "name": "rounded_rect",
+                "z": 17,
+                "resizingType": 2,
+                "resizingConstraint": 47
             },
             {
                 "width": 28,
@@ -361,7 +371,7 @@
                 "br": 14,
                 "title": "Knob",
                 "name": "rounded_rect",
-                "z": 16,
+                "z": 18,
                 "resizingType": 1,
                 "resizingConstraint": 45
             }
@@ -385,7 +395,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "Bar",
                 "name": "rounded_rect",
-                "z": 17,
+                "z": 19,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -397,7 +407,7 @@
                 "bs": 0,
                 "title": "Container",
                 "name": "rounded_rect",
-                "z": 18,
+                "z": 20,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -416,7 +426,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 19,
+                "z": 21,
                 "resizingType": 1,
                 "resizingConstraint": 44
             },
@@ -435,7 +445,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 20,
+                "z": 22,
                 "resizingType": 1,
                 "resizingConstraint": 41
             },
@@ -459,7 +469,7 @@
                 "bs": 0,
                 "title": "Container",
                 "name": "rounded_rect",
-                "z": 21,
+                "z": 23,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -478,7 +488,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 22,
+                "z": 24,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -497,7 +507,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 23,
+                "z": 25,
                 "resizingType": 0,
                 "resizingConstraint": 13
             }
@@ -521,7 +531,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 24,
+                "z": 26,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -533,7 +543,7 @@
                 "bs": 0,
                 "title": "Container",
                 "name": "rounded_rect",
-                "z": 25,
+                "z": 27,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -554,7 +564,7 @@
                 ],
                 "title": "Rectangle",
                 "name": "rounded_rect",
-                "z": 26,
+                "z": 28,
                 "resizingType": 0,
                 "resizingConstraint": 44
             },
@@ -575,7 +585,7 @@
                 ],
                 "title": "Rectangle",
                 "name": "rounded_rect",
-                "z": 27,
+                "z": 29,
                 "resizingType": 0,
                 "resizingConstraint": 44
             },
@@ -594,7 +604,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 28,
+                "z": 30,
                 "resizingType": 1,
                 "resizingConstraint": 41
             },
@@ -625,7 +635,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 29,
+                "z": 31,
                 "resizingType": 3,
                 "resizingConstraint": 45
             }
@@ -643,7 +653,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 30,
+                "z": 32,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -657,7 +667,7 @@
                 "bg": "rgb(254,40,81)",
                 "title": "Touch Area",
                 "name": "rounded_rect",
-                "z": 31,
+                "z": 33,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -676,7 +686,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 32,
+                "z": 34,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -705,7 +715,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 33,
+                "z": 35,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -734,7 +744,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 34,
+                "z": 36,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -763,7 +773,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 35,
+                "z": 37,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -792,7 +802,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 36,
+                "z": 38,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -820,7 +830,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 37,
+                "z": 39,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -839,7 +849,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 38,
+                "z": 40,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -868,7 +878,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 39,
+                "z": 41,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -897,7 +907,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 40,
+                "z": 42,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -926,7 +936,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 41,
+                "z": 43,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -955,7 +965,7 @@
                 "o": "80",
                 "bg": "rgb(38,39,40)",
                 "title": "Point",
-                "z": 42,
+                "z": 44,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -969,7 +979,7 @@
                 "bg": "rgb(38,39,40)",
                 "title": "Popover",
                 "name": "rounded_rect",
-                "z": 43,
+                "z": 45,
                 "resizingType": 0,
                 "resizingConstraint": 34
             },
@@ -1006,7 +1016,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 44,
+                "z": 46,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -1025,7 +1035,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 45,
+                "z": 47,
                 "resizingType": 0,
                 "resizingConstraint": 45
             },
@@ -1044,7 +1054,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 46,
+                "z": 48,
                 "resizingType": 0,
                 "resizingConstraint": 45
             }
@@ -1068,7 +1078,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 47,
+                "z": 49,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1081,7 +1091,7 @@
                 "bg": "#C8C7CC",
                 "title": "Divider",
                 "name": "rounded_rect",
-                "z": 48,
+                "z": 50,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -1094,7 +1104,7 @@
                 "bg": "#FFFFFF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 49,
+                "z": 51,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -1113,7 +1123,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 50,
+                "z": 52,
                 "resizingType": 1,
                 "resizingConstraint": 12
             },
@@ -1132,7 +1142,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "text_view",
-                "z": 51,
+                "z": 53,
                 "resizingType": 2,
                 "resizingConstraint": 2
             },
@@ -1151,7 +1161,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 52,
+                "z": 54,
                 "resizingType": 1,
                 "resizingConstraint": 9
             },
@@ -1186,7 +1196,7 @@
                 "br": 6,
                 "title": "Unread",
                 "name": "rounded_rect",
-                "z": 53,
+                "z": 55,
                 "resizingType": 1,
                 "resizingConstraint": 33
             }
@@ -1211,7 +1221,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 54,
+                "z": 56,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -1230,7 +1240,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 55,
+                "z": 57,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -1249,7 +1259,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 56,
+                "z": 58,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -1281,7 +1291,7 @@
                 "bg": "#FFFFFF",
                 "title": "Textfield",
                 "name": "rounded_rect",
-                "z": 57,
+                "z": 59,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -1300,7 +1310,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 58,
+                "z": 60,
                 "resizingType": 0,
                 "resizingConstraint": 41
             },
@@ -1319,7 +1329,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 59,
+                "z": 61,
                 "resizingType": 1,
                 "resizingConstraint": 13
             },
@@ -1338,7 +1348,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 60,
+                "z": 62,
                 "resizingType": 1,
                 "resizingConstraint": 13
             }
@@ -1363,7 +1373,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 61,
+                "z": 63,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -1382,7 +1392,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 62,
+                "z": 64,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -1401,7 +1411,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 63,
+                "z": 65,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -1429,7 +1439,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 64,
+                "z": 66,
                 "resizingType": 1,
                 "resizingConstraint": 15
             },
@@ -1448,7 +1458,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 65,
+                "z": 67,
                 "resizingType": 1,
                 "resizingConstraint": 15
             },
@@ -1475,7 +1485,7 @@
                 "bg": "rgb(255,255,255)",
                 "title": "Bound",
                 "name": "rounded_rect",
-                "z": 66,
+                "z": 68,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1489,7 +1499,7 @@
                 "bg": "rgb(255,255,255)",
                 "title": "Body",
                 "name": "rounded_rect",
-                "z": 67,
+                "z": 69,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -1508,7 +1518,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 68,
+                "z": 70,
                 "resizingType": 1,
                 "resizingConstraint": 33
             },
@@ -1527,7 +1537,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 69,
+                "z": 71,
                 "resizingType": 2,
                 "resizingConstraint": 18
             },
@@ -1546,7 +1556,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 70,
+                "z": 72,
                 "resizingType": 1,
                 "resizingConstraint": 9
             },
@@ -1565,7 +1575,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 71,
+                "z": 73,
                 "resizingType": 1,
                 "resizingConstraint": 12
             },
@@ -1584,7 +1594,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 72,
+                "z": 74,
                 "resizingType": 1,
                 "resizingConstraint": 9
             },
@@ -1598,7 +1608,7 @@
                 "br": 4,
                 "title": "App Icon",
                 "name": "image_view",
-                "z": 73,
+                "z": 75,
                 "resizingType": 1,
                 "resizingConstraint": 9
             }
@@ -1623,7 +1633,7 @@
                 ],
                 "title": "Mask",
                 "name": "rounded_rect",
-                "z": 74,
+                "z": 76,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -1642,7 +1652,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 75,
+                "z": 77,
                 "resizingType": 1,
                 "resizingConstraint": 41
             },
@@ -1671,7 +1681,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 76,
+                "z": 78,
                 "resizingType": 1,
                 "resizingConstraint": 41
             },
@@ -1700,7 +1710,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 77,
+                "z": 79,
                 "resizingType": 1,
                 "resizingConstraint": 41
             },
@@ -1729,7 +1739,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 78,
+                "z": 80,
                 "resizingType": 1,
                 "resizingConstraint": 41
             },
@@ -1784,7 +1794,7 @@
                 "bg": "rgb(201,201,206)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 79,
+                "z": 81,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1803,7 +1813,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 80,
+                "z": 82,
                 "resizingType": 1,
                 "resizingConstraint": 36
             },
@@ -1823,7 +1833,7 @@
                 ],
                 "title": "Search Bar",
                 "name": "rounded_rect",
-                "z": 81,
+                "z": 83,
                 "resizingType": 2,
                 "resizingConstraint": 34
             },
@@ -1842,7 +1852,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 82,
+                "z": 84,
                 "resizingType": 1,
                 "resizingConstraint": 35
             },
@@ -1884,7 +1894,7 @@
                 "bg": "rgb(247,247,247)",
                 "title": "BG",
                 "name": "rounded_rect",
-                "z": 83,
+                "z": 85,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -1905,7 +1915,7 @@
                 ],
                 "title": "Rectangle 22",
                 "name": "rounded_rect",
-                "z": 84,
+                "z": 86,
                 "resizingType": 2,
                 "resizingConstraint": 34
             },
@@ -1924,7 +1934,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 85,
+                "z": 87,
                 "resizingType": 3,
                 "resizingConstraint": 37
             },
@@ -1959,7 +1969,7 @@
                 ],
                 "title": "Base",
                 "name": "rounded_rect",
-                "z": 86,
+                "z": 88,
                 "resizingType": 0,
                 "resizingConstraint": 63
             },
@@ -1978,7 +1988,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 87,
+                "z": 89,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -1997,7 +2007,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 88,
+                "z": 90,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -2016,7 +2026,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 89,
+                "z": 91,
                 "resizingType": 3,
                 "resizingConstraint": 45
             },
@@ -2062,7 +2072,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "text_view",
-                "z": 90,
+                "z": 92,
                 "resizingType": 1,
                 "resizingConstraint": 13
             },
@@ -2081,7 +2091,7 @@
                 "va": "top",
                 "ha": "center",
                 "name": "label",
-                "z": 91,
+                "z": 93,
                 "resizingType": 1,
                 "resizingConstraint": 13
             }
@@ -2098,7 +2108,7 @@
                 "bg": "#C8C7CC",
                 "title": "Divider",
                 "name": "rounded_rect",
-                "z": 92,
+                "z": 94,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -2111,7 +2121,7 @@
                 "bg": "#FFFFFF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 93,
+                "z": 95,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -2130,7 +2140,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 94,
+                "z": 96,
                 "resizingType": 3,
                 "resizingConstraint": 44
             },
@@ -2149,7 +2159,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 95,
+                "z": 97,
                 "resizingType": 3,
                 "resizingConstraint": 41
             },
@@ -2174,7 +2184,7 @@
                 "br": 4,
                 "title": "App Icon",
                 "name": "image_view",
-                "z": 96,
+                "z": 98,
                 "resizingType": 1,
                 "resizingConstraint": 41
             }
@@ -2191,7 +2201,7 @@
                 "bg": "#C8C7CC",
                 "title": "Divider",
                 "name": "rounded_rect",
-                "z": 97,
+                "z": 99,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -2204,7 +2214,7 @@
                 "bg": "#FFFFFF",
                 "title": "Fill",
                 "name": "rounded_rect",
-                "z": 98,
+                "z": 100,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -2223,7 +2233,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 99,
+                "z": 101,
                 "resizingType": 3,
                 "resizingConstraint": 44
             },
@@ -2242,7 +2252,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 100,
+                "z": 102,
                 "resizingType": 3,
                 "resizingConstraint": 41
             },
@@ -2278,7 +2288,7 @@
                 ],
                 "title": "Rectangle",
                 "name": "rounded_rect",
-                "z": 101,
+                "z": 103,
                 "resizingType": 0,
                 "resizingConstraint": 47
             },
@@ -2292,7 +2302,7 @@
                 "bg": "rgb(255,255,255)",
                 "title": "Body",
                 "name": "rounded_rect",
-                "z": 102,
+                "z": 104,
                 "resizingType": 2,
                 "resizingConstraint": 47
             },
@@ -2311,7 +2321,7 @@
                 "va": "top",
                 "ha": "right",
                 "name": "label",
-                "z": 103,
+                "z": 105,
                 "resizingType": 1,
                 "resizingConstraint": 12
             },
@@ -2330,7 +2340,7 @@
                 "va": "top",
                 "ha": "left",
                 "name": "label",
-                "z": 104,
+                "z": 106,
                 "resizingType": 1,
                 "resizingConstraint": 9
             },
@@ -2344,7 +2354,7 @@
                 "br": 4,
                 "title": "App Icon",
                 "name": "image_view",
-                "z": 105,
+                "z": 107,
                 "resizingType": 1,
                 "resizingConstraint": 9
             }
