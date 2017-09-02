@@ -3,11 +3,11 @@ import fs from 'fs'
 import handleData from './lib/handleData'
 import { ignoreSymbol } from './lib/default'
 
-const Android = "../sketchfile/Android1_0.sketch"
+const Android = "../sketchfile/Android1_2.sketch"
 const AndroidModel = "data/androidModel.json"
 const AndroidModelResult = "data/androidModelResult.json"
 
-const IOS = "../sketchfile/ios.sketch"
+const IOS = "../sketchfile/ios2_1.sketch"
 const IOSModel = "data/iosModel.json"
 const IOSModelResult = "data/iosModelResult.json"
 
@@ -55,6 +55,6 @@ function depthFirstSearch(treeData, callback) {
             ]
         }
     }
-    resultArr = ([...resultArr].filter(v => v != null))
+    resultArr = ([...resultArr].filter(v => !!v))
     return resultArr
 }

@@ -13,3 +13,6 @@ if you use `babel-node`
 ```
 babel-node index
 ```
+
+## todo
+[] read directory
