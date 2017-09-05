@@ -3658,8 +3658,8 @@
               "isVisible": 1,
               "hasClippingMask": 0,
               "<class>": "MSShapeGroup",
-              "nameIsFixed": 0,
-              "name": "Mask",
+              "nameIsFixed": 1,
+              "name": "Mask-filter-br",
               "isLocked": 0,
               "shouldBreakMaskChain": 0,
               "resizingConstraint": 47
@@ -4423,7 +4423,7 @@
             "exportFormats": []
           },
           "hasBackgroundColor": 1,
-          "layerListExpandedType": 2,
+          "layerListExpandedType": 0,
           "resizesContent": 1,
           "backgroundColor": {
             "<class>": "MSColor",
@@ -4782,8 +4782,8 @@
               "isVisible": 1,
               "hasClippingMask": 0,
               "<class>": "MSShapeGroup",
-              "nameIsFixed": 0,
-              "name": "Mask",
+              "nameIsFixed": 1,
+              "name": "Mask-filter-br",
               "isLocked": 0,
               "shouldBreakMaskChain": 0,
               "resizingConstraint": 47
@@ -36672,96 +36672,6 @@
       "isVisible": 1,
       "nameIsFixed": 0,
       "name": "Page 1",
-      "isLocked": 0,
-      "shouldBreakMaskChain": 0,
-      "resizingConstraint": 63
-    },
-    {
-      "isFlippedHorizontal": 0,
-      "style": {
-        "startDecorationType": 0,
-        "borderOptions": {
-          "lineJoinStyle": 0,
-          "<class>": "MSStyleBorderOptions",
-          "isEnabled": 0,
-          "lineCapStyle": 0,
-          "dashPattern": []
-        },
-        "endDecorationType": 0,
-        "contextSettings": {
-          "<class>": "MSGraphicsContextSettings",
-          "opacity": 1,
-          "blendMode": 0
-        },
-        "blur": {
-          "radius": 10,
-          "<class>": "MSStyleBlur",
-          "motionAngle": 0,
-          "isEnabled": 0,
-          "type": 0,
-          "center": {
-            "x": 0.5,
-            "y": 0.5
-          }
-        },
-        "reflection": {
-          "<class>": "MSStyleReflection",
-          "strength": 0.5,
-          "isEnabled": 0,
-          "distance": 1
-        },
-        "<class>": "MSStyle",
-        "miterLimit": 10,
-        "colorControls": {
-          "hue": 0,
-          "<class>": "MSStyleColorControls",
-          "brightness": 0,
-          "contrast": 1,
-          "isEnabled": 0,
-          "saturation": 1
-        },
-        "fills": [],
-        "borders": [],
-        "innerShadows": [],
-        "shadows": []
-      },
-      "horizontalRulerData": {
-        "<class>": "MSRulerData",
-        "base": -242,
-        "guides": []
-      },
-      "frame": {
-        "y": 0,
-        "<class>": "MSRect",
-        "constrainProportions": 0,
-        "height": 300,
-        "width": 300,
-        "x": 0
-      },
-      "hasClickThrough": 1,
-      "includeInCloudUpload": 1,
-      "exportOptions": {
-        "shouldTrim": 0,
-        "<class>": "MSExportOptions",
-        "includedLayerIds": [],
-        "layerOptions": 0,
-        "exportFormats": []
-      },
-      "objectID": "68EE6A94-2A78-42B0-A9D8-61E0BB76245F",
-      "rotation": 0,
-      "layerListExpandedType": 0,
-      "verticalRulerData": {
-        "<class>": "MSRulerData",
-        "base": -248,
-        "guides": []
-      },
-      "isFlippedVertical": 0,
-      "resizingType": 0,
-      "<class>": "MSPage",
-      "layers": [],
-      "isVisible": 1,
-      "nameIsFixed": 0,
-      "name": "Page 2",
       "isLocked": 0,
       "shouldBreakMaskChain": 0,
       "resizingConstraint": 63

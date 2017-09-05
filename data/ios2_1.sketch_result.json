@@ -9,12 +9,6 @@
         "bs": 0,
         "bg": "#FFFFFF",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 69,
@@ -49,12 +43,6 @@
         "o": "80",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 71,
@@ -168,7 +156,7 @@
         "top": 0,
         "bc": "#0076FF",
         "bs": 1,
-        "title": "Mask",
+        "title": "Mask-filter-br",
         "name": "rounded_rect",
         "z": 76,
         "resizingType": 0,
@@ -236,7 +224,7 @@
         "top": 0,
         "bc": "#0076FF",
         "bs": 1,
-        "title": "Mask",
+        "title": "Mask-filter-br",
         "name": "rounded_rect",
         "z": 80,
         "resizingType": 0,
@@ -927,12 +915,6 @@
         "o": "80",
         "bg": "rgb(38,39,40)",
         "br": 8,
-        "allborder": [
-          8,
-          8,
-          8,
-          8
-        ],
         "title": "Popover-rc",
         "name": "rounded_rect",
         "z": 108,
@@ -1140,12 +1122,6 @@
         "o": "80",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 117,
@@ -1294,12 +1270,6 @@
         "o": "80",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 124,
@@ -1415,12 +1385,6 @@
         "o": "50",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 129,
@@ -1542,12 +1506,6 @@
         "left": 8,
         "top": 8,
         "br": 4,
-        "allborder": [
-          4,
-          4,
-          4,
-          4
-        ],
         "resizingConstraint": 9,
         "name": "image_view",
         "z": 1000
@@ -1565,12 +1523,6 @@
         "o": "70",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 136,
@@ -1780,12 +1732,6 @@
         "bs": 0,
         "bg": "#FFFFFF",
         "br": 5,
-        "allborder": [
-          5,
-          5,
-          5,
-          5
-        ],
         "title": "Search Bar",
         "name": "rounded_rect",
         "z": 143,
@@ -1864,12 +1810,6 @@
         "o": "8",
         "bg": "rgb(0,0,0)",
         "br": 6,
-        "allborder": [
-          6,
-          6,
-          6,
-          6
-        ],
         "title": "Rectangle 22",
         "name": "rounded_rect",
         "z": 146,
@@ -1921,12 +1861,6 @@
         "o": "80",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 148,
@@ -2132,12 +2066,6 @@
         "left": 15,
         "top": 7,
         "br": 6,
-        "allborder": [
-          6,
-          6,
-          6,
-          6
-        ],
         "resizingConstraint": 41,
         "name": "image_view",
         "z": 1000
@@ -2223,12 +2151,6 @@
         "o": "50",
         "bg": "rgb(255,255,255)",
         "br": 13,
-        "allborder": [
-          13,
-          13,
-          13,
-          13
-        ],
         "title": "Base",
         "name": "rounded_rect",
         "z": 160,
@@ -2293,12 +2215,6 @@
         "left": 12,
         "top": 9,
         "br": 4,
-        "allborder": [
-          4,
-          4,
-          4,
-          4
-        ],
         "resizingConstraint": 9,
         "name": "image_view",
         "z": 1000
