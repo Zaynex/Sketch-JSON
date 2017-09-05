@@ -15,4 +15,4 @@ babel-node index
 ```
 
 ## todo
-[] read directory
+- [] read directory
