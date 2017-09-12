@@ -15,4 +15,5 @@ babel-node index
 ```
 
 ## todo
-- [] read directory
+- [x] 通过文件目录读取
+- [x] 重写rgba2hex
